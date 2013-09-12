@@ -1,0 +1,89 @@
+\documentclass[12pt]{report}
+
+\usepackage[top=1.5in, bottom=1in, left=1.5in, right=1in]{geometry}	% Set margins
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{natbib}										% Harvard-style citations
+\usepackage{fancyhdr}									% Headers
+
+\renewcommand{\bibname}{References}  						% Change "Bibliography" into "References"
+
+\linespread{1.6}											% Double spacing
+
+
+% ==== Document start ====
+
+\begin{document}
+
+\pagestyle{plain}					% No headers, just page numbers
+\pagenumbering{roman}				% Roman numerals
+
+
+% ==== Title page ====
+
+\input{Title}
+\clearpage
+\setcounter{page}{2}
+
+% ==== Creative Commons copyright notice ====
+
+%\include{CreativeCommons}
+
+
+% ==== Author's declaration ====
+
+\include{AuthorsDeclaration}
+
+
+% ==== Abstract ====
+
+\include{Abstract}
+\thispagestyle{headings}
+
+
+% ==== Acknowledgements ====
+
+%\include{Acknowledgements}
+
+
+% ==== Table of contents, list of figures, list of tables ====
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+
+% ==== Chapters ====
+
+\include{Introduction}
+
+\include{Background}
+
+\chapter{Primary Research}
+
+\chapter{Prototyping}
+
+\chapter{User Testing}
+
+\chapter{Discussion}
+
+\chapter{Conclusion}
+
+
+% ==== Bibliography ====
+
+\clearpage
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{plainnat}
+\bibliography{Thesis}
+
+
+% ==== Appendices ====
+
+%\include{AppendixA}
+
+
+\end{document}

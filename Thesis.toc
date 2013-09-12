@@ -1,0 +1,8 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Background}{3}
+\contentsline {chapter}{\numberline {3}Primary Research}{5}
+\contentsline {chapter}{\numberline {4}Prototyping}{6}
+\contentsline {chapter}{\numberline {5}User Testing}{7}
+\contentsline {chapter}{\numberline {6}Discussion}{8}
+\contentsline {chapter}{\numberline {7}Conclusion}{9}
+\contentsline {chapter}{References}{10}
