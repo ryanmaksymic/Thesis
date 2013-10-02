@@ -1,16 +1,124 @@
-\begin{thebibliography}{1}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Maynes-Aminzade et~al.(2002)Maynes-Aminzade, Pausch, and
-  Seitz]{maynes02}
-D.~Maynes-Aminzade, R.~Pausch, and S.~Seitz.
-\newblock Techniques for interactive audience participation.
-\newblock In \emph{Proceedings of the 4th IEEE International Conference on
-  Multimodal Interfaces}, ICMI '02, Washington, DC, USA, 2002. IEEE Computer
-  Society.
+\bibitem [\protect \citeauthoryear {%
+Barkhuus%
+\ \BBA {} J{\o}rgensen%
+}{%
+Barkhuus%
+\ \BBA {} J{\o}rgensen%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+barkhuus08}
+\APACinsertmetastar {%
+barkhuus08}%
+\begin{APACrefauthors}%
+Barkhuus, L.%
+\BCBT {}\ \BBA {} J{\o}rgensen, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Engaging the crowd: Studies of audience-performer
+  interaction} {Engaging the crowd: Studies of audience-performer
+  interaction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{CHI '08 Extended Abstracts on Human Factors in
+  Computing Systems}} {{CHI '08 Extended Abstracts on Human Factors in
+  Computing Systems}}\ (\BPGS\ 2925--2930).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bongers%
+}{%
+Bongers%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+bongers99}
+\APACinsertmetastar {%
+bongers99}%
+\begin{APACrefauthors}%
+Bongers, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Exploring novel ways of interaction in musical
+  performance} {Exploring novel ways of interaction in musical
+  performance}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 3rd Conference on Creativity \&
+  Cognition}} {{Proceedings of the 3rd Conference on Creativity \& Cognition}}\
+  (\BPGS\ 76--81).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Maynes-Aminzade%
+, Pausch%
+\BCBL {}\ \BBA {} Seitz%
+}{%
+Maynes-Aminzade%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+maynes02}
+\APACinsertmetastar {%
+maynes02}%
+\begin{APACrefauthors}%
+Maynes-Aminzade, D.%
+, Pausch, R.%
+\BCBL {}\ \BBA {} Seitz, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Techniques for Interactive Audience Participation}
+  {Techniques for interactive audience participation}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 4th IEEE International Conference on
+  Multimodal Interfaces}.} {{Proceedings of the 4th IEEE International
+  Conference on Multimodal Interfaces}.}
+\newblock
+\APACaddressPublisher{Washington, DC, USA}{IEEE Computer Society}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ulyate%
+\ \BBA {} Bianciardi%
+}{%
+Ulyate%
+\ \BBA {} Bianciardi%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+ulyate01}
+\APACinsertmetastar {%
+ulyate01}%
+\begin{APACrefauthors}%
+Ulyate, R.%
+\BCBT {}\ \BBA {} Bianciardi, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The interactive dance club: Avoiding chaos in a multi
+  participant environment} {The interactive dance club: Avoiding chaos in a
+  multi participant environment}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 2001 Conference on New Interfaces
+  for Musical Expression}} {{Proceedings of the 2001 Conference on New
+  Interfaces for Musical Expression}}\ (\BPGS\ 1--3).
+\newblock
+\APACaddressPublisher{Singapore, Singapore}{National University of Singapore}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
