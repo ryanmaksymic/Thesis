@@ -15,45 +15,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
+Warning--entry type for "xylobands1" isn't style-file defined
+--line 12 of file Thesis.bib
+Warning--entry type for "xylobands2" isn't style-file defined
+--line 20 of file Thesis.bib
+Warning--entry type for "xylobands3" isn't style-file defined
+--line 30 of file Thesis.bib
+Warning--entry type for "xylobands4" isn't style-file defined
+--line 41 of file Thesis.bib
+Warning--entry type for "whamcity1" isn't style-file defined
+--line 52 of file Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 4 entries,
+You've used 9 entries,
             6735 wiz_defined-function locations,
-            1271 strings with 11247 characters,
-and the built_in function-call counts, 8438 in all, are:
-= -- 1146
-> -- 70
-< -- 325
-+ -- 315
-- -- 8
-* -- 479
-:= -- 1357
-add.period$ -- 24
-call.type$ -- 4
-change.case$ -- 72
+            1294 strings with 11811 characters,
+and the built_in function-call counts, 16629 in all, are:
+= -- 2424
+> -- 80
+< -- 599
++ -- 574
+- -- 10
+* -- 883
+:= -- 2482
+add.period$ -- 40
+call.type$ -- 9
+change.case$ -- 133
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 197
-empty$ -- 348
-format.name$ -- 94
-if$ -- 1710
+cite$ -- 18
+duplicate$ -- 314
+empty$ -- 741
+format.name$ -- 108
+if$ -- 3520
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 18
 missing$ -- 0
-newline$ -- 109
-num.names$ -- 32
-pop$ -- 244
+newline$ -- 191
+num.names$ -- 40
+pop$ -- 347
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 36
 quote$ -- 0
-skip$ -- 600
+skip$ -- 1469
 stack$ -- 0
-substring$ -- 368
-swap$ -- 137
-text.length$ -- 24
+substring$ -- 648
+swap$ -- 191
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 576
+type$ -- 1432
 warning$ -- 0
-while$ -- 34
+while$ -- 51
 width$ -- 0
-write$ -- 131
+write$ -- 231
+(There were 5 warnings)

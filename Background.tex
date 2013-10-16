@@ -1,2 +1,51 @@
 \chapter{Background}
 
+This chapter examines related research and projects. Past work includes studies on collaborative control, interactive dance clubs, and commercial products used in large-scale concert settings.
+
+\section{Maynes-Aminzade, Pausch, and Seitz}
+
+In their 2002 paper, Maynes-Aminzade et al. describe three different computer vision systems that allow an audience to control an on-screen game; they also outline the lessons they learned about designing such systems. The first method tracks the audience as they lean to the left and right. The control mechanism was intuitive, but the system required frequent calibration. The second method tracked the shadow of a beach ball which acted as a cursor on the screen. This was also intuitive, but it only involved a few people in the audience at a time. The third method tracked multiple laser pointer dots on the screen, giving each audience member a cursor; this was a more chaotic system once the number of dots got overwhelming. Lastly, the authors presented some guidelines for designing systems for interactive audience participation. They recommend focusing on creating a compelling activity rather than an impressive technology; they state that every audience member does not necessarily need to be sensed as long as they feel like they are contributing; and they suggest that the control mechanism should be obvious or audience members will quickly lose interest. The authors also note that making the activity emotionally engaging and emphasizing cooperation between players will increase the audience's enjoyment.
+
+These conclusions provide both guidance and new questions to consider for my own research. While I hope to work with some relatively advanced technologies, it will be important to remember that it is the actual interaction that will determine how engaging the experience is. User-centered design will need to be a major part of my development process. While this paper dealt with accurate control of a video game, my work will address interactions that are more passive and abstract. The authors stress the importance of an obvious control mechanism; considering how much their environment (a movie theatre) will likely differ from mine (a loud, dark music venue), I believe this will be especially crucial for my project. Audience members whose senses are already being overloaded will have even less patience for figuring out how something works. I will have to consider how this and other factors apply to my unique environment. How can I best tap into the emotional sensibilities of an audience at a concert? How might I create a cooperative environment in a situation that is not goal oriented? These are questions I will have to address in my primary research.
+
+
+\section{Ulyate and Bianciardi}
+
+In their paper, the authors describe their ``Interactive Dance Club" -- a venue that delivers audio and video feedback to inputs from multiple participants -- and they present the ``10 Commandments of Interactivity" that guided its creation. The goals of the project were to create coherent musical and visual feedback for individual and group interactions and to allow non-artistic people to feel artistic. Inputs included light sensors, infrared cameras, pressure-sensitive tiles, proximity sensors, and simple mechanical switches. By interacting with them, users could make notes sound out, manipulate projected video and computer graphics, modulate music loops, and control the position of cameras in the space.
+
+This project's ``10 Commandments of Interactivity" contain the following points:
+\begin{itemize*}
+	\item Movement is encouraged and rewarded.
+	\item Feedback from interactions is immediate, obvious, and meaningful in the context of the space.
+	\item No instructions, expertise, or thinking is required.
+	\item A more responsive system is better than a more aesthetically pleasing system.
+	\item Modularity is key.
+\end{itemize*}
+
+Lastly, the authors share the lessons that they learned while running the Interactive Dance Club. They observed that interactions involving full-body movements were most satisfying. The form of an object, they found, determined how users first attempted to interact with it. They emphasize the practicality of a system that is both distributed and scalable. Designing the interactions required finding a balance between freedom and constraint. They found that, no matter how elegant the system, some users would still find a way to create unpleasant noise. Lastly, they observed that instant gratification is important; feedback that is too delayed or interactions that require too much concentration are ineffective.
+
+
+\section{Bongers}
+
+In his 1999 paper, Bongers provides a theoretical HCI framework for physical interaction between performers, audience members, and electronic systems in a musical performance. He defines three types of interaction -- ``performer-system", ``system-audience", and ``performer-system-audience." Bongers models the interactions as control systems wherein actions are either a \emph{control} or \emph{feedback} process. Electronic sensors and actuators are discussed, followed by human senses and motor systems. Bongers states that a more convincing interaction is one that provides ``multimodal" feedback -- influencing more than one of the users' senses. Lastly, a few prototypes of novel interaction systems are described. Especially notable is the ``Interaction Chair", which most easily fits in the performer-system-audience category. Here, the performer has the ability to send vibrations through each audience member's seat back, while the chairs contain sensors that allow audience members to influence visuals projected behind the performer. Other projects like this one can benefit from Bongers' theoretical framework; thinking in terms of control and feedback processes may provide new perspectives on a  system's design.
+
+
+\section{Barkhuus and Jorgensen}
+
+Barkhuus and Jorgensen's paper investigated interactions between audiences and performers at a concert. The authors used observations from traditional rock and rap shows to inform the design of a simple "interaction-facilitation technology" -- a cheering meter. By tracking the applause patterns at several concerts, it was determined that the two most common reasons for cheering were to express anticipation and to reward the performers. This led to the creation of a cheering meter, an instrument for measuring the volume of an audience -- in this case, to determine the winner of a rap battle. Microphones captured samples of the crowd's cheering, the signal was filtered, the peak volume was measured, and the rating on an arbitrary scale was displayed on large screens onstage.
+
+The researchers reported no major issues while testing the system, and they express confidence that their technology helped to enhance the concert for the audience members. In their paper, they outline the main reasons for the cheering meter's success. First, the authors state that the usability of the system is due to the fact that it is based on an already-present behaviour; they recommend ``designing technology that fits the situation and which utilize present activities rather than aiming to employ the latest cutting edge technology" (p. 2929). Next, they suggest that an event should not rely on the success of the technology; the rap battle, for example, could have easily continued if the cheering meter malfunctioned. Lastly, the authors emphasized the importance of immediate visual and/or aural feedback; seeing direct consequences of their actions gives the audience confidence in using the system. This research focused on a very specific type of event using an almost-gimmicky system, but the design principles it yielded are valuable.
+
+
+\section{Wham City Lights}
+
+Wham City Lights is a smartphone application that allows multiple devices to display light shows in sync during a concert. Audience members with an iOS or Android device can download the app before the show. Once the show has begun, an operator activates lighting cues by playing encoded, ultrasonic tones; devices with the app open ``hear" these tones and perform the corresponding cues. This can be done at nearly any scale as long as every device is able to hear the tones. Users generally hold their devices up or wave them above their heads during the show. Light shows can be created live or programmed in advance using an online editor; cues include flashing colours, camera flashes, GIFs, text, and sound.
+
+The concept was originally developed by US musician Dan Deacon. His intention was to prevent concertgoers from using their personal devices and disengaging during live performances. Deacon tested the app at his own shows and received a positive response. Today, Wham City Lights licenses their general-purpose app for different kinds of events; they also develop custom apps to include branding, tour dates, etc. Musicians and organizations like Brad Paisley, the Billboard Music Awards, and Intel have made use of this technology at their events.
+
+
+\section{Xylobands}
+
+Xylobands are controllable LED wristbands designed to be worn by potentially thousands of users at entertainment events. They are controlled using a proprietary piece of software downloaded to a laptop; the laptop must then be connected to a radio transmitter. With the software, an operator can turn the Xylobands on or off, select which colours are illuminated, and control the speed of the LEDs' flashing. The transmitter has a range of around 300 meters. Each wristband contains a small printed circuit board that holds, among other components, an RF receiver and an 8-bit microcontroller. The electronics are powered by three 3 V coin cell batteries.
+
+The technology was originally developed for the band Coldplay, and wristbands were handed out to all concertgoers during their 2012 world tour. Giving the wristbands to each audience member at every performance reportedly cost the band \euro{}490 000 (around \$680 000 CAD) per night. UK-based toy development company RB Concepts Ltd. are the creators of the Xyloband. Their website advertises that Xylobands can be customized and used at concerts, festivals, sports stadiums, or corporate events.

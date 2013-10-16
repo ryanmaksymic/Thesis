@@ -60,6 +60,45 @@ Bongers, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Coldplay: News - Interview: Xylobands inventor Jason
+  Regler}}}{%
+\APACcitebtitle {{Coldplay: News - Interview: Xylobands inventor Jason
+  Regler}}}{%
+{\protect \APACyear {2012}}%
+}]{%
+xylobands2}
+\APACinsertmetastar {%
+xylobands2}%
+\APACrefbtitle {{Coldplay: News - Interview: Xylobands inventor Jason Regler}.}
+  {{Coldplay: News - Interview: Xylobands inventor Jason Regler}.}
+\newblock
+\APACrefYearMonthDay{2012}{February}{}.
+\newblock
+\begin{APACrefURL} [{September 27,
+  2013}]\url{http://www.coldplay.com/newsdetail.php?id=906} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE
+  Ten}}}{%
+\APACcitebtitle {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE
+  Ten}}}{%
+{\protect \APACyear {2012}}%
+}]{%
+xylobands4}
+\APACinsertmetastar {%
+xylobands4}%
+\APACrefbtitle {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE
+  Ten}.} {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE Ten}.}
+\newblock
+\APACrefYearMonthDay{2012}{June}{}.
+\newblock
+\begin{APACrefURL} [{September 27,
+  2013}]\url{http://www.rte.ie/ten/news/2012/0615/438139-coldplay/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Maynes-Aminzade%
 , Pausch%
 \BCBL {}\ \BBA {} Seitz%
@@ -91,6 +130,31 @@ Maynes-Aminzade, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Steinmetz%
+}{%
+Steinmetz%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+xylobands3}
+\APACinsertmetastar {%
+xylobands3}%
+\begin{APACrefauthors}%
+Steinmetz, J\BHBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{May}{}.
+\newblock
+\APACrefbtitle {{Dissecting the Xyloband | Jean-Philippe Steinmetz}.}
+  {{Dissecting the Xyloband | Jean-Philippe Steinmetz}.}
+\newblock
+\begin{APACrefURL} [{September 27,
+  2013}]\url{http://www.caskater.com/2012/05/02/dissecting-the-xyloband/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ulyate%
 \ \BBA {} Bianciardi%
 }{%
@@ -119,6 +183,39 @@ Ulyate, R.%
   Interfaces for Musical Expression}}\ (\BPGS\ 1--3).
 \newblock
 \APACaddressPublisher{Singapore, Singapore}{National University of Singapore}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Wham City Lights - Press Kit}}}{%
+\APACcitebtitle {{Wham City Lights - Press Kit}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+whamcity1}
+\APACinsertmetastar {%
+whamcity1}%
+\APACrefbtitle {{Wham City Lights - Press Kit}.} {{Wham City Lights - Press
+  Kit}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} [{September 30,
+  2013}]\url{http://whamcitylights.com/faq.html} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Xylobands}}{%
+\APACcitebtitle {Xylobands}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+xylobands1}
+\APACinsertmetastar {%
+xylobands1}%
+\APACrefbtitle {Xylobands.} {Xylobands.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} [{September 27, 2013}]\url{http://xylobands.com}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

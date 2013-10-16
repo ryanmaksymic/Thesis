@@ -1,8 +1,14 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Background}{4}
-\contentsline {chapter}{\numberline {3}Primary Research}{5}
-\contentsline {chapter}{\numberline {4}Prototyping}{6}
-\contentsline {chapter}{\numberline {5}User Testing}{7}
-\contentsline {chapter}{\numberline {6}Discussion}{8}
-\contentsline {chapter}{\numberline {7}Conclusion}{9}
-\contentsline {chapter}{References}{10}
+\contentsline {section}{\numberline {2.1}Maynes-Aminzade, Pausch, and Seitz}{4}
+\contentsline {section}{\numberline {2.2}Ulyate and Bianciardi}{5}
+\contentsline {section}{\numberline {2.3}Bongers}{6}
+\contentsline {section}{\numberline {2.4}Barkhuus and Jorgensen}{7}
+\contentsline {section}{\numberline {2.5}Wham City Lights}{8}
+\contentsline {section}{\numberline {2.6}Xylobands}{9}
+\contentsline {chapter}{\numberline {3}Primary Research}{10}
+\contentsline {chapter}{\numberline {4}Prototyping}{11}
+\contentsline {chapter}{\numberline {5}User Testing}{12}
+\contentsline {chapter}{\numberline {6}Discussion}{13}
+\contentsline {chapter}{\numberline {7}Conclusion}{14}
+\contentsline {chapter}{References}{15}
