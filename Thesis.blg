@@ -1,10 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: CreativeCommons.aux
 A level-1 auxiliary file: AuthorsDeclaration.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Background.aux
+A level-1 auxiliary file: Prototyping.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -15,56 +17,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
+Warning--entry type for "pixmob1" isn't style-file defined
+--line 26 of file Thesis.bib
 Warning--entry type for "xylobands1" isn't style-file defined
---line 12 of file Thesis.bib
+--line 34 of file Thesis.bib
 Warning--entry type for "xylobands2" isn't style-file defined
---line 20 of file Thesis.bib
+--line 42 of file Thesis.bib
 Warning--entry type for "xylobands3" isn't style-file defined
---line 30 of file Thesis.bib
-Warning--entry type for "xylobands4" isn't style-file defined
---line 41 of file Thesis.bib
-Warning--entry type for "whamcity1" isn't style-file defined
 --line 52 of file Thesis.bib
+Warning--entry type for "xylobands4" isn't style-file defined
+--line 63 of file Thesis.bib
+Warning--entry type for "whamcity1" isn't style-file defined
+--line 74 of file Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 9 entries,
+You've used 11 entries,
             6735 wiz_defined-function locations,
-            1294 strings with 11811 characters,
-and the built_in function-call counts, 16629 in all, are:
-= -- 2424
-> -- 80
-< -- 599
-+ -- 574
-- -- 10
-* -- 883
-:= -- 2482
-add.period$ -- 40
-call.type$ -- 9
-change.case$ -- 133
+            1306 strings with 12149 characters,
+and the built_in function-call counts, 20679 in all, are:
+= -- 3011
+> -- 108
+< -- 744
++ -- 735
+- -- 12
+* -- 1092
+:= -- 3034
+add.period$ -- 49
+call.type$ -- 11
+change.case$ -- 154
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 314
-empty$ -- 741
-format.name$ -- 108
-if$ -- 3520
+cite$ -- 22
+duplicate$ -- 419
+empty$ -- 916
+format.name$ -- 149
+if$ -- 4386
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 22
 missing$ -- 0
-newline$ -- 191
-num.names$ -- 40
-pop$ -- 347
+newline$ -- 236
+num.names$ -- 48
+pop$ -- 433
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 42
 quote$ -- 0
-skip$ -- 1469
+skip$ -- 1811
 stack$ -- 0
-substring$ -- 648
-swap$ -- 191
-text.length$ -- 38
+substring$ -- 840
+swap$ -- 246
+text.length$ -- 47
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1432
+type$ -- 1752
 warning$ -- 0
-while$ -- 51
+while$ -- 67
 width$ -- 0
-write$ -- 231
-(There were 5 warnings)
+write$ -- 291
+(There were 6 warnings)

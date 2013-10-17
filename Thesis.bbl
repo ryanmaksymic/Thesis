@@ -130,6 +130,22 @@ Maynes-Aminzade, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{PixMob by ESKI - \#pixmob}}}{%
+\APACcitebtitle {{PixMob by ESKI - \#pixmob}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+pixmob1}
+\APACinsertmetastar {%
+pixmob1}%
+\APACrefbtitle {{PixMob by ESKI - \#pixmob}.} {{PixMob by ESKI - \#pixmob}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} [{October 13, 2013}]\url{http://pixmob.info/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Steinmetz%
 }{%
 Steinmetz%
@@ -152,6 +168,40 @@ Steinmetz, J\BHBI P.%
 \begin{APACrefURL} [{September 27,
   2013}]\url{http://www.caskater.com/2012/05/02/dissecting-the-xyloband/}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tseng%
+, Huang%
+, Wu%
+\BCBL {}\ \BBA {} Chin%
+}{%
+Tseng%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+tseng12}
+\APACinsertmetastar {%
+tseng12}%
+\begin{APACrefauthors}%
+Tseng, Y\BHBI C.%
+, Huang, Y\BHBI C.%
+, Wu, K\BHBI Y.%
+\BCBL {}\ \BBA {} Chin, C\BHBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Dinner of Luci\'{e}rnaga: An interactive play with
+  iPhone app in theater}} {{Dinner of Luci\'{e}rnaga: An interactive play with
+  iPhone app in theater}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 20th ACM International Conference on
+  Multimedia}} {{Proceedings of the 20th ACM International Conference on
+  Multimedia}}\ (\BPGS\ 559--568).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

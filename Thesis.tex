@@ -2,12 +2,15 @@
 
 \usepackage[top=1.5in, bottom=1in, left=1.5in, right=1in]{geometry}		% Set margins
 \usepackage{graphicx}										% Graphics
+\usepackage{subfig}											% Sub-figures
 \usepackage{amssymb}										% Math formulae
 \usepackage{ccicons}										% Include Creative Commons symbol
 \usepackage[gen]{eurosym}									% Include Euro symbol
 \usepackage{apacite}										% APA-style citations
 \usepackage{fancyhdr}										% Headers
 \usepackage{mdwlist}										% Compact lists
+
+\graphicspath{{./Pictures/}{./Pictures/Prototyping/}}% All pictures are accessed from here
 
 \renewcommand{\bibname}{References}  							% Change "Bibliography" into "References"
 
@@ -74,7 +77,7 @@
 
 \chapter{Primary Research}
 
-\chapter{Prototyping}
+\include{Prototyping}
 
 \chapter{User Testing}
 

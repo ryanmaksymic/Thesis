@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  15 OCT 2013 17:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  16 OCT 2013 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -84,6 +84,39 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen113
+\captionmargin@=\dimen114
+\captionwidth=\dimen115
+\caption@tempdima=\dimen116
+\caption@indent=\dimen117
+\caption@parindent=\dimen118
+\caption@hangindent=\dimen119
+)
+\c@ContinuedFloat=\count92
+)
+\c@KVtest=\count93
+\sf@farskip=\skip43
+\sf@captopadj=\dimen120
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count94
+\c@subfigure@save=\count95
+\c@lofdepth=\count96
+\c@subtable=\count97
+\c@subtable@save=\count98
+\c@lotdepth=\count99
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -104,7 +137,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
-\XKV@depth=\count92
+\XKV@depth=\count100
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 )))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/eurosym/eurosym.sty
@@ -113,43 +146,43 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2012/02/25 v6.01 APA citation
-\c@BibCnt=\count93
-\bibleftmargin=\skip43
-\bibindent=\skip44
-\bibparsep=\skip45
-\bibitemsep=\skip46
-\biblabelsep=\skip47
+\c@BibCnt=\count101
+\bibleftmargin=\skip48
+\bibindent=\skip49
+\bibparsep=\skip50
+\bibitemsep=\skip51
+\biblabelsep=\skip52
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip48
-\f@ncyO@elh=\skip49
-\f@ncyO@erh=\skip50
-\f@ncyO@olh=\skip51
-\f@ncyO@orh=\skip52
-\f@ncyO@elf=\skip53
-\f@ncyO@erf=\skip54
-\f@ncyO@olf=\skip55
-\f@ncyO@orf=\skip56
+\fancy@headwidth=\skip53
+\f@ncyO@elh=\skip54
+\f@ncyO@erh=\skip55
+\f@ncyO@olh=\skip56
+\f@ncyO@orh=\skip57
+\f@ncyO@elf=\skip58
+\f@ncyO@erf=\skip59
+\f@ncyO@olf=\skip60
+\f@ncyO@orf=\skip61
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/mdwtools/mdwlist.sty
 Package: mdwlist 1996/05/02 1.1 Various list-related things
 )
 (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux))
+(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Prototyping.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -187,16 +220,16 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count94
-\scratchdimen=\dimen113
+\scratchcounter=\count102
+\scratchdimen=\dimen121
 \scratchbox=\box27
-\nofMPsegments=\count95
-\nofMParguments=\count96
+\nofMPsegments=\count103
+\nofMParguments=\count104
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count97
-\MPscratchDim=\dimen114
-\MPnumerator=\count98
-\makeMPintoPDFobject=\count99
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen122
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks20
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -242,23 +275,27 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@maskedRefs=\count100
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@maskedRefs=\count108
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2012/02/25 v6.01 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
-) (./Title.tex <ocadu_logo.png, id=1, 506.8536pt x 422.5386pt>
-File: ocadu_logo.png Graphic file (type png)
- <use ocadu_logo.png>
-Package pdftex.def Info: ocadu_logo.png used on input line 7.
-(pdftex.def)             Requested size: 152.05725pt x 126.76256pt.
+) (./Title.tex <./Pictures/ocadu_logo.png, id=1, 506.8536pt x 422.5386pt>
+File: ./Pictures/ocadu_logo.png Graphic file (type png)
+
+<use ./Pictures/ocadu_logo.png>
+Package pdftex.def Info: ./Pictures/ocadu_logo.png used on input line 7.
+(pdftex.def)             Requested size: 151.76964pt x 126.524pt.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 10.95pt on input line 12.
  [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ocadu
-_logo.png>])
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictu
+res/ocadu_logo.png>])
 \openout2 = `CreativeCommons.aux'.
 
  (./CreativeCommons.tex
@@ -299,25 +336,25 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [5
+
+
+])
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
- [5
-
-
-]
+ [6]
 (./Thesis.lof)
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
- [6
+ [7
 
 ] (./Thesis.lot)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
- [7
+ [8
 
 ]
 \openout2 = `Introduction.aux'.
@@ -347,26 +384,47 @@ Chapter 2.
 ] [5]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
- [6] [7] [8]) [9]
+ [6] [7] [8] [9]) [10] [11]
 Chapter 3.
-[10
-
-
-]
-Chapter 4.
-[11
-
-]
-Chapter 5.
 [12
+
+
+]
+\openout2 = `Prototyping.aux'.
+
+ (./Prototyping.tex
+Chapter 4.
+[13
+
+
+] <./Pictures/Prototyping/wiimotes.jpg, id=82, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototyping/wiimotes.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototyping/wiimotes.jpg>
+Package pdftex.def Info: ./Pictures/Prototyping/wiimotes.jpg used on input line
+ 16.
+(pdftex.def)             Requested size: 173.41994pt x 130.08733pt.
+
+<./Pictures/Prototyping/prototype_v1_1.png, id=83, 1445.4pt x 903.375pt>
+File: ./Pictures/Prototyping/prototype_v1_1.png Graphic file (type png)
+
+<use ./Pictures/Prototyping/prototype_v1_1.png>
+Package pdftex.def Info: ./Pictures/Prototyping/prototype_v1_1.png used on inpu
+t line 18.
+(pdftex.def)             Requested size: 208.13303pt x 130.08733pt.
+) [14 <./Pictures/Prototyping/wiimotes.jpg> <./Pictures/Prototyping/prototype_v
+1_1.png>]
+Chapter 5.
+[15
+
 
 ]
 Chapter 6.
-[13
+[16
 
 ]
 Chapter 7.
-[14
+[17
 
 ] (./Thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 73--80
@@ -394,47 +452,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--100
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--156
+Underfull \hbox (badness 1688) in paragraph at lines 140--147
+[]\OT1/cmr/m/it/12 PixMob by ESKI - #pix-mob.  \OT1/cmr/m/n/12 (n.d.[]).  Re-tr
+ieved Oc-to-ber 13, 2013, from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--172
 []\OT1/cmr/m/n/12 Steinmetz, J.-P.  (2012, May).  \OT1/cmr/m/it/12 Dis-sect-ing
  the Xy-loband | Jean-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--156
+Underfull \hbox (badness 10000) in paragraph at lines 159--172
 \OT1/cmr/m/it/12 Philippe Stein-metz.  \OT1/cmr/m/n/12 Re-trieved Septem-ber 27
 , 2013, from
  []
 
-[15
+[18
 
 
-]) [16] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux)) ) 
+]) [19] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
+(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Prototyping.aux)) )
+ 
 Here is how much of TeX's memory you used:
- 3308 strings out of 493315
- 45522 string characters out of 6137904
- 115137 words of memory out of 5000000
- 6652 multiletter control sequences out of 15000+600000
+ 4533 strings out of 493315
+ 67609 string characters out of 6137904
+ 141059 words of memory out of 5000000
+ 7855 multiletter control sequences out of 15000+600000
  12705 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,10n,43p,1576b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/eurosym/feymo10.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/eurosym/feymr10.pfb>
-Output written on Thesis.pdf (23 pages, 197038 bytes).
+ 44i,10n,87p,1576b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on Thesis.pdf (27 pages, 3178325 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
