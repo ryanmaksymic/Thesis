@@ -18,57 +18,57 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
 Warning--entry type for "pixmob1" isn't style-file defined
---line 26 of file Thesis.bib
+--line 51 of file Thesis.bib
 Warning--entry type for "xylobands1" isn't style-file defined
---line 34 of file Thesis.bib
+--line 59 of file Thesis.bib
 Warning--entry type for "xylobands2" isn't style-file defined
---line 42 of file Thesis.bib
+--line 67 of file Thesis.bib
 Warning--entry type for "xylobands3" isn't style-file defined
---line 52 of file Thesis.bib
+--line 77 of file Thesis.bib
 Warning--entry type for "xylobands4" isn't style-file defined
---line 63 of file Thesis.bib
+--line 88 of file Thesis.bib
 Warning--entry type for "whamcity1" isn't style-file defined
---line 74 of file Thesis.bib
+--line 99 of file Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 11 entries,
+You've used 13 entries,
             6735 wiz_defined-function locations,
-            1306 strings with 12149 characters,
-and the built_in function-call counts, 20679 in all, are:
-= -- 3011
-> -- 108
-< -- 744
-+ -- 735
-- -- 12
-* -- 1092
-:= -- 3034
-add.period$ -- 49
-call.type$ -- 11
-change.case$ -- 154
+            1319 strings with 12473 characters,
+and the built_in function-call counts, 24383 in all, are:
+= -- 3492
+> -- 142
+< -- 895
++ -- 875
+- -- 16
+* -- 1311
+:= -- 3637
+add.period$ -- 59
+call.type$ -- 13
+change.case$ -- 189
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 419
-empty$ -- 916
-format.name$ -- 149
-if$ -- 4386
+cite$ -- 26
+duplicate$ -- 514
+empty$ -- 1075
+format.name$ -- 195
+if$ -- 5133
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 26
 missing$ -- 0
-newline$ -- 236
-num.names$ -- 48
-pop$ -- 433
+newline$ -- 286
+num.names$ -- 64
+pop$ -- 516
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 50
 quote$ -- 0
-skip$ -- 1811
+skip$ -- 2082
 stack$ -- 0
-substring$ -- 840
-swap$ -- 246
-text.length$ -- 47
+substring$ -- 1003
+swap$ -- 312
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1752
+type$ -- 1976
 warning$ -- 0
-while$ -- 67
+while$ -- 85
 width$ -- 0
-write$ -- 291
+write$ -- 352
 (There were 6 warnings)

@@ -99,6 +99,30 @@ xylobands4}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kershaw%
+}{%
+Kershaw%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+kershaw01}
+\APACinsertmetastar {%
+kershaw01}%
+\begin{APACrefauthors}%
+Kershaw, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Oh for unruly audiences! Or, patterns of participation
+  in twentieth-century theatre}} {{Oh for unruly audiences! Or, patterns of
+  participation in twentieth-century theatre}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Modern Drama}{44}{2}{133--154}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Maynes-Aminzade%
 , Pausch%
 \BCBL {}\ \BBA {} Seitz%
@@ -143,6 +167,37 @@ pixmob1}%
 \newblock
 \begin{APACrefURL} [{October 13, 2013}]\url{http://pixmob.info/}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reeves%
+, Sherwood%
+\BCBL {}\ \BBA {} Brown%
+}{%
+Reeves%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+reeves10}
+\APACinsertmetastar {%
+reeves10}%
+\begin{APACrefauthors}%
+Reeves, S.%
+, Sherwood, S.%
+\BCBL {}\ \BBA {} Brown, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Designing for crowds} {Designing for crowds}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 6th Nordic Conference on
+  Human-Computer Interaction: Extending Boundaries}} {{Proceedings of the 6th
+  Nordic Conference on Human-Computer Interaction: Extending Boundaries}}\
+  (\BPGS\ 393--402).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
