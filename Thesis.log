@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 NOV 2013 00:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  20 NOV 2013 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -168,7 +168,9 @@ Package: apacite 2012/02/25 v6.01 APA citation
 Package: mdwlist 1996/05/02 1.1 Various list-related things
 )
 (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Development.aux))
+(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Methods.aux)
+(./PreliminaryResearch.aux) (./Development.aux) (./Implementation.aux)
+(./Conclusion.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -203,12 +205,12 @@ LaTeX Font Info:    ... okay on input line 22.
 * \topmargin=-0.86499pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -291,7 +293,7 @@ File: ./Pictures/ocadu_logo.png Graphic file (type png)
 Package pdftex.def Info: ./Pictures/ocadu_logo.png used on input line 7.
 (pdftex.def)             Requested size: 151.76964pt x 126.524pt.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.95pt on input line 12.
+(Font)              scaled to size 10.0pt on input line 12.
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictu
@@ -299,16 +301,12 @@ res/ocadu_logo.png>])
 \openout2 = `CreativeCommons.aux'.
 
  (./CreativeCommons.tex
-Overfull \hbox (19.37595pt too wide) in paragraph at lines 6--31
-\OT1/cmr/m/n/10.95 This doc-u-ment is li-censed un-der the Cre-ative Com-mons A
-ttribution-NonCommercial-ShareAlike
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 ) [2
 
@@ -368,48 +366,64 @@ Chapter 1.
 ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]) [3]
+[2]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+ [3]) [4]
 \openout2 = `Background.aux'.
 
  (./Background.tex
 Chapter 2.
-[4
+[5
 
 
 
-] [5] [6]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
- [7] [8] [9] [10] [11] [12]) [13]
+] [6] [7] [8] [9] [10] [11] [12])
+Overfull \hbox (1.33884pt too wide) in paragraph at lines 93--76
+\OT1/cmr/m/n/10.95 PixMob is a patented wire-less tech-nol-ogy that en-ables th
+e con-trol of mul-ti-ple LED-embedded
+ []
+
+[13] [14]
+\openout2 = `Methods.aux'.
+
+ (./Methods.tex
 Chapter 3.
-[14
+) [15
+
 
 
 ]
+\openout2 = `PreliminaryResearch.aux'.
+
+ (./PreliminaryResearch.tex
 Chapter 4.
-[15
+) [16
+
+
 
 ]
 \openout2 = `Development.aux'.
 
  (./Development.tex
 Chapter 5.
-[16
-
-
-] <./Pictures/Prototyping/osculator_1.png, id=91, 939.51pt x 538.51187pt>
+<./Pictures/Prototyping/osculator_1.png, id=91, 939.51pt x 538.51187pt>
 File: ./Pictures/Prototyping/osculator_1.png Graphic file (type png)
 
 <use ./Pictures/Prototyping/osculator_1.png>
 Package pdftex.def Info: ./Pictures/Prototyping/osculator_1.png used on input l
 ine 18.
 (pdftex.def)             Requested size: 226.94925pt x 130.08733pt.
+ [17
 
-<./Pictures/Prototyping/wiimote_audience.png, id=92, 833.61438pt x 550.055pt>
+
+
+]
+<./Pictures/Prototyping/wiimote_audience.png, id=96, 833.61438pt x 550.055pt>
 File: ./Pictures/Prototyping/wiimote_audience.png Graphic file (type png)
 
 <use ./Pictures/Prototyping/wiimote_audience.png>
@@ -417,7 +431,7 @@ Package pdftex.def Info: ./Pictures/Prototyping/wiimote_audience.png used on in
 put line 27.
 (pdftex.def)             Requested size: 197.14595pt x 130.08733pt.
 
-<./Pictures/Prototyping/wiimotes.jpg, id=93, 3276.24pt x 2457.18pt>
+<./Pictures/Prototyping/wiimotes.jpg, id=97, 3276.24pt x 2457.18pt>
 File: ./Pictures/Prototyping/wiimotes.jpg Graphic file (type jpg)
 
 <use ./Pictures/Prototyping/wiimotes.jpg>
@@ -425,16 +439,16 @@ Package pdftex.def Info: ./Pictures/Prototyping/wiimotes.jpg used on input line
  38.
 (pdftex.def)             Requested size: 184.96793pt x 138.76157pt.
 
-<./Pictures/Prototyping/multi_wii.png, id=94, 846.16125pt x 511.41063pt>
+<./Pictures/Prototyping/multi_wii.png, id=98, 846.16125pt x 511.41063pt>
 File: ./Pictures/Prototyping/multi_wii.png Graphic file (type png)
 
 <use ./Pictures/Prototyping/multi_wii.png>
 Package pdftex.def Info: ./Pictures/Prototyping/multi_wii.png used on input lin
 e 40.
 (pdftex.def)             Requested size: 229.58987pt x 138.76157pt.
- [17 <./Pictures/Prototyping/osculator_1.png> <./Pictures/Prototyping/wiimote_a
+ [18 <./Pictures/Prototyping/osculator_1.png> <./Pictures/Prototyping/wiimote_a
 udience.png>]
-<./Pictures/Prototyping/threewii_voting.png, id=101, 1228.59pt x 758.33313pt>
+<./Pictures/Prototyping/threewii_voting.png, id=104, 1228.59pt x 758.33313pt>
 File: ./Pictures/Prototyping/threewii_voting.png Graphic file (type png)
 
 <use ./Pictures/Prototyping/threewii_voting.png>
@@ -442,24 +456,24 @@ Package pdftex.def Info: ./Pictures/Prototyping/threewii_voting.png used on inp
 ut line 51.
 (pdftex.def)             Requested size: 210.75096pt x 130.08733pt.
 
-<./Pictures/Prototyping/threewii_voting_sub.png, id=102, 486.31688pt x 435.6275
+<./Pictures/Prototyping/threewii_voting_sub.png, id=105, 486.31688pt x 435.6275
 pt>
 File: ./Pictures/Prototyping/threewii_voting_sub.png Graphic file (type png)
  <use ./Pictures/Prototyping/threewii_voting_sub.png>
 Package pdftex.def Info: ./Pictures/Prototyping/threewii_voting_sub.png used on
  input line 53.
 (pdftex.def)             Requested size: 145.22092pt x 130.08733pt.
- [18 <./Pictures/Prototyping/wiimotes.jpg> <./Pictures/Prototyping/multi_wii.pn
-g>]
-<./Pictures/Prototyping/wii_vj.png, id=107, 1127.21124pt x 716.17563pt>
+ [19 <./Pictures/Prototyping/wiimotes.jpg> <./Pictures/Prototyping/multi_wii.pn
+g> <./Pictures/Prototyping/threewii_voting.png> <./Pictures/Prototyping/threewi
+i_voting_sub.png>]
+<./Pictures/Prototyping/wii_vj.png, id=113, 1127.21124pt x 716.17563pt>
 File: ./Pictures/Prototyping/wii_vj.png Graphic file (type png)
 
 <use ./Pictures/Prototyping/wii_vj.png>
 Package pdftex.def Info: ./Pictures/Prototyping/wii_vj.png used on input line 6
 4.
 (pdftex.def)             Requested size: 204.74684pt x 130.08733pt.
- [19 <./Pictures/Prototyping/threewii_voting.png> <./Pictures/Prototyping/three
-wii_voting_sub.png> <./Pictures/Prototyping/wii_vj.png>]
+
 <./Pictures/Prototyping/vj_and_audience.png, id=114, 1236.11812pt x 758.33313pt
 >
 File: ./Pictures/Prototyping/vj_and_audience.png Graphic file (type png)
@@ -467,88 +481,87 @@ File: ./Pictures/Prototyping/vj_and_audience.png Graphic file (type png)
 Package pdftex.def Info: ./Pictures/Prototyping/vj_and_audience.png used on inp
 ut line 75.
 (pdftex.def)             Requested size: 212.04233pt x 130.08733pt.
-) [20 <./Pictures/Prototyping/vj_and_audience.png>]
+) [20 <./Pictures/Prototyping/wii_vj.png>] [21 <./Pictures/Prototyping/vj_and_a
+udience.png>]
+\openout2 = `Implementation.aux'.
+
+
+(./Implementation.tex
 Chapter 6.
-[21
+) [22
+
 
 
 ]
+\openout2 = `Conclusion.aux'.
+
+ (./Conclusion.tex
 Chapter 7.
-[22
+) [23
+
+
 
 ] (./Thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
-[]\OT1/cmr/m/it/12 Coldplay: News - In-ter-view: Xy-lobands in-ven-tor Ja-son R
-e-
- []
-
-
-Underfull \hbox (badness 7704) in paragraph at lines 73--80
-\OT1/cmr/m/it/12 gler.  \OT1/cmr/m/n/12 (2012, Febru-ary).  Re-trieved Septem-b
-er 27, 2013, from
- []
-
-LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <12> not available
+LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
 (Font)              Font shape `U/eurosym/m/sl' tried instead on input line 92.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
-[]\OT1/cmr/m/it/12 Coldplay spend []490,000 a night on Xy-lobands - RTE Ten.
+Underfull \hbox (badness 5050) in paragraph at lines 164--171
+[]\OT1/cmr/m/it/10.95 PixMob by ESKI - #pix-mob.  \OT1/cmr/m/n/10.95 (n.d.[]). 
+ Re-trieved Oc-to-ber 13, 2013, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
-\OT1/cmr/m/n/12 (2012, June).  Re-trieved Septem-ber 27, 2013, from
+Underfull \hbox (badness 10000) in paragraph at lines 214--227
+[]\OT1/cmr/m/n/10.95 Steinmetz, J.-P.  (2012, May).  \OT1/cmr/m/it/10.95 Dis-se
+ct-ing the Xy-loband | Jean-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 164--171
-[]\OT1/cmr/m/it/12 PixMob by ESKI - #pix-mob.  \OT1/cmr/m/n/12 (n.d.[]).  Re-tr
-ieved Oc-to-ber 13, 2013, from
+Underfull \hbox (badness 10000) in paragraph at lines 214--227
+\OT1/cmr/m/it/10.95 Philippe Stein-metz.  \OT1/cmr/m/n/10.95 Re-trieved Septem-
+ber 27, 2013, from
  []
 
-[23
+[24
+
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 214--227
-[]\OT1/cmr/m/n/12 Steinmetz, J.-P.  (2012, May).  \OT1/cmr/m/it/12 Dis-sect-ing
- the Xy-loband | Jean-
+Underfull \hbox (badness 1953) in paragraph at lines 302--309
+[]\OT1/cmr/m/it/10.95 Wham City Lights - Press Kit.  \OT1/cmr/m/n/10.95 (n.d.[]
+).  Re-trieved Septem-ber 30, 2013, from
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--227
-\OT1/cmr/m/it/12 Philippe Stein-metz.  \OT1/cmr/m/n/12 Re-trieved Septem-ber 27
-, 2013, from
- []
-
-) [24] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Development.aux)) )
- 
+) [25] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
+(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Methods.aux)
+(./PreliminaryResearch.aux) (./Development.aux) (./Implementation.aux)
+(./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 4574 strings out of 493315
- 68933 string characters out of 6137904
- 141296 words of memory out of 5000000
- 7890 multiletter control sequences out of 15000+600000
- 12705 words of font info for 49 fonts, out of 8000000 for 9000
+ 4607 strings out of 493315
+ 69503 string characters out of 6137904
+ 141956 words of memory out of 5000000
+ 7895 multiletter control sequences out of 15000+600000
+ 13055 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,10n,87p,1576b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on Thesis.pdf (32 pages, 5189107 bytes).
+ 44i,10n,87p,1576b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/cci
+cons/ccicons.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on Thesis.pdf (33 pages, 5207754 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 181 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
