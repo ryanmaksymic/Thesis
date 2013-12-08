@@ -1,6 +1,23 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Amex Unstaged: Usher}}}{%
+\APACcitebtitle {{Amex Unstaged: Usher}}}{%
+{\protect \APACyear {2012}}%
+}]{%
+usher1}
+\APACinsertmetastar {%
+usher1}%
+\APACrefbtitle {{Amex Unstaged: Usher}.} {{Amex Unstaged: Usher}.}
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.momentfactory.com/en/project/stage/Amex_Unstaged:_Usher}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Barkhuus%
 \ \BBA {} J{\o}rgensen%
 }{%
@@ -96,6 +113,38 @@ xylobands4}%
 \begin{APACrefURL} [{September 27,
   2013}]\url{http://www.rte.ie/ten/news/2012/0615/438139-coldplay/}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gates%
+, Subramanian%
+\BCBL {}\ \BBA {} Gutwin%
+}{%
+Gates%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+gates06}
+\APACinsertmetastar {%
+gates06}%
+\begin{APACrefauthors}%
+Gates, C.%
+, Subramanian, S.%
+\BCBL {}\ \BBA {} Gutwin, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{DJ}s' perspectives on interaction and awareness in
+  nightclubs} {{DJ}s' perspectives on interaction and awareness in
+  nightclubs}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 6th Conference on Designing
+  Interactive Systems}} {{Proceedings of the 6th Conference on Designing
+  Interactive Systems}}\ (\BPGS\ 70--79).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -257,6 +306,29 @@ Tseng, Y\BHBI C.%
   Multimedia}}\ (\BPGS\ 559--568).
 \newblock
 \APACaddressPublisher{New York, NY, USA}{ACM}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Turino%
+}{%
+Turino%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+turino08}
+\APACinsertmetastar {%
+turino08}%
+\begin{APACrefauthors}%
+Turino, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {Music as Social Life: The Politics of Participation} {Music as
+  social life: The politics of participation}.
+\newblock
+\APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

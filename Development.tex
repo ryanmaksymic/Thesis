@@ -1,16 +1,18 @@
 \chapter{Development}
 
-%This section describes the chronology of this project's various prototypes. The successes and failures are described, giving the overall story of how I arrived at my final product.
+This section describes the chronology of this project's various prototypes. The successes and failures are described, detailing the story of how I arrived at my final product.
+
 
 \section{First Phase}
 
-\subsection{Objectives}
+The goal of the first prototype was to simply demonstrate how multiple users might interact with a performance using handheld devices. To realize this, I used Wii video game controllers and the Max visual programming software. The final product was a system that allowed seven users to simultaneously manipulate a video loop by performing ``audience-like" motions.
 
-The goal of the first prototype was to simply demonstrate how multiple users might interact with a performance using handheld devices. To realize this, I used Wii video game controllers and the Max visual programming software. The final product was to be a VJ system where one user (the ``performer") could manipulate looping video clips using a Wii controller and multiple ``audience members" could contribute to this manipulation to a lesser degree with their own individual controllers.
 
 \subsection{Prototyping}
 
-My first milestone in this prototype was having a single Wii controller communicate with my computer. Using a program called OSCulator, I was able to read movement and button-push data sent via Bluetooth (see Figure \ref{prototyping1}). From here, the data is sent to a simple Max program (called a ``patcher") that I created. The patcher reads various movement data from the controller and visualizes them as different motions that a typical concertgoer might perform. The motions are: giving a ``thumbs up" or ``thumbs down", swaying arms from side to side, clapping, or doing ``the wave," as shown in Figure \ref{prototyping2}. Visual feedback is provided in the form of illuminated LED objects and moving sliders.
+The first step in creating an initial prototype was deciding on the hardware and software that would be used. Wii video game controllers have an abundance of sensors: they contain eleven digital buttons, an infrared sensor, an accelerometer, and a gyroscope (in the newer ``Wii Remote Plus" models), and all of this data can be sent wirelessly to a receiver via Bluetooth technology. In addition to these affordances, due to the console's popularity, the Wii controller is also something that many people are already comfortable moving with -- shaking, waving, swinging. With these considerations, I decided that the Wii controller was a suitable input device for my experiments. Next, I had to find software to process this data. After consulting multiple sources, it became evident that the best way to interface with Wii controllers was to use a combination of two software packages called OSCulator and Max. OSCulator is a program that receives data from devices like MIDI controllers and outputs it using the Open Sound Control (OSC) protocol. Fortunately, it is also preset to communicate with Wii controllers, conveniently displaying live data from each sensor. The OSC data can then be sent to Max, a visual programming environment that is especially useful for handling multimedia. Max is commonly used by musicians and video artists to create highly customized and interactive programs.
+
+My first milestone for this prototype was having a single Wii controller communicate with my computer. Using a program called OSCulator, I was able to read movement and button-push data sent via Bluetooth (see Figure \ref{prototyping1}). From here, the data is sent to a simple Max program (called a ``patcher") that I created. The patcher reads various movement data from the controller and visualizes them as different motions that a typical concertgoer might perform. The motions are: giving a ``thumbs up" or ``thumbs down", swaying arms from side to side, clapping, or doing ``the wave," as shown in Figure \ref{prototyping2}. Visual feedback is provided in the form of illuminated LED objects and moving sliders.
 
 \begin{figure}[t]
 	\centering
@@ -78,11 +80,22 @@ The results of the last two victories were finally combined to create my audienc
 	\label{prototyping6}
 \end{figure}
 
+\begin{itemize}
+	\item I updated the look of the patcher, adding a dark background with light text.
+	\item I added an auto-play function. This automatically flips through every round, playing each for a set amount of time.
+	\item Added Lighters and Dance modes.
+	\item Integrated video crossfade voting system within each mode.
+	\item Added sub-patcher to lighten the processing load
+	\item Polished off presentation mode.
+\end{itemize}
+
+
 \subsection{User Testing}
 
-\section{Second Phase}
+The first user testing was run at eLeo -- an interactive exhibit hosted by OCAD University. My prototype was set up in a room with a wall-sized projection. Here, my goal was to observe how users approached the technology and how they performed the various inputs
 
-\subsection{Objectives}
+
+\section{Second Phase}
 
 \subsection{Prototyping}
 
