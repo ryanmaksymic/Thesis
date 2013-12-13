@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  7 DEC 2013 23:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 DEC 2013 23:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -170,7 +170,11 @@ Package: mdwlist 1996/05/02 1.1 Various list-related things
 (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-) (./Thesis.aux)
+) (./Thesis.aux
+(./CreativeCommons.aux) (./AuthorsDeclaration.aux) (./Abstract.aux)
+(./Introduction.aux) (./Background.aux) (./ResearchQuestion.aux)
+(./PreliminaryResearch.aux) (./Development.aux) (./Implementation.aux)
+(./Conclusion.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -324,33 +328,41 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  (./Abstract.tex) [4
 
 
-] (./Thesis.toc)
+] (./Thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+
+])
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
- [5
-
-
-]
+ [6]
 (./Thesis.lof)
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
- [6
+ [7
 
 ] (./Thesis.lot)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
- [7
+ [8
 
 ]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 [1
 
 
@@ -362,27 +374,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]) [4]
+[2] [3] [4]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+ [5]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+ [6]) [7]
 \openout2 = `Background.aux'.
 
  (./Background.tex
 Chapter 2.
-[5
+[8
 
 
 
-] [6] [7] [8] [9] [10] [11] [12] [13])
+] [9] [10] [11] [12] [13] [14] [15] [16])
 Overfull \hbox (1.33884pt too wide) in paragraph at lines 99--77
 \OT1/cmr/m/n/10.95 PixMob is a patented wire-less tech-nol-ogy that en-ables th
 e con-trol of mul-ti-ple LED-embedded
  []
 
-[14] [15]
-\openout2 = `Methods.aux'.
+[17] [18]
+\openout2 = `ResearchQuestion.aux'.
 
- (./Methods.tex
+ (./ResearchQuestion.tex
 Chapter 3.
-) [16
+) [19
 
 
 
@@ -391,27 +409,20 @@ Chapter 3.
 
  (./PreliminaryResearch.tex
 Chapter 4.
-[17
+[20
 
 
 
-]) [18]
+]) [21]
 \openout2 = `Development.aux'.
 
  (./Development.tex
 Chapter 5.
-[19
+[22
 
 
 
-]
-
-LaTeX Warning: Reference `prototyping1' on page 20 undefined on input line 15.
-
-
-LaTeX Warning: Reference `prototyping2' on page 20 undefined on input line 15.
-
-<./Pictures/Development/osculator_1.png, id=98, 939.51pt x 538.51187pt>
+] <./Pictures/Development/osculator_1.png, id=110, 939.51pt x 538.51187pt>
 File: ./Pictures/Development/osculator_1.png Graphic file (type png)
 
 <use ./Pictures/Development/osculator_1.png>
@@ -419,19 +430,15 @@ Package pdftex.def Info: ./Pictures/Development/osculator_1.png used on input l
 ine 20.
 (pdftex.def)             Requested size: 226.94925pt x 130.08733pt.
 
-<./Pictures/Development/wiimote_audience.png, id=99, 833.61438pt x 550.055pt>
+<./Pictures/Development/wiimote_audience.png, id=111, 833.61438pt x 550.055pt>
 File: ./Pictures/Development/wiimote_audience.png Graphic file (type png)
 
 <use ./Pictures/Development/wiimote_audience.png>
 Package pdftex.def Info: ./Pictures/Development/wiimote_audience.png used on in
 put line 29.
 (pdftex.def)             Requested size: 197.14595pt x 130.08733pt.
-
-
-LaTeX Warning: Reference `prototyping3' on page 20 undefined on input line 35.
-
-[20 <./Pictures/Development/osculator_1.png>]
-<./Pictures/Development/wiimotes.jpg, id=104, 3276.24pt x 2457.18pt>
+ [23 <./Pictures/Development/osculator_1.png>]
+<./Pictures/Development/wiimotes.jpg, id=117, 3276.24pt x 2457.18pt>
 File: ./Pictures/Development/wiimotes.jpg Graphic file (type jpg)
 
 <use ./Pictures/Development/wiimotes.jpg>
@@ -439,20 +446,16 @@ Package pdftex.def Info: ./Pictures/Development/wiimotes.jpg used on input line
  40.
 (pdftex.def)             Requested size: 184.96793pt x 138.76157pt.
 
-<./Pictures/Development/multi_wii.png, id=105, 846.16125pt x 511.41063pt>
+<./Pictures/Development/multi_wii.png, id=118, 846.16125pt x 511.41063pt>
 File: ./Pictures/Development/multi_wii.png Graphic file (type png)
 
 <use ./Pictures/Development/multi_wii.png>
 Package pdftex.def Info: ./Pictures/Development/multi_wii.png used on input lin
 e 42.
 (pdftex.def)             Requested size: 229.58987pt x 138.76157pt.
-
-
-LaTeX Warning: Reference `prototyping4' on page 21 undefined on input line 48.
-
-[21 <./Pictures/Development/wiimote_audience.png> <./Pictures/Development/wiimo
-tes.jpg> <./Pictures/Development/multi_wii.png>]
-<./Pictures/Development/threewii_voting.png, id=112, 1228.59pt x 758.33313pt>
+ [24 <./Pictures/Development/wiimote_audience.png> <./Pictures/Development/wiim
+otes.jpg> <./Pictures/Development/multi_wii.png>]
+<./Pictures/Development/threewii_voting.png, id=125, 1228.59pt x 758.33313pt>
 File: ./Pictures/Development/threewii_voting.png Graphic file (type png)
 
 <use ./Pictures/Development/threewii_voting.png>
@@ -460,7 +463,7 @@ Package pdftex.def Info: ./Pictures/Development/threewii_voting.png used on inp
 ut line 53.
 (pdftex.def)             Requested size: 210.75096pt x 130.08733pt.
 
-<./Pictures/Development/threewii_voting_sub.png, id=113, 486.31688pt x 435.6275
+<./Pictures/Development/threewii_voting_sub.png, id=126, 486.31688pt x 435.6275
 pt>
 File: ./Pictures/Development/threewii_voting_sub.png Graphic file (type png)
  <use ./Pictures/Development/threewii_voting_sub.png>
@@ -468,37 +471,30 @@ Package pdftex.def Info: ./Pictures/Development/threewii_voting_sub.png used on
  input line 55.
 (pdftex.def)             Requested size: 145.22092pt x 130.08733pt.
 
-
-LaTeX Warning: Reference `prototyping5' on page 22 undefined on input line 61.
-
-<./Pictures/Development/wii_vj.png, id=114, 1127.21124pt x 716.17563pt>
+<./Pictures/Development/wii_vj.png, id=127, 1127.21124pt x 716.17563pt>
 File: ./Pictures/Development/wii_vj.png Graphic file (type png)
 
 <use ./Pictures/Development/wii_vj.png>
 Package pdftex.def Info: ./Pictures/Development/wii_vj.png used on input line 6
 6.
 (pdftex.def)             Requested size: 204.74684pt x 130.08733pt.
-
-
-LaTeX Warning: Reference `prototyping6' on page 22 undefined on input line 72.
-
-[22 <./Pictures/Development/threewii_voting.png> <./Pictures/Development/threew
-ii_voting_sub.png>]
-<./Pictures/Development/vj_and_audience.png, id=120, 1236.11812pt x 758.33313pt
+ [25 <./Pictures/Development/threewii_voting.png> <./Pictures/Development/three
+wii_voting_sub.png>]
+<./Pictures/Development/vj_and_audience.png, id=133, 1236.11812pt x 758.33313pt
 >
 File: ./Pictures/Development/vj_and_audience.png Graphic file (type png)
  <use ./Pictures/Development/vj_and_audience.png>
 Package pdftex.def Info: ./Pictures/Development/vj_and_audience.png used on inp
 ut line 77.
 (pdftex.def)             Requested size: 212.04233pt x 130.08733pt.
- [23 <./Pictures/Development/wii_vj.png> <./Pictures/Development/vj_and_audienc
-e.png>]) [24]
+ [26 <./Pictures/Development/wii_vj.png> <./Pictures/Development/vj_and_audienc
+e.png>]) [27]
 \openout2 = `Implementation.aux'.
 
 
 (./Implementation.tex
 Chapter 6.
-) [25
+) [28
 
 
 
@@ -507,25 +503,15 @@ Chapter 6.
 
  (./Conclusion.tex
 Chapter 7.
-) [26
+) [29
 
 
 
 ] (./Thesis.bbl
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
 (Font)              Font shape `U/eurosym/m/sl' tried instead on input line 109
 .
- [27
+ [30
 
 
 
@@ -535,42 +521,36 @@ Underfull \hbox (badness 1389) in paragraph at lines 263--276
 ct-ing the Xy-loband | Jean-Philippe Stein-
  []
 
-) [28] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./Methods.aux)
-(./PreliminaryResearch.aux) (./Development.aux) (./Implementation.aux)
-(./Conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) [31] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
+(./Abstract.aux) (./Introduction.aux) (./Background.aux)
+(./ResearchQuestion.aux) (./PreliminaryResearch.aux) (./Development.aux)
+(./Implementation.aux) (./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 4642 strings out of 493315
- 69858 string characters out of 6137904
- 136984 words of memory out of 5000000
- 7947 multiletter control sequences out of 15000+600000
+ 4673 strings out of 493315
+ 70450 string characters out of 6137904
+ 144372 words of memory out of 5000000
+ 7958 multiletter control sequences out of 15000+600000
  13055 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,10n,87p,1586b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on Thesis.pdf (35 pages, 5214332 bytes).
+ 44i,11n,87p,2131b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist
+/fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/eurosym/feymo10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/eur
+osym/feymr10.pfb>
+Output written on Thesis.pdf (39 pages, 5225671 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
