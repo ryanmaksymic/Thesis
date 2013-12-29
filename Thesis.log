@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 DEC 2013 23:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 DEC 2013 22:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -325,7 +325,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ]
 \openout2 = `Abstract.aux'.
 
- (./Abstract.tex) [4
+ (./Abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+) [4
 
 
 ] (./Thesis.toc
@@ -368,61 +373,97 @@ Chapter 1.
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[][]\OT1/cmr/m/n/9 http://www.wired.com/business/2009/11/4-ways-live-and-digita
+l-music-are-teaming-up-to-rock-your-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] [4]
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
- [5]
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
- [6]) [7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+[6]) [7]
 \openout2 = `Background.aux'.
 
  (./Background.tex
 Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
 [8
 
 
 
-] [9] [10] [11] [12] [13] [14] [15] [16])
-Overfull \hbox (1.33884pt too wide) in paragraph at lines 99--77
+] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+[10] [11] [12] [13] [14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+[17])
+Overfull \hbox (1.33884pt too wide) in paragraph at lines 128--77
 \OT1/cmr/m/n/10.95 PixMob is a patented wire-less tech-nol-ogy that en-ables th
 e con-trol of mul-ti-ple LED-embedded
  []
 
-[17] [18]
+[18] [19]
 \openout2 = `ResearchQuestion.aux'.
 
  (./ResearchQuestion.tex
 Chapter 3.
-) [19
-
-
-
-]
-\openout2 = `PreliminaryResearch.aux'.
-
- (./PreliminaryResearch.tex
-Chapter 4.
 [20
 
 
 
 ]) [21]
-\openout2 = `Development.aux'.
+\openout2 = `PreliminaryResearch.aux'.
 
- (./Development.tex
-Chapter 5.
+ (./PreliminaryResearch.tex
+Chapter 4.
 [22
 
 
 
-] <./Pictures/Development/osculator_1.png, id=110, 939.51pt x 538.51187pt>
+] [23]) [24] [25]
+\openout2 = `Development.aux'.
+
+ (./Development.tex
+Chapter 5.
+[26
+
+
+
+] <./Pictures/Development/osculator_1.png, id=126, 939.51pt x 538.51187pt>
 File: ./Pictures/Development/osculator_1.png Graphic file (type png)
 
 <use ./Pictures/Development/osculator_1.png>
@@ -430,15 +471,15 @@ Package pdftex.def Info: ./Pictures/Development/osculator_1.png used on input l
 ine 20.
 (pdftex.def)             Requested size: 226.94925pt x 130.08733pt.
 
-<./Pictures/Development/wiimote_audience.png, id=111, 833.61438pt x 550.055pt>
+<./Pictures/Development/wiimote_audience.png, id=127, 833.61438pt x 550.055pt>
 File: ./Pictures/Development/wiimote_audience.png Graphic file (type png)
 
 <use ./Pictures/Development/wiimote_audience.png>
 Package pdftex.def Info: ./Pictures/Development/wiimote_audience.png used on in
 put line 29.
 (pdftex.def)             Requested size: 197.14595pt x 130.08733pt.
- [23 <./Pictures/Development/osculator_1.png>]
-<./Pictures/Development/wiimotes.jpg, id=117, 3276.24pt x 2457.18pt>
+ [27 <./Pictures/Development/osculator_1.png>]
+<./Pictures/Development/wiimotes.jpg, id=132, 3276.24pt x 2457.18pt>
 File: ./Pictures/Development/wiimotes.jpg Graphic file (type jpg)
 
 <use ./Pictures/Development/wiimotes.jpg>
@@ -446,16 +487,16 @@ Package pdftex.def Info: ./Pictures/Development/wiimotes.jpg used on input line
  40.
 (pdftex.def)             Requested size: 184.96793pt x 138.76157pt.
 
-<./Pictures/Development/multi_wii.png, id=118, 846.16125pt x 511.41063pt>
+<./Pictures/Development/multi_wii.png, id=133, 846.16125pt x 511.41063pt>
 File: ./Pictures/Development/multi_wii.png Graphic file (type png)
 
 <use ./Pictures/Development/multi_wii.png>
 Package pdftex.def Info: ./Pictures/Development/multi_wii.png used on input lin
 e 42.
 (pdftex.def)             Requested size: 229.58987pt x 138.76157pt.
- [24 <./Pictures/Development/wiimote_audience.png> <./Pictures/Development/wiim
+ [28 <./Pictures/Development/wiimote_audience.png> <./Pictures/Development/wiim
 otes.jpg> <./Pictures/Development/multi_wii.png>]
-<./Pictures/Development/threewii_voting.png, id=125, 1228.59pt x 758.33313pt>
+<./Pictures/Development/threewii_voting.png, id=139, 1228.59pt x 758.33313pt>
 File: ./Pictures/Development/threewii_voting.png Graphic file (type png)
 
 <use ./Pictures/Development/threewii_voting.png>
@@ -463,7 +504,7 @@ Package pdftex.def Info: ./Pictures/Development/threewii_voting.png used on inp
 ut line 53.
 (pdftex.def)             Requested size: 210.75096pt x 130.08733pt.
 
-<./Pictures/Development/threewii_voting_sub.png, id=126, 486.31688pt x 435.6275
+<./Pictures/Development/threewii_voting_sub.png, id=140, 486.31688pt x 435.6275
 pt>
 File: ./Pictures/Development/threewii_voting_sub.png Graphic file (type png)
  <use ./Pictures/Development/threewii_voting_sub.png>
@@ -471,30 +512,34 @@ Package pdftex.def Info: ./Pictures/Development/threewii_voting_sub.png used on
  input line 55.
 (pdftex.def)             Requested size: 145.22092pt x 130.08733pt.
 
-<./Pictures/Development/wii_vj.png, id=127, 1127.21124pt x 716.17563pt>
+<./Pictures/Development/wii_vj.png, id=141, 1127.21124pt x 716.17563pt>
 File: ./Pictures/Development/wii_vj.png Graphic file (type png)
 
 <use ./Pictures/Development/wii_vj.png>
 Package pdftex.def Info: ./Pictures/Development/wii_vj.png used on input line 6
 6.
 (pdftex.def)             Requested size: 204.74684pt x 130.08733pt.
- [25 <./Pictures/Development/threewii_voting.png> <./Pictures/Development/three
+ [29 <./Pictures/Development/threewii_voting.png> <./Pictures/Development/three
 wii_voting_sub.png>]
-<./Pictures/Development/vj_and_audience.png, id=133, 1236.11812pt x 758.33313pt
+<./Pictures/Development/vj_and_audience.png, id=148, 1236.11812pt x 758.33313pt
 >
 File: ./Pictures/Development/vj_and_audience.png Graphic file (type png)
  <use ./Pictures/Development/vj_and_audience.png>
 Package pdftex.def Info: ./Pictures/Development/vj_and_audience.png used on inp
 ut line 77.
 (pdftex.def)             Requested size: 212.04233pt x 130.08733pt.
- [26 <./Pictures/Development/wii_vj.png> <./Pictures/Development/vj_and_audienc
-e.png>]) [27]
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[30 <./Pictures/Development/wii_vj.png> <./Pictures/Development/vj_and_audience
+.png>]) [31]
 \openout2 = `Implementation.aux'.
 
-
-(./Implementation.tex
+ (./Implementation.tex
 Chapter 6.
-) [28
+) [32
 
 
 
@@ -503,7 +548,7 @@ Chapter 6.
 
  (./Conclusion.tex
 Chapter 7.
-) [29
+) [33
 
 
 
@@ -511,7 +556,7 @@ Chapter 7.
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
 (Font)              Font shape `U/eurosym/m/sl' tried instead on input line 109
 .
- [30
+ [34
 
 
 
@@ -521,18 +566,18 @@ Underfull \hbox (badness 1389) in paragraph at lines 263--276
 ct-ing the Xy-loband | Jean-Philippe Stein-
  []
 
-) [31] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
+) [35] (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
 (./Abstract.aux) (./Introduction.aux) (./Background.aux)
 (./ResearchQuestion.aux) (./PreliminaryResearch.aux) (./Development.aux)
 (./Implementation.aux) (./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 4673 strings out of 493315
- 70450 string characters out of 6137904
- 144372 words of memory out of 5000000
- 7958 multiletter control sequences out of 15000+600000
- 13055 words of font info for 50 fonts, out of 8000000 for 9000
+ 4685 strings out of 493315
+ 70557 string characters out of 6137904
+ 143372 words of memory out of 5000000
+ 7965 multiletter control sequences out of 15000+600000
+ 14946 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,11n,87p,2131b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,87p,1830b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist
 /fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/font
@@ -540,17 +585,19 @@ s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/eurosym/feymo10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/eur
-osym/feymr10.pfb>
-Output written on Thesis.pdf (39 pages, 5225671 bytes).
+/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsl10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/euros
+ym/feymo10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/eurosym/f
+eymr10.pfb>
+Output written on Thesis.pdf (43 pages, 5253280 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 223 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
