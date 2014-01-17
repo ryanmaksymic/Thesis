@@ -1,56 +1,208 @@
 \chapter{Background}
 
-This chapter examines related research and projects. I will focus on music as a social activity and designing for crowds before discussing relevant projects that were successfully executed in real event settings.
+This chapter provides a brief history of music as a human activity, live performance, and performance technologies. I also conduct case studies on some specific live music events that are closely related to my interests. Lastly, previous research investigating designing interactive systems for crowds is reviewed.
 
-\section{Music as a Social Activity}
-%\section{Music, Participation, and Technology}
+\section{Music, Performance, and Technology}
 
-Investigating music as a social activity will help us understand the roles of the performer and the audience and how they might be modified to enhance a live music performance.\\
+% Music history:
+% Levitin, 2006:
+% * Archaeologists have uninterrupted records of music everywhere and every era humans existed
+% * Music has only been a spectator activity in the past 500 years
+% Jourdain, 1997: Different cultures -- e.g. New Guinea, the Congo, Australian aboriginals -- have different uses for music -- e.g. as a gift, to settle lawsuits, to tell intricate stories
+% Turner, 2011: Repetitive, hypnotic mantras are used by African tribes to draw out harmful spirits
 
-% Notes:
-* Music is inherently social. Many scholars emphasize the importance of participation in human evolution and today in societal and individual health. Other cultures are better for participatory performances. (How do presentational performances benefit the Western culture other than economically?)
+% Music as a social activity:
+% Jourdain, 1997: Anthropologists believe music evolved "to strengthen community bonds and resolve conflicts"
+% Levitin, 2006:
+% * Why did music evolve? Social bonding and coordination, survival methods.
+% * A cluster of genes may control both musicality and outgoingness
+% Auslander, 1999:
+% * Communities are formed based on how the audience interacts, with no dependence on the spectacle at hand
+% * Removing the gap between audience and performer stops it from being a performance. Striving for unity only emphasizes the gap. (I disagree.)
+% Small, 1998:
+% * Community formed at concerts represent ideals, not realities
+% * At a live music performance, the values of a certain social group are "explored, affirmed, and celebrated." Meaning comes from the relationships between the people and the venue, among those taking part, and between the sounds being made.
+% Turino, 2008:
+% * Making music together leads to "sonic bonding"
+% * Connecting with others through art is ``crucial for social and ecological survival'' (Bateson)
+% * Music and dance promote "flow" -- optimal experience (Csikszentmihalyi)
+% * Music making or dancing is a realization of ideal human relationships
+% Turner, 2011:
+% * Communitas arrises from people ridding themselves of concern for status and structure, readiness to ``see their fellows as they are''
+% * The communitas spirit does not take sides, yet it can be ``prostituted'' to produce prejudice
+% * A communitas event (here, Carnaval) is not ordinary, it is brief, yet it is vividly remembered
+% * ``Music is a fail-safe bearer of communitas''. It is ephemeral, emotional, it breaks the rules. "Its life is synonymous with communism, which will spread to all participants and audiences when they get caught up in it."
+% * We cannot share our bodies, but music allows us to share ``precise time''
+% * Flow: In control of the situation, yet fully absorbed "so that it seems to be in control of us." A loss of ego. Related to communitas.
 
-* In Western culture, technology is used heavily to increase the presentational aspect of performance, while overpowering the voice of the audience. Additionally, audience actions like applause are also losing their meaning (Kershaw, Webster).
+% Participatory performances:
+% Turino, 2008:
+% * Artists can shift between participatory and presentational performance
+% * No artist/audience distinction, only participants possibly performing different roles. Emphasis on sonic and physical interaction. "Heightened social interaction." The "doing" is more important than the end result.
+% * Cultural background will determine if a person is comfortable joining a participatory performance
+% * Leads to diminished self-consciousness since everyone is equally contributing
+% * Different roles of different difficult allow for everyone to feel welcome and achieve flow. "Core" and "elaboration" roles cater to advanced and non-advanced performers respectively.
+% * Intensity of participation comes before quality of performance. Inept performers are noticed but not addressed.
+% * Participatory performance does not fit well in a capitalist society. It yields social value, not financial value.
+% * Open form: Basic motives repeated over and over. Easy for newcomers to join in. "Security in constancy." Can facilitate flow.
+% * Hall: Repetition can increase intensity. Synchronicity comforts people. However, Turino believes repetition can "lead to boredom in presentational contexts... Participatory musical styles do not transfer well to presentational stage situations, in spite of nationalists', folklorists', and academics' attempts to bring them into presentational settings." (How do I feel about this?)
+% * Wide tuning, loud volumes, and overlapping textures provide a ?cloaking function? that makes people more comfortable participating
+% * Virtuosic solos are not common
+% * Some participatory performances are sequential -- everyone gets a turn (e.g. Karaoke)
+% * Participatory performance may constrain creativity, but it benefits more people overall
+% * The doing of activities as a group makes participatory events more engaging than performative
 
-* What are the characteristics of a participatory performance? e.g. synchronicity, wide tuning, discrepancies
+% Presentational performances:
+% Turino, 2008:
+% * The performer prepares and presents music to the audience, who does not participate in the performance
+% * Closed form. Predetermined beginning, middle, and end.
+% * Presentational musicians aim for detail, smoothness, coherence. Predictability and control are key. Some participatory-leaning performers may make adjustments to accommodate the audience.
+% * Planned contrasts are implemented in performances to keep the audience interested. This would derail participatory performance.
+% * Attractive because it partially fulfills desire to connect to an artist. Corbett suggests concerts are designed to tease but not consummate this connection, "leaving consumers wanting more."
 
-* Flow
+% Evolution of presentational performances:
+% Jourdain, 1997:
+% * Public concerts were virtually unheard of until the 1600s
+% * Only after the industrial revolution in the 1800s did common folk gain disposable income and public concerts gain popularity
+% * At early operas people talked, ate, and played cards. Even performers would "jabber away" and speak to audience members.
+% * Audiences gradually became annoyances to performers. Some conductors would lock out latecomers, silence applause, and ignore requests.
+% * Near the end of the 1800s, "art music" performances became more modern -- formal and quiet
+% * Some critics call symphony orchestra performances "the epitome of capitalist oppression" -- hierarchical, no audience involvement
+% Small, 1998:
+% * Musicians were first hired to play with aristocrats. "Traveling virtuoso-entrepreneurs" first started playing public performances when they realized the desire of the middle class to display their wealth.
+% * Private performances surfaced around 1730. Ticketed events were not abundant until the 1800s.
 
-* There have been studies done on using technology for new forms of collaborative music creation -- pure participatory performance, where each user is an equal (Gurevich, Tanaka). But this doesn't reflect the nature of artist-fan relationships.
+% Recorded music dominates today:
 
-* Technology -- social media -- has been increasing interaction between artist and audience, and, more notably, making them equals (Baym)
+% Live music > Recorded music:
+% Kelly, 2007: Pop performances are typically re-presentations of recorded material ("reviving the musical corpse")
+% Jourdain, 1997: Technology put music everywhere, lessening its "nourishment." "We live in an age of widespread musical obesity."
+% Auslander, 1999:
+% * The desire for live experiences is a product of mediatization. People want to see concerts so they can experience beloved recorded songs in person.
+% * Live performances have great cultural value, but Auslander believes mediatized performances will soon be more valuable
+% Davidson, 1997: Performers perform better in live situations due to "social facilitation"
+% Inglis, 2006: 
+% * Live performance is the principal source of musical change/innovation
+% * It is unpredictability that makes live better than mediatized performance
+% Marshall, 2006: When Bob Dylan went electric at a festival in 1965, it changed the course of pop music
+% Small, 1998:
+% * Treating the piece of music as the "the supreme reality of art" (Benjamin) implies some fallacies
+% * "Musical works exist in order to give performers something to perform"
+% * Music is not a thing. "Musicking" is an action.
+% * Since people today can hear and see concerts without having to leave their home, the concert "takes on a new and more concentrated ritual significance"
 
-* Recording concerts with cellphones is a divisive for concertgoers and artists alike. Some artists enforce cellphone bans, while others like Radiohead and The Beastie Boys have encouraged filming and even made concert films from the collective footage. It is certainly a new way for fans to participate, but does it remove them too much from the experience?
+% Technology can enhance presentational performances:
+% Auslander, 1999: Mediatized performances can offer more intense sensory experiences than traditional performances
+% Kelly, 2007:
+% * Embodied co-presence of performer and audience is an important convention of pop performances. "Immediacy, intimacy, self-expression and certain kinds of performer-spectator interaction" are expected. The venue becomes "not only a hearing place, but also a seeing place and a being place."
+% * "Presence, representation and self-expression" can be either amplified or attenuated by audiovisual technologies in pop shows
+% * A 1966 Andy Warhol event (featuring the Velvet Underground and Nico) mixed live performance with projection. Attendees viewed the projections as "part of the show."
+% * Imagery framing the performance generally amplifies the performer's presence. This goes against Benjamin's claim that technological intervention will "devalue the here and now of the artwork." Kelly argues that screens showing different perspective in fact amplify the sense of presence. Referring to a Madonna performance, the author states that the juxtaposition in scale between screen and performer actually creates a 'theatrically structured intimacy."
+% * Displaying clips and themes from her music videos at a Madonna concert creates feelings of a "shared past" in the audience. (How might we create instead a "shared present"?)
+% * Kraftwerk left the stage and were replaced by robots for their song Robots. This "problematises traditional modes of presence in pop-concert reception."
+% * Gorillaz is a group fronted by animated characters. They can make a bigger emotional impact than human performers.
+% * One Gorillaz performance featured a deceased singer using prerecorded video and audio -- effectively remediating presence. (How can audience presence be remediated?)
 
-\subsection{Turino}
+% MTV influencing live performance:
+% Auslander, 1999:
+% * Theatre and mass media (TV, film, recorded music) are rivals. They are not inherently this way, but were made this way over time. Live performance's response to this rivalry has to imitate mass media.
+% * "The function of live performance under this new arrangement is to authenticate the video" -- TV > performance (in 1999)
+% * The live/mediatized rivalry is not equal. Television is dominant (in 1999). (The Internet is dominant now?)
+% Koojiman, 2006:
+% * After MTV started in 1981, television became the main promotion tool for music
+% * At the Motown 25 performance, Michael Jackson lip-synched "Billie Jean." The focus was on visuals, with Jackson performing the moonwalk for the first time. This was during the rise of MTV, and the performance was essentially a reenactment of the music video.
+% Burns, 2006: Madonna's performance at the 1984 MTV Video Music Awards was designed to be a music video, and it literally became one
 
-* Why music matters
+% Modern performances are no longer participatory:
+% Kelly, 2007: Horn (2000) provides a definition of a pop music performance that belittles the role of the audience
+% Jourdain, 1997: Technology has made music less participative. (Is that a challenge?)
+% Kelly, 2007: Notions of "identity, authenticity and originality" in pop performance are being challenged. This is allowing for active participation for audience members.
+% In Western culture, technology at live performances overpowers the voice of the audience. Additionally, audience actions like applause are also losing their meaning (Kershaw, Webster).
+% Small, 1998:
+% * Division of talented and non-talented performers is based on a falsehood. We are all capable of creating music.
+% * Sharing performance with strangers in the West is abnormal. Most societies' performance feature members of the community.
+% * Classical music performance turned audience members into spectators, consumers
+% * Audience separated from, "dominated" by performer is a social feature of modern performance. Perhaps a desire to make the perform more "mysterious."
+% * 60s/70s folk fests cultivated community, but it was an orchestrated "illusion." Constraints are always necessary.
+% * Performers dressing in uniform are separating themselves and their responsibilities
+% * Modern orchestra concerts emphasize listening, specialization, formal settings, ticketed admission. They celebrate separation of producer and consumer.
+% Kershaw, 2001:
+% * 20th century London theatre audience have become much more prone to standing ovations than they once were. This may indicate disempowerment and the fall of the theatre as a political environment. Over the 20th century the role of the theatregoer changed from patron to customer. Early audiences would boo or yell approval. After theatre became organized and lavish, a standing ovation became `an orgasm of self-congratulation for money so brilliantly spent... The power of community all but evaporated.`
+% * Applause may be an attempt to form a momentary community
 
-* Presentational performances
+% Social media:
+% Baym, 2012:
+% * Audience-performer relationships were traditionally `parasocial` ? one-sided
+% * Social media has reconfigured this relationship, eliminating `rock gods` and `pop stars`
+% * Interviewed musicians feel social media presence is necessary for success
+% * Some musicians consider fans their friends that they can count on for support
+% * Scalability limits the interactions
+% * Distance may maintain `mystique,` but many artists think this is overrated
+% * Some fans may be overly emotional, feeling `false intimacy`
+% * Social media can, of course, also be a channel for negativity, but this is easy to block
+% * Of course, every artist and fan is different
+% Listeners are more active; remixes, mashups, fan vids, sharing, commenting, etc. are creating a new paradigm for music enjoyment.
+% Karpovich, 2007: Accessible technologies allowed for the popularity of fan vids, non-professional narrative clips inspired by MTV-style music videos
 
-* Participatory performances
 
-\subsection{Kershaw}
+\section{Participating in Performances}
 
-This article examines how the behaviour of London theatre audiences changed over the twentieth century. Kershaw begins by citing a newspaper article claiming that theatre audiences are much more prone to giving standing ovations than they once were. He asserts that investigating this particular trend could tell us more about modern theatre as a whole. It is pointed out that little research has been done on applause as a phenomenon, and Kershaw surmises that this is due to it being taken for granted as a straightforward element of a performance. So, just what is applause? The author proposes that it could be an attempt to extend a performance that one does not want to end, or perhaps it is more ``a giving up of individual judgement" and an attempt at forming a momentary community (p. 135). Regardless, Kershaw maintains that this increasing acquiescence in audiences indicates disempowerment and the fall of the theatre as a political environment. The potential power of an audience is emphasized via a case study: in 1926, an Irish audience rioted during a performance of a controversial play, thereby ending its run and making known the audience's opinion on the play's political issue. This sort of defiant reaction empowers the audience, Kershaw claims, whereas applause seems to actively muffle dissent.
+In the past few years alone, a number of large-scale projects have been realized that use technology to expand live performances into the audience. Some were implemented as experiments at one-time events, while others found commercial success and are being used by big-name companies.
+% Auslander, 1999: "Rock must constantly change to survive" (Grossberg)
+% Divide into types of interactions and include brief descriptions of as many relevant instances as possible (e.g. handing out tambourines, Wilco's online song requests)
+% Wilco allows users to request songs through their website
+% Rich Aucoin incorporates attendees' names in his projections (before the show only?)
+% Born Ruffians take Instagram photos of their audience at every single show, post it to Facebook, and allow everyone to tag themselves
+% Sexton, 2007: Interactivity can benefit sound art. Previous interactive sound art has been designed in order to break down barriers between listener and creator. Synchronous and non-synchronous interactive sound art projects exist, each with their positive and negative qualities.
+% Kelly, 2007:
+% * Elvis Costello uses a "Wheel of Songs" that allows spectators to determine the setlist
+% * Kraftwerk handed out beeping electronic calculators so the audience could join in during their song Pocket Calculator
+% Bootlegging has seen popularity with certain bands and genres. Today, bands are beginning to offer bootlegs themselves (e.g. RHCP, Springsteen).
+% There have been studies done on using technology for new forms of collaborative music creation -- pure participatory performance, where each user is an equal (Gurevich, Tanaka). But this doesn't reflect the nature of artist-fan relationships (?).
+% Recording concerts with cellphones is a divisive for concertgoers and artists alike. Some artists enforce cellphone bans, while others like Radiohead and The Beastie Boys have encouraged filming and even made concert films from the collective footage. It is certainly a new way for fans to participate, but does it remove them too much from the experience?
 
-Kershaw proposes that, over the twentieth century, the role of the audience member changed from patron to customer. Pre-World War II spectators had no inhibitions about booing or yelling their approval. In the 50s, however, theatres were becoming increasingly regarded as indicators of status; they were decorated lavishly, and the audience was managed such that certain groups sat in predetermined places. Since the 80s and 90s, most theatres have been filled with advertisements, indulgent services, and merchandise sales. Thus, states Kershaw, ``the standing ovation [became] an orgasm of self-congratulation for money so brilliantly spent," and``political significance, democratic exchange, and the power of community all but evaporated" (p. 144).
+\subsection{Recent Examples}
 
-The paper closes by recommending that theatres look for ways to encourage conflicting viewpoints in their audiences. The author proposes some admittedly ``desperate" strategies, such as booking audiences with contrasting interests in the show or placing opinionated ``plants" in the crowd to inspire irregular reactions. Kershaw believes that the political potential of the theatre is in danger of being lost and, thus, that ``[it] now, perhaps more than anything else, needs unruly audiences" (p. 151).
+\subsubsection{Wham City Lights}
+
+Wham City Lights is a smartphone application that allows multiple devices to display light shows in sync during a concert. Audience members with an iOS or Android device can download the app before the show. Once the show has begun, an operator activates lighting cues by playing encoded, ultrasonic tones; devices with the app open ``hear" these tones and perform the corresponding cues. This can be done at nearly any scale as long as every device is able to hear the tones. Users generally hold their devices up or wave them above their heads during the show. Light shows can be created live or programmed in advance using an online editor; cues include flashing colours, camera flashes, GIFs, text, and sound.
+
+The concept was originally developed by US musician Dan Deacon. His intention was to prevent concertgoers from using their personal devices and disengaging during live performances. Deacon tested the app at his own shows and received a positive response. Today, Wham City Lights licenses their general-purpose app for different kinds of events; they also develop custom apps to include branding, tour dates, etc. Musicians and organizations like Brad Paisley, the Billboard Music Awards, and Intel have made use of this technology at their events.
+
+\subsubsection{Xylobands}
+
+Xylobands are controllable LED wristbands designed to be worn by potentially thousands of users at entertainment events. They are controlled using a proprietary piece of software downloaded to a laptop; the laptop must then be connected to a radio transmitter. With the software, an operator can turn the Xylobands on or off, select which colours are illuminated, and control the speed of the LEDs' flashing. The transmitter has a range of around 300 meters. Each wristband contains a small printed circuit board that holds, among other components, an RF receiver and an 8-bit microcontroller. The electronics are powered by three 3 V coin cell batteries.
+
+The technology was originally developed for the band Coldplay, and wristbands were handed out to all concertgoers during their 2012 world tour. Giving the wristbands to each audience member at every performance reportedly cost the band \euro{}490 000 (around \$680 000 CAD) per night. UK-based toy development company RB Concepts Ltd. are the creators of the Xyloband. Their website advertises that Xylobands can be customized and used at concerts, festivals, sports stadiums, or corporate events.
+
+\subsubsection{PixMob}
+
+PixMob is a patented wireless technology that enables the control of multiple LED-embedded objects. By giving PixMob objects to spectators, concert producers can create a controllable LED light show within the audience. The objects are activated with signals from infrared transmitters. Like normal lighting fixtures, the transmitters' beams can be shaped with lenses and controlled via the DMX512 protocol. The objects light up when they are hit by a beam, so patterns of moving light can, in essence, be painted across the audience. Light shows are programmed, simulated, and controlled through a software package called LAVA; they can also be controlled in real time using a MIDI controller or the LAVA iPad app. Previous PixMob objects include balls, wristbands, pendants, and beads, and custom object creation is available as well. PixMob also offers ``second life" customization: objects can be programmed to react to sounds, play an mp3 track, or communicate with the user's personal computer after the show is over. Past clients include Microsoft, Arcade Fire, Eurovision, and Heineken.
 
 
 \section{Designing for Crowds}
 
-Designing for large groups of people has only recently attracted notable interest in the field of human-computer interaction (HCI). As interactive systems become increasingly ubiquitous, HCI researchers are asking how the needs of multiple people in a public space differ from those of an independent user. The characteristics of live performance make it an especially useful venue for these investigations; thus, conveniently, much of the research done in this field focuses on concerts, theatre performances, and dance clubs.\\
-
-% Notes:
-* How are interactive systems best designed for crowds?
-
-* Designing interactive systems for crowds ? large public displays, crowd-based gaming, sports spectators. This has only been on CHI's radar since 2009 (Brown's workshop).
-
-* Designing interactive systems for crowds in live music environments
-
-* Designing systems for participatory music experiences
+Designing for large groups of people has only recently attracted notable interest in the field of human-computer interaction (HCI). As interactive systems become increasingly ubiquitous, HCI researchers are asking how the needs of multiple people in a public space differ from those of an independent user. The characteristics of live performance make it an especially useful venue for these investigations; thus, conveniently, much of the research done in this field focuses on concerts, theatre performances, and dance clubs.
+% How are interactive systems best designed for crowds?
+% Designing interactive systems for crowds -- large public displays, crowd-based gaming, sports spectators. This has only been on CHI's radar since 2009 (Brown's workshop).
+% Designing interactive systems for crowds in live music environments
+% Designing systems for participatory music experiences
+% Davidson, 1997:
+% * Performance etiquette is usually formed by crowd mentality, following the majority
+% * Performers pick up information from the audience's broad and specific behaviours
+% * Visuals help audiences read the performer's intentions
+% Sexton, 2007:
+% * Music is always associated with other media -- performer movement, words in programme notes, album art. Meaning emerges from these relationships.
+% * The original phonograph distressed listeners with its lack of visuals. Edison tried to add visual elements to the invention.
+% * Interactivity may bring up authorship issues
+% * Simple synchronous interactions in sound art projects left users with little to explore, resulting in a "flat" experience
+% Jourdain, 1997: We move to music in order to "represent" it. This also amplifies, resonates the musical experience.
+% Levitin, 2006:
+% * "In every society of which we're aware, music and dance are inseparable." Ancient music was based on rhythm and movement. Combining rhythm and melody bridges our cerebellum and cerebral cortex.
+% * Ties between music and movement have only been minimized in the last 100 years
+% Kelly, 2007: Technology incorporated into a show can either be addressed as part of the show or hidden and made illusory
+% ^
+% THIS SECTION IS ONLY ABOUT HCI AND DESIGNING FOR CROWDS. MOVE UNRELATED STUFF ELSEWHERE
 
 \subsection{Maynes-Aminzade, Pausch, and Seitz}
 
@@ -101,28 +253,3 @@ After outlining these observations, the authors present a list of design lessons
 This paper examines the complex interactions between DJs and audience members in nightclubs from an HCI perspective. The authors gathered their information by observing behaviours at nightclubs, surveying DJs, as well as conducting lengthy interviews with them. Most DJs had similar preferences and performance styles. For example, all of the interviewees said they preferred venues where audience and DJ are mutually visible; this allows them to adjust their performance based on visual cues from the audience. Using quick glances, DJs can observe audience members' facial expressions and body language and the flux of people on to and off of the dance floor. Many DJs stated that they will often exaggerate their movement or speak into a microphone to energize the crowd. Small, direct interactions can also occur between DJs and audience members, such as exchanges of facial expressions or gestures. DJs use the information they glean from their audience to shape their performance. Most DJs will craft a playlist before performing based on the venue, event type, and expected audience; during the performance, however, the energy of the crowd ultimately guides how the tracks are mixed. In general, the authors found that, as long as there is sufficient visibility, DJs are extremely competent at adjusting their performance based on the audience. Interviewees saw little need for technology to aid their performances; one of the few wishes the DJs expressed was for a method to discover the musical preferences of a given audience.
 
 Based on the information collected, the authors present some design recommendations for those wishing to bring interactive technologies to nightclubs. For example, they state that, considering how skillful DJs are at observing audiences, any technology meant to gather information from the crowd must be more efficient than DJs themselves. Such technology, the authors suggest, would be most useful for gathering ``invisible" information like musical preferences. They recommend against using biofeedback systems or systems where audiences have a direct influence on the performance; these methods do not help DJs do their job. The researchers state that gradual changes are more satisfying than immediate ones. Lastly, they emphasize the importance of respecting the DJ's art; technologies should allow them to stay in control of the music and should not add to their already-demanding cognitive load.
-
-
-\section{Notable Precedents}
-%\section{Case Studies}
-
-In the past few years alone, a number of large-scale projects have been realized that use technology to expand live performances into the audience. Some were implemented as experiments at one-time events, while others found commercial success and are being used by big-name companies.\\
-
-% Notes:
-* Divide into types of interactions and include brief descriptions of as many relevant instances as possible (e.g. handing out tambourines, Wilco's online song requests)
-
-\subsection{Wham City Lights}
-
-Wham City Lights is a smartphone application that allows multiple devices to display light shows in sync during a concert. Audience members with an iOS or Android device can download the app before the show. Once the show has begun, an operator activates lighting cues by playing encoded, ultrasonic tones; devices with the app open ``hear" these tones and perform the corresponding cues. This can be done at nearly any scale as long as every device is able to hear the tones. Users generally hold their devices up or wave them above their heads during the show. Light shows can be created live or programmed in advance using an online editor; cues include flashing colours, camera flashes, GIFs, text, and sound.
-
-The concept was originally developed by US musician Dan Deacon. His intention was to prevent concertgoers from using their personal devices and disengaging during live performances. Deacon tested the app at his own shows and received a positive response. Today, Wham City Lights licenses their general-purpose app for different kinds of events; they also develop custom apps to include branding, tour dates, etc. Musicians and organizations like Brad Paisley, the Billboard Music Awards, and Intel have made use of this technology at their events.
-
-\subsection{Xylobands}
-
-Xylobands are controllable LED wristbands designed to be worn by potentially thousands of users at entertainment events. They are controlled using a proprietary piece of software downloaded to a laptop; the laptop must then be connected to a radio transmitter. With the software, an operator can turn the Xylobands on or off, select which colours are illuminated, and control the speed of the LEDs' flashing. The transmitter has a range of around 300 meters. Each wristband contains a small printed circuit board that holds, among other components, an RF receiver and an 8-bit microcontroller. The electronics are powered by three 3 V coin cell batteries.
-
-The technology was originally developed for the band Coldplay, and wristbands were handed out to all concertgoers during their 2012 world tour. Giving the wristbands to each audience member at every performance reportedly cost the band \euro{}490 000 (around \$680 000 CAD) per night. UK-based toy development company RB Concepts Ltd. are the creators of the Xyloband. Their website advertises that Xylobands can be customized and used at concerts, festivals, sports stadiums, or corporate events.
-
-\subsection{PixMob}
-
-PixMob is a patented wireless technology that enables the control of multiple LED-embedded objects. By giving PixMob objects to spectators, concert producers can create a controllable LED light show within the audience. The objects are activated with signals from infrared transmitters. Like normal lighting fixtures, the transmitters' beams can be shaped with lenses and controlled via the DMX512 protocol. The objects light up when they are hit by a beam, so patterns of moving light can, in essence, be painted across the audience. Light shows are programmed, simulated, and controlled through a software package called LAVA; they can also be controlled in real time using a MIDI controller or the LAVA iPad app. Previous PixMob objects include balls, wristbands, pendants, and beads, and custom object creation is available as well. PixMob also offers ``second life" customization: objects can be programmed to react to sounds, play an mp3 track, or communicate with the user's personal computer after the show is over. Past clients include Microsoft, Arcade Fire, Eurovision, and Heineken.
