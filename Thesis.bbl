@@ -1,20 +1,60 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{Amex Unstaged: Usher}}}{%
-\APACcitebtitle {{Amex Unstaged: Usher}}}{%
-{\protect \APACyear {2012}}%
+Aigner%
+, Tomitsch%
+, Stroe%
+\BCBL {}\ \BBA {} Rzepa%
+}{%
+Aigner%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
 }]{%
-usher1}
+aigner04}
 \APACinsertmetastar {%
-usher1}%
-\APACrefbtitle {{Amex Unstaged: Usher}.} {{Amex Unstaged: Usher}.}
+aigner04}%
+\begin{APACrefauthors}%
+Aigner, W.%
+, Tomitsch, M.%
+, Stroe, M.%
+\BCBL {}\ \BBA {} Rzepa, R.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\APACrefYearMonthDay{2012}{}{}.
+\APACrefYearMonthDay{2004}{}{}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.momentfactory.com/en/project/stage/Amex_Unstaged:_Usher}
-  \end{APACrefURL}
+{\BBOQ}\APACrefatitle {{Be a judge! Wearable wireless motion sensors for
+  audience participation}} {{Be a judge! Wearable wireless motion sensors for
+  audience participation}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{CHI '04 Extended Abstracts on Human Factors in
+  Computing Systems}} {{CHI '04 Extended Abstracts on Human Factors in
+  Computing Systems}}\ (\BPGS\ 1617--1621).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Auslander%
+}{%
+Auslander%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+auslander99}
+\APACinsertmetastar {%
+auslander99}%
+\begin{APACrefauthors}%
+Auslander, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1999}.
+\newblock
+\APACrefbtitle {Liveness: Performance in a mediatized culture} {Liveness:
+  Performance in a mediatized culture}.
+\newblock
+\APACaddressPublisher{}{Routledge}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -49,6 +89,31 @@ Barkhuus, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Baym%
+}{%
+Baym%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+baym12}
+\APACinsertmetastar {%
+baym12}%
+\begin{APACrefauthors}%
+Baym, N\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Fans or friends? Seeing social media audiences as
+  musicians do}} {{Fans or friends? Seeing social media audiences as musicians
+  do}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Participations: Journal of Audience \& Reception
+  Studies}{9}{2}{186--316}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bongers%
 }{%
 Bongers%
@@ -77,42 +142,85 @@ Bongers, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{Coldplay: News - Interview: Xylobands inventor Jason
-  Regler}}}{%
-\APACcitebtitle {{Coldplay: News - Interview: Xylobands inventor Jason
-  Regler}}}{%
-{\protect \APACyear {2012}}%
+Burns%
+}{%
+Burns%
+}{%
+{\protect \APACyear {2006}}%
 }]{%
-xylobands2}
+burns06}
 \APACinsertmetastar {%
-xylobands2}%
-\APACrefbtitle {{Coldplay: News - Interview: Xylobands inventor Jason Regler}.}
-  {{Coldplay: News - Interview: Xylobands inventor Jason Regler}.}
+burns06}%
+\begin{APACrefauthors}%
+Burns, G.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\APACrefYearMonthDay{2012}{February}{}.
+\APACrefYearMonthDay{2006}{}{}.
 \newblock
-\begin{APACrefURL} [{September 27,
-  2013}]\url{http://www.coldplay.com/newsdetail.php?id=906} \end{APACrefURL}
+{\BBOQ}\APACrefatitle {{Live on tape. Madonna: MTV Video Music Awards, Radio
+  City Music Hall, New York, September 14, 1984}} {{Live on tape. Madonna: MTV
+  Video Music Awards, Radio City Music Hall, New York, September 14,
+  1984}}.{\BBCQ}
+\newblock
+\BIn{} I.~Inglis\ (\BED), \APACrefbtitle {Performance and Popular Music:
+  History Place and Time.} {Performance and popular music: History place and
+  time.}
+\newblock
+\APACaddressPublisher{}{Ashgate Publishing, Limited}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE
-  Ten}}}{%
-\APACcitebtitle {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE
-  Ten}}}{%
-{\protect \APACyear {2012}}%
+Davidson%
+}{%
+Davidson%
+}{%
+{\protect \APACyear {1997}}%
 }]{%
-xylobands4}
+davidson97}
 \APACinsertmetastar {%
-xylobands4}%
-\APACrefbtitle {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE
-  Ten}.} {{Coldplay spend \euro{}490,000 a night on Xylobands - RTE Ten}.}
+davidson97}%
+\begin{APACrefauthors}%
+Davidson, J\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\APACrefYearMonthDay{2012}{June}{}.
+\APACrefYearMonthDay{1997}{}{}.
 \newblock
-\begin{APACrefURL} [{September 27,
-  2013}]\url{http://www.rte.ie/ten/news/2012/0615/438139-coldplay/}
-  \end{APACrefURL}
+{\BBOQ}\APACrefatitle {The social in music performance} {The social in music
+  performance}.{\BBCQ}
+\newblock
+\BIn{} D.~Hargreaves\ \BBA {} A.~North\ (\BEDS), \APACrefbtitle {The social
+  psychology of music.} {The social psychology of music.}
+\newblock
+\APACaddressPublisher{}{Oxford University Press, Incorporated}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Feldmeier%
+\ \BBA {} Paradiso%
+}{%
+Feldmeier%
+\ \BBA {} Paradiso%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+feldmeier07}
+\APACinsertmetastar {%
+feldmeier07}%
+\begin{APACrefauthors}%
+Feldmeier, M.%
+\BCBT {}\ \BBA {} Paradiso, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An interactive music environment for large groups with
+  giveaway wireless motion sensors} {An interactive music environment for large
+  groups with giveaway wireless motion sensors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Music Journal}{31}{1}{50--67}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -148,6 +256,106 @@ Gates, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Inglis%
+}{%
+Inglis%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+inglis06}
+\APACinsertmetastar {%
+inglis06}%
+\begin{APACrefauthors}%
+Inglis, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {Performance and Popular Music: History Place and Time}
+  {Performance and popular music: History place and time}.
+\newblock
+\APACaddressPublisher{}{Ashgate Publishing, Limited}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jourdain%
+}{%
+Jourdain%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+jourdain97}
+\APACinsertmetastar {%
+jourdain97}%
+\begin{APACrefauthors}%
+Jourdain, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1997}.
+\newblock
+\APACrefbtitle {{Music, the brain, and ecstasy: How music captures our
+  imagination}} {{Music, the brain, and ecstasy: How music captures our
+  imagination}}.
+\newblock
+\APACaddressPublisher{}{William Morrow and Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karpovich%
+}{%
+Karpovich%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+karpovich07}
+\APACinsertmetastar {%
+karpovich07}%
+\begin{APACrefauthors}%
+Karpovich, A\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reframing fan videos} {Reframing fan videos}.{\BBCQ}
+\newblock
+\BIn{} J.~Sexton\ (\BED), \APACrefbtitle {Music, sound and multimedia: From the
+  live to the virtual.} {Music, sound and multimedia: From the live to the
+  virtual.}
+\newblock
+\APACaddressPublisher{}{Edinburgh University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kelly%
+}{%
+Kelly%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+kelly07}
+\APACinsertmetastar {%
+kelly07}%
+\begin{APACrefauthors}%
+Kelly, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pop music, multimedia and live performance} {Pop music,
+  multimedia and live performance}.{\BBCQ}
+\newblock
+\BIn{} J.~Sexton\ (\BED), \APACrefbtitle {Music, sound and multimedia: From the
+  live to the virtual.} {Music, sound and multimedia: From the live to the
+  virtual.}
+\newblock
+\APACaddressPublisher{}{Edinburgh University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kershaw%
 }{%
 Kershaw%
@@ -172,6 +380,84 @@ Kershaw, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kooijman%
+}{%
+Kooijman%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+kooijman06}
+\APACinsertmetastar {%
+kooijman06}%
+\begin{APACrefauthors}%
+Kooijman, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Michael Jackson: Motown 25, Pasadena Civic Auditorium,
+  March 25, 1983}} {{Michael Jackson: Motown 25, Pasadena Civic Auditorium,
+  March 25, 1983}}.{\BBCQ}
+\newblock
+\BIn{} I.~Inglis\ (\BED), \APACrefbtitle {Performance and Popular Music:
+  History Place and Time.} {Performance and popular music: History place and
+  time.}
+\newblock
+\APACaddressPublisher{}{Ashgate Publishing, Limited}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Levitin%
+}{%
+Levitin%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+levitin06}
+\APACinsertmetastar {%
+levitin06}%
+\begin{APACrefauthors}%
+Levitin, D\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {This is your brain on music: The science of a human obsession}
+  {This is your brain on music: The science of a human obsession}.
+\newblock
+\APACaddressPublisher{}{Penguin}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marshall%
+}{%
+Marshall%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+marshall06}
+\APACinsertmetastar {%
+marshall06}%
+\begin{APACrefauthors}%
+Marshall, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Bob Dylan: Newport Folk Festival, July 25, 1965}} {{Bob
+  Dylan: Newport Folk Festival, July 25, 1965}}.{\BBCQ}
+\newblock
+\BIn{} I.~Inglis\ (\BED), \APACrefbtitle {Performance and Popular Music:
+  History Place and Time.} {Performance and popular music: History place and
+  time.}
+\newblock
+\APACaddressPublisher{}{Ashgate Publishing, Limited}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Maynes-Aminzade%
 , Pausch%
 \BCBL {}\ \BBA {} Seitz%
@@ -192,30 +478,45 @@ Maynes-Aminzade, D.%
 \newblock
 \APACrefYearMonthDay{2002}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Techniques for Interactive Audience Participation}
+{\BBOQ}\APACrefatitle {Techniques for interactive audience participation}
   {Techniques for interactive audience participation}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {{Proceedings of the 4th IEEE International Conference on
-  Multimodal Interfaces}.} {{Proceedings of the 4th IEEE International
-  Conference on Multimodal Interfaces}.}
+  Multimodal Interfaces}} {{Proceedings of the 4th IEEE International
+  Conference on Multimodal Interfaces}}\ (\BPGS\ 15--20).
 \newblock
 \APACaddressPublisher{Washington, DC, USA}{IEEE Computer Society}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{PixMob by ESKI - \#pixmob}}}{%
-\APACcitebtitle {{PixMob by ESKI - \#pixmob}}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+N\'eda%
+, Ravasz%
+, Brechet%
+, Vicsek%
+\BCBL {}\ \BBA {} Barab\'asi%
+}{%
+N\'eda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
 }]{%
-pixmob1}
+neda00}
 \APACinsertmetastar {%
-pixmob1}%
-\APACrefbtitle {{PixMob by ESKI - \#pixmob}.} {{PixMob by ESKI - \#pixmob}.}
+neda00}%
+\begin{APACrefauthors}%
+N\'eda, Z.%
+, Ravasz, E.%
+, Brechet, Y.%
+, Vicsek, T.%
+\BCBL {}\ \BBA {} Barab\'asi, A.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2000}{}{}.
 \newblock
-\begin{APACrefURL} [{October 13, 2013}]\url{http://pixmob.info/}
-  \end{APACrefURL}
+{\BBOQ}\APACrefatitle {The sound of many hands clapping} {The sound of many
+  hands clapping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{403}{6772}{849--850}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -250,28 +551,49 @@ Reeves, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Steinmetz%
+Sexton%
 }{%
-Steinmetz%
+Sexton%
 }{%
-{\protect \APACyear {2012}}%
+{\protect \APACyear {2007}}%
 }]{%
-xylobands3}
+sexton07}
 \APACinsertmetastar {%
-xylobands3}%
+sexton07}%
 \begin{APACrefauthors}%
-Steinmetz, J\BHBI P.%
+Sexton, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2012}{May}{}.
+\APACrefYear{2007}.
 \newblock
-\APACrefbtitle {{Dissecting the Xyloband | Jean-Philippe Steinmetz}.}
-  {{Dissecting the Xyloband | Jean-Philippe Steinmetz}.}
+\APACrefbtitle {Music, sound and multimedia: From the live to the virtual}
+  {Music, sound and multimedia: From the live to the virtual}.
 \newblock
-\begin{APACrefURL} [{September 27,
-  2013}]\url{http://www.caskater.com/2012/05/02/dissecting-the-xyloband/}
-  \end{APACrefURL}
+\APACaddressPublisher{}{Edinburgh University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Small%
+}{%
+Small%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+small98}
+\APACinsertmetastar {%
+small98}%
+\begin{APACrefauthors}%
+Small, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {Musicking: The meanings of performing and listening}
+  {Musicking: The meanings of performing and listening}.
+\newblock
+\APACaddressPublisher{}{Wesleyan University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -325,10 +647,33 @@ Turino, T.%
 \newblock
 \APACrefYear{2008}.
 \newblock
-\APACrefbtitle {Music as Social Life: The Politics of Participation} {Music as
+\APACrefbtitle {Music as social life: The politics of participation} {Music as
   social life: The politics of participation}.
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Turner%
+}{%
+Turner%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+turner11}
+\APACinsertmetastar {%
+turner11}%
+\begin{APACrefauthors}%
+Turner, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Communitas: The anthropology of collective joy} {Communitas:
+  The anthropology of collective joy}.
+\newblock
+\APACaddressPublisher{}{Palgrave Macmillan}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -360,39 +705,6 @@ Ulyate, R.%
   Interfaces for Musical Expression}}\ (\BPGS\ 1--3).
 \newblock
 \APACaddressPublisher{Singapore, Singapore}{National University of Singapore}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{Wham City Lights - Press Kit}}}{%
-\APACcitebtitle {{Wham City Lights - Press Kit}}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-whamcity1}
-\APACinsertmetastar {%
-whamcity1}%
-\APACrefbtitle {{Wham City Lights - Press Kit}.} {{Wham City Lights - Press
-  Kit}.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL} [{September 30,
-  2013}]\url{http://whamcitylights.com/faq.html} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Xylobands}}{%
-\APACcitebtitle {Xylobands}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-xylobands1}
-\APACinsertmetastar {%
-xylobands1}%
-\APACrefbtitle {Xylobands.} {Xylobands.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL} [{September 27, 2013}]\url{http://xylobands.com}
-  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

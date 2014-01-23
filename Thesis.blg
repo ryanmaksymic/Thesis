@@ -6,7 +6,7 @@ A level-1 auxiliary file: AuthorsDeclaration.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Background.aux
-A level-1 auxiliary file: Methods.aux
+A level-1 auxiliary file: ResearchQuestion.aux
 A level-1 auxiliary file: PreliminaryResearch.aux
 A level-1 auxiliary file: Development.aux
 A level-1 auxiliary file: Implementation.aux
@@ -21,60 +21,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
-Warning--entry type for "xylobands1" isn't style-file defined
---line 12 of file Thesis.bib
-Warning--entry type for "usher1" isn't style-file defined
---line 20 of file Thesis.bib
-Warning--entry type for "pixmob1" isn't style-file defined
---line 93 of file Thesis.bib
-Warning--entry type for "xylobands2" isn't style-file defined
---line 101 of file Thesis.bib
-Warning--entry type for "xylobands3" isn't style-file defined
---line 111 of file Thesis.bib
-Warning--entry type for "xylobands4" isn't style-file defined
---line 122 of file Thesis.bib
-Warning--entry type for "whamcity1" isn't style-file defined
---line 133 of file Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 16 entries,
+You've used 26 entries,
             6735 wiz_defined-function locations,
-            1338 strings with 12971 characters,
-and the built_in function-call counts, 29539 in all, are:
-= -- 4215
-> -- 175
-< -- 1083
-+ -- 1047
-- -- 20
-* -- 1580
-:= -- 4401
-add.period$ -- 72
-call.type$ -- 16
-change.case$ -- 240
+            1389 strings with 14143 characters,
+and the built_in function-call counts, 49038 in all, are:
+= -- 6469
+> -- 391
+< -- 2033
++ -- 1983
+- -- 52
+* -- 2782
+:= -- 8115
+add.period$ -- 132
+call.type$ -- 26
+change.case$ -- 456
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 633
-empty$ -- 1317
-format.name$ -- 241
-if$ -- 6230
+cite$ -- 52
+duplicate$ -- 1234
+empty$ -- 2091
+format.name$ -- 559
+if$ -- 9843
 int.to.chr$ -- 0
-int.to.str$ -- 32
+int.to.str$ -- 52
 missing$ -- 0
-newline$ -- 351
-num.names$ -- 80
-pop$ -- 644
+newline$ -- 644
+num.names$ -- 220
+pop$ -- 1097
 preamble$ -- 1
-purify$ -- 61
+purify$ -- 104
 quote$ -- 0
-skip$ -- 2509
+skip$ -- 3671
 stack$ -- 0
-substring$ -- 1198
-swap$ -- 379
-text.length$ -- 68
+substring$ -- 2261
+swap$ -- 731
+text.length$ -- 97
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2376
+type$ -- 2976
 warning$ -- 0
-while$ -- 105
+while$ -- 208
 width$ -- 0
-write$ -- 432
-(There were 7 warnings)
+write$ -- 757

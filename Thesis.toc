@@ -3,40 +3,43 @@
 \contentsline {section}{\numberline {1.2}Objectives}{5}
 \contentsline {section}{\numberline {1.3}Overview}{6}
 \contentsline {chapter}{\numberline {2}Background}{8}
-\contentsline {section}{\numberline {2.1}Music, Performance, and Technology}{8}
-\contentsline {section}{\numberline {2.2}Participating in Performances}{8}
-\contentsline {subsection}{\numberline {2.2.1}Recent Examples}{8}
-\contentsline {subsubsection}{Wham City Lights}{8}
-\contentsline {subsubsection}{Xylobands}{9}
-\contentsline {subsubsection}{PixMob}{10}
-\contentsline {section}{\numberline {2.3}Designing for Crowds}{10}
-\contentsline {subsection}{\numberline {2.3.1}Maynes-Aminzade, Pausch, and Seitz}{11}
-\contentsline {subsection}{\numberline {2.3.2}Ulyate and Bianciardi}{12}
-\contentsline {subsection}{\numberline {2.3.3}Bongers}{13}
-\contentsline {subsection}{\numberline {2.3.4}Barkhuus and Jorgensen}{13}
-\contentsline {subsection}{\numberline {2.3.5}Tseng et al.}{14}
-\contentsline {subsection}{\numberline {2.3.6}Reeves, Sherwood, and Brown}{15}
-\contentsline {subsection}{\numberline {2.3.7}Gates, Subramanian, and Gutwin}{16}
-\contentsline {chapter}{\numberline {3}Research Question}{18}
-\contentsline {section}{\numberline {3.1}Research Question}{18}
-\contentsline {section}{\numberline {3.2}Hypothesis}{18}
-\contentsline {section}{\numberline {3.3}Approach}{18}
-\contentsline {chapter}{\numberline {4}Preliminary Research}{19}
-\contentsline {section}{\numberline {4.1}Audiences}{19}
-\contentsline {section}{\numberline {4.2}Performers}{21}
-\contentsline {chapter}{\numberline {5}Development}{23}
-\contentsline {section}{\numberline {5.1}First Phase}{23}
-\contentsline {subsection}{\numberline {5.1.1}Prototyping}{23}
-\contentsline {subsection}{\numberline {5.1.2}User Testing}{28}
-\contentsline {section}{\numberline {5.2}Second Phase}{28}
-\contentsline {subsection}{\numberline {5.2.1}Prototyping}{28}
-\contentsline {subsection}{\numberline {5.2.2}User Testing}{28}
-\contentsline {chapter}{\numberline {6}Implementation}{29}
-\contentsline {section}{\numberline {6.1}Production}{29}
-\contentsline {section}{\numberline {6.2}Event}{29}
-\contentsline {section}{\numberline {6.3}Reflection}{29}
-\contentsline {chapter}{\numberline {7}Conclusion}{30}
-\contentsline {section}{\numberline {7.1}Discussion}{30}
-\contentsline {section}{\numberline {7.2}Future Directions}{30}
-\contentsline {section}{\numberline {7.3}Conclusion}{30}
-\contentsline {chapter}{References}{31}
+\contentsline {section}{\numberline {2.1}Music and Performance}{8}
+\contentsline {subsection}{\numberline {2.1.1}Performance Types}{9}
+\contentsline {subsection}{\numberline {2.1.2}Evolution of Presentational Performance}{11}
+\contentsline {section}{\numberline {2.2}A Return to Participatory Performance}{13}
+\contentsline {subsection}{\numberline {2.2.1}Recent Examples}{13}
+\contentsline {subsubsection}{Wham City Lights}{13}
+\contentsline {subsubsection}{Xylobands}{14}
+\contentsline {subsubsection}{PixMob}{15}
+\contentsline {section}{\numberline {2.3}Designing for Audiences}{15}
+\contentsline {subsection}{\numberline {2.3.1}Maynes-Aminzade, Pausch, and Seitz}{15}
+\contentsline {subsection}{\numberline {2.3.2}Ulyate and Bianciardi}{16}
+\contentsline {subsection}{\numberline {2.3.3}Bongers}{17}
+\contentsline {subsection}{\numberline {2.3.4}Barkhuus and Jorgensen}{18}
+\contentsline {subsection}{\numberline {2.3.5}Tseng et al.}{18}
+\contentsline {subsection}{\numberline {2.3.6}Reeves, Sherwood, and Brown}{19}
+\contentsline {subsection}{\numberline {2.3.7}Gates, Subramanian, and Gutwin}{20}
+\contentsline {subsection}{\numberline {2.3.8}Feldmeier, Paradiso}{21}
+\contentsline {chapter}{\numberline {3}Research Question}{22}
+\contentsline {section}{\numberline {3.1}Research Question}{22}
+\contentsline {section}{\numberline {3.2}Hypothesis}{22}
+\contentsline {section}{\numberline {3.3}Approach}{22}
+\contentsline {chapter}{\numberline {4}Preliminary Research}{23}
+\contentsline {section}{\numberline {4.1}Audiences}{23}
+\contentsline {section}{\numberline {4.2}Performers}{25}
+\contentsline {chapter}{\numberline {5}Development}{27}
+\contentsline {section}{\numberline {5.1}First Phase}{27}
+\contentsline {subsection}{\numberline {5.1.1}Prototyping}{27}
+\contentsline {subsection}{\numberline {5.1.2}User Testing}{32}
+\contentsline {section}{\numberline {5.2}Second Phase}{32}
+\contentsline {subsection}{\numberline {5.2.1}Prototyping}{32}
+\contentsline {subsection}{\numberline {5.2.2}User Testing}{32}
+\contentsline {chapter}{\numberline {6}Implementation}{33}
+\contentsline {section}{\numberline {6.1}Production}{33}
+\contentsline {section}{\numberline {6.2}Event}{33}
+\contentsline {section}{\numberline {6.3}Reflection}{33}
+\contentsline {chapter}{\numberline {7}Conclusion}{34}
+\contentsline {section}{\numberline {7.1}Discussion}{34}
+\contentsline {section}{\numberline {7.2}Future Directions}{34}
+\contentsline {section}{\numberline {7.3}Conclusion}{34}
+\contentsline {chapter}{References}{35}
