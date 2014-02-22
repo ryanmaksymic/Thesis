@@ -7,9 +7,9 @@ A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Background.aux
 A level-1 auxiliary file: ResearchQuestion.aux
-A level-1 auxiliary file: PreliminaryResearch.aux
-A level-1 auxiliary file: Development.aux
-A level-1 auxiliary file: Implementation.aux
+A level-1 auxiliary file: Prototype1.aux
+A level-1 auxiliary file: Ethnography.aux
+A level-1 auxiliary file: Prototype2.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -22,44 +22,44 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 26 entries,
+You've used 28 entries,
             6735 wiz_defined-function locations,
-            1389 strings with 14143 characters,
-and the built_in function-call counts, 49038 in all, are:
-= -- 6469
-> -- 391
-< -- 2033
-+ -- 1983
-- -- 52
-* -- 2782
-:= -- 8115
-add.period$ -- 132
-call.type$ -- 26
-change.case$ -- 456
+            1401 strings with 14359 characters,
+and the built_in function-call counts, 52241 in all, are:
+= -- 6896
+> -- 413
+< -- 2142
++ -- 2087
+- -- 56
+* -- 2950
+:= -- 8607
+add.period$ -- 142
+call.type$ -- 28
+change.case$ -- 491
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 1234
-empty$ -- 2091
-format.name$ -- 559
-if$ -- 9843
+cite$ -- 56
+duplicate$ -- 1321
+empty$ -- 2251
+format.name$ -- 590
+if$ -- 10509
 int.to.chr$ -- 0
-int.to.str$ -- 52
+int.to.str$ -- 56
 missing$ -- 0
-newline$ -- 644
-num.names$ -- 220
-pop$ -- 1097
+newline$ -- 690
+num.names$ -- 238
+pop$ -- 1157
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 112
 quote$ -- 0
-skip$ -- 3671
+skip$ -- 3956
 stack$ -- 0
-substring$ -- 2261
-swap$ -- 731
-text.length$ -- 97
+substring$ -- 2380
+swap$ -- 783
+text.length$ -- 101
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2976
+type$ -- 3200
 warning$ -- 0
-while$ -- 208
+while$ -- 220
 width$ -- 0
-write$ -- 757
+write$ -- 807

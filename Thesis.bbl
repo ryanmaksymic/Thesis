@@ -256,6 +256,32 @@ Gates, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Horn%
+}{%
+Horn%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+horn00}
+\APACinsertmetastar {%
+horn00}%
+\begin{APACrefauthors}%
+Horn, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Some Thoughts on the Work in Popular Music} {Some
+  thoughts on the work in popular music}.{\BBCQ}
+\newblock
+\BIn{} M.~Talbot\ (\BED), \APACrefbtitle {The Musical Work: Reality or
+  Invention?} {The musical work: Reality or invention?}
+\newblock
+\APACaddressPublisher{}{Liverpool University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Inglis%
 }{%
 Inglis%
@@ -705,6 +731,29 @@ Ulyate, R.%
   Interfaces for Musical Expression}}\ (\BPGS\ 1--3).
 \newblock
 \APACaddressPublisher{Singapore, Singapore}{National University of Singapore}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wikstr\"{o}m%
+}{%
+Wikstr\"{o}m%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+wikstrom13}
+\APACinsertmetastar {%
+wikstrom13}%
+\begin{APACrefauthors}%
+Wikstr\"{o}m, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {The music industry: Music in the cloud} {The music industry:
+  Music in the cloud}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

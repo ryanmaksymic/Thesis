@@ -11,8 +11,9 @@
 \usepackage{mdwlist}										% Compact lists
 \usepackage{url}											% Fix URLs in References
 \usepackage{pdfpages}										% Insert external PDF documents
+\usepackage{hyperref}										% Table of contents links
 
-\graphicspath{{./Pictures/}{./Pictures/Development/}}					% All pictures are accessed from here
+\graphicspath{{./Pictures/}{./Pictures/Prototype1/}{./Pictures/Prototype2/}} % All pictures are accessed from here
 
 \renewcommand{\bibname}{References}  							% Change "Bibliography" into "References"
 
@@ -29,6 +30,7 @@
 % ==== Title page ==== %
 
 \input{Title}
+
 \clearpage
 \setcounter{page}{2}
 
@@ -66,8 +68,10 @@
 
 \cleardoublepage
 \pagestyle{fancy}				% Add headers with chapter titles
+\fancyhead{}					% Clear default header
+\fancyhead[C]{\leftmark}			% Add center-justified chapter names
 
-%\pagenumbering{gobble}			% This ensures page 1 is not numbered
+%\pagenumbering{gobble}		% This ensures page 1 is not numbered
 \pagenumbering{arabic}
 
 
@@ -79,11 +83,13 @@
 
 \include{ResearchQuestion}
 
-\include{PreliminaryResearch}
+\include{Ethnography}
 
-\include{Development}
+\include{Prototype1}
 
-\include{Implementation}
+\include{Prototype2}
+
+\include{Prototype3}
 
 \include{Conclusion}
 
