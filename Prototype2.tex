@@ -4,11 +4,8 @@ This chapter describes the chronology of this project's second prototype...
 
 \section{Conception}
 
-* This prototype's purpose was to explore possible input mechanisms.\\
-** The past work outlined in Chapter 2 provided some guidance on how to begin:\\
-- Researchers indicated the importance that inputs be based on already-present activities in the given environment (Barkhuus \& Jorgensen, 2008). Furthermore, others noted increased satisfaction from full-body movement as input (Ulyate \& Biancardi, 2001), and this goes well with the apparent subconscious ties between music and movement (Jourdain, 1997; Levitin, 2006). Thus, I created multiple input mechanisms based on some crowd behaviours -- clapping, swaying arms, doing `the wave,' holding up lighters, giving a thumbs up or thumbs down, and dancing.\\
-- Researchers stressed the importance of immediate, obvious, and meaningful feedback (Ulyate \& Biancardi, 2001). I incorporated straightforward visual feedback for each input mechanism.\\
-** I was given the opportunity to install work at an exhibition -- eLeo, an interactive show held at OCAD University. I modified my program to run on a loop such that users could engage with it without my facilitation.
+This prototype's purpose was to explore possible input mechanisms for audience members. Through user testing, I hoped to identify which were intuitive, which were most natural and meaningful to perform as a group, and which afforded accurate collaborative control. From the start, it was clear that body movement would be more a fitting input than something like button pressing. Users find movement-based interactions more satisfying (Ulyate \& Biancardi, 2001); furthermore, there are apparent subconscious ties that link music and movement (Jourdain, 1997; Levitin, 2006), making this a natural form of input for a live music environment. In designing their audience-interaction system, Barkhuus and Jorgensen (2008) found that movements based on already-present behaviour were especially effective input methods. Inspired by this recommendation, I created a list of common crowd behaviours to be incorporated in the system -- giving a thumbs up or thumbs down, swaying one's arms back and forth, clapping, doing `the wave,' holding a lighter in the air, and dancing. Researchers emphasize the importance of meaningful feedback in crowd-controlled systems (Ulyate \& Biancardi, 2001; Barkhuus \& Jorgensen, 2008), and this was also a recurring concern in the response to Prototype \#1. Thus, this prototype also allowed for exploration of different feedback methods. After receiving the opportunity to participate in an exhibition at OCAD University, I decided to design this prototype as an interactive installation. By inviting the exhibition attendees to test the various methods of input, I could observe the behaviours of a wide variety of users.
+
 % Background:
 % Auslander, 1999: Communities are formed based on how the audience interacts, with no dependence on the spectacle at hand
 % Turino, 2008:
@@ -66,57 +63,36 @@ This chapter describes the chronology of this project's second prototype...
 
 \section{Prototyping}
 
-I first created a Max patcher that reads various movement data from the controller and visualizes them as different motions that a typical concertgoer might perform. The motions are: giving a ``thumbs up" or ``thumbs down", swaying arms from side to side, clapping, or doing ``the wave," as shown in Figure \ref{prototyping2.1}. Visual feedback is provided in the form of illuminated LED objects and moving sliders.
+The first prototype provided a suitable framework for this experiment: I continued using multiple Wii controllers as input devices, and OSCulator was used to route the data to Max where it processed and represented visually. From here, I needed to be able to recognize when a user was performing one of the selected crowd behaviours. By pulling data from the controller's motion sensors, I was able to identify when the user was giving a thumbs up or down, swaying their arms left or right, clapping, or doing the wave. I incorporated simple visual feedback -- LED objects that light up when the user holds their thumb up or down or claps, sliders that follow arm movement when the user is swaying or doing the wave. Calibrating these required trial and error tests using different thresholds -- determining what amount of acceleration qualified as a clap, for instance. Figure \ref{prototyping2.1} shows the first iteration of this prototype.
 
 \begin{figure}[t]
 	\centering
 
-	\includegraphics[height=0.3\textwidth]{wiimote_audience.png}
-	\caption{Audience inputs}
+	\includegraphics[height=0.4\textwidth]{wiimote_audience.png}
+	\caption{Monitoring thumbs up/down, arm swaying, clapping, and the wave}
 
 	\label{prototyping2.1}
 \end{figure}
 
-\begin{figure}[t]
-	\centering
+Next, I modularized the previous patcher and multiplied it sevenfold. The actions of seven users could now be monitored simultaneously. I developed new visualizations to reflect these multiple inputs, shown in Figure X. Thumbs up/down mode simply displays how many users are holding their thumbs up and down. The wave mode shows the vertical position of each user's arms. I created two modes to detect clapping. The first displays seven LED objects that illuminate when each user claps. The second serves as a `clap-o-meter,' visualizing the collective clapping activity. Lastly, the swaying mode includes a slider to display the left-right movement of each user.
 
-	\includegraphics[height=0.3\textwidth]{the_wave.png}
-	\caption{Audience inputs with seven users}
+% Figure X
 
-	\label{prototyping2.2}
-\end{figure}
+Two additional modes were added at this point to act as controls. The first invites users to imitate holding a lighter in the air. This is done by holding the Wii controller upright and pressing the A button, causing LED objects on the screen to illuminate. I included this button-based input to observed how user response compared to that of a motion-based input. In the final mode, users are simply told to dance. The visuals displayed on screen are generated randomly; the users are not actually controlling anything. This was included to see how users responded when the effect of their actions was not clear.
 
-* I programmed the patcher to allow for seven users and created a presentation mode that provided visual feedback for everyone's actions. Figure \ref{prototyping2.2} shows the display for `the wave' mode. The clapping input was divided into two modes -- a `clap-o-meter' that displays applause intensity and a mode that encourages users to clap in sync.\\
-** I update the visuals and added an auto-play function (Figure \ref{prototyping2.3}). This automatically flips through every round, playing each for a set amount of time.\\
-** I added Lighters and Dance modes.\\
-** I integrated video crossfade voting system within each mode, similar to Prototype \# 1.\\
-** The prototype was installed at the eLeo exhibit (Figure \ref{prototyping2.4}).\\
-%** Added sub-patcher to lighten the processing load.\\
-%** Polished off presentation mode.\\
+In preparation for the exhibition, I began polishing off the visuals and modifying the patcher to function as an installation. An auto-play function was implemented; each input method is looped through automatically, each activated for ten seconds at a time. Thus, the system would not require an operator, and users could approach it at any time during the exhibition and test each mechanic.
 
-\begin{figure}[t]
-	\centering
+Lastly, in an effort to make the installation more compelling, part of the VJ system from Prototype \#1 was added to the patcher. Namely, the crossfade system was implemented and connected to each input mechanism. In addition to the representative visual feedback already established, then, users could also see how their collective inputs could be used to control a separate system.
 
-	\includegraphics[height=0.3\textwidth]{eleo.png}
-	\caption{Auto-play version for eLeo exhibit}
+The final patcher was projected on a large wall in a darkened room. The seven Wii controllers were laid on a table in the middle of the room, their LEDs illuminated, inviting users to pick them up. Figure Y shows the prototype set up in the exhibition.
 
-	\label{prototyping2.3}
-\end{figure}
-
-\begin{figure}[t]
-	\centering
-
-	\includegraphics[height=0.3\textwidth]{eleo_live.jpg}
-	\caption{The prototype on display at eLeo}
-
-	\label{prototyping2.4}
-\end{figure}
+% Figure Y
 
 
 \section{Testing}
 % Explain the details of how participants were recruited, how data was collected, recorded, and processed/analyzed, and the timeline over which this process unfolded
 
-I watched users interacting with this prototype at the eLeo event. My prototype was set up in a room with a wall-sized projection. Here, my goal was to observe how users approached the technology and how multiple people performed the various inputs as a group...
+I watched users interacting with this prototype at the exhibition. My prototype was set up in a room with a wall-sized projection. Here, my goal was to observe how users approached the technology and how multiple people performed the various inputs as a group...
 
 
 \section{Analysis}
