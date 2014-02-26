@@ -2,18 +2,31 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces OSCulator software receiving data from one Wii controller\relax }}{41}{figure.caption.16}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Testing simultaneous input from seven Wii controllers\relax }}{42}{figure.caption.17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wii controllers}}}{42}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Max patcher: The LED objects turn yellow when the A button is pressed on their assigned controller}}}{42}{subfigure.2.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Stills from the two clips used in the prototype\relax }}{43}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Black and white}}}{43}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Colour}}}{43}{subfigure.3.2}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Wii controller VJ system\relax }}{43}{figure.caption.19}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Prototype \#1 Max patcher\relax }}{44}{figure.caption.20}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Monitoring thumbs up/down, arm swaying, clapping, and the wave\relax }}{47}{figure.caption.21}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces OSCulator software receiving data from one Wii controller\relax }}{38}{figure.caption.28}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Testing simultaneous input from seven Wii controllers\relax }}{39}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wii controllers}}}{39}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Max patcher: The LED objects turn yellow when the A button is pressed on their assigned controller}}}{39}{subfigure.2.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Stills from the two clips used in the prototype\relax }}{40}{figure.caption.30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Black and white}}}{40}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Colour}}}{40}{subfigure.3.2}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Wii controller VJ system\relax }}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Prototype \#1 Max patcher\relax }}{41}{figure.caption.32}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Monitoring thumbs up/down, arm swaying, clapping, and the wave\relax }}{43}{figure.caption.33}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Input prompts\relax }}{44}{figure.caption.34}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Prototype \# 2 installed at the exhibition\relax }}{45}{figure.caption.35}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Three users experiment with the prototype\relax }}{47}{figure.caption.36}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Turning on an LED with a Wii controller using Maxuino\relax }}{50}{figure.caption.37}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Testing different types of lights\relax }}{51}{figure.caption.38}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Operating two lamps using transistors and an Arduino\relax }}{52}{figure.caption.39}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Prototype \#3 electronics\relax }}{53}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LED control board}}}{53}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Board connected to Arduino Uno}}}{53}{subfigure.13.2}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Light stands\relax }}{53}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Laser-cut acrylic}}}{53}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Lamps and wire installed}}}{53}{subfigure.14.2}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Control and monitoring in Max\relax }}{54}{figure.caption.42}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Preparing the Wii controllers\relax }}{54}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Controller with foam cover}}}{54}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Taped controllers}}}{54}{subfigure.16.2}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces The Silver Dollar Room\relax }}{55}{figure.caption.44}
 \addvspace {10\p@ }

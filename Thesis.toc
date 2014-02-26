@@ -1,72 +1,70 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objectives}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}Overview}{6}{section.1.3}
-\contentsline {chapter}{\numberline {2}Background}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Music and Performance}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Evolution of the Presentational Performance}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Return of the Participatory Performance}{13}{section.2.3}
-\contentsline {chapter}{\numberline {3}Related Work}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Designing for Audiences}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Maynes-Aminzade, Pausch, and Seitz}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Aigner et al.}{18}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Reeves, Sherwood, and Brown}{18}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Creative Collaboration}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Ulyate and Bianciardi}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Feldmeier and Paradiso}{20}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Oh and Wang}{20}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Audience-Performer Interaction}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Bongers}{20}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Gates, Subramanian, and Gutwin}{21}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Barkhuus and Jorgensen}{22}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Tseng et al.}{23}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}D'CuCKOO's MidiBall}{23}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Plastikman's SYNK}{24}{subsection.3.3.6}
-\contentsline {section}{\numberline {3.4}Interactive Light Shows}{24}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Wham City Lights}{24}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Xylobands}{24}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}PixMob}{25}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Kasabian's 2011 Tour}{26}{subsection.3.4.4}
-\contentsline {chapter}{\numberline {4}Research Question}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Research Question}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Approach}{28}{section.4.2}
-\contentsline {chapter}{\numberline {5}Ethnography}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Audiences}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Performers}{31}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The Subjects}{31}{subsection.5.2.1}
-\contentsline {subsubsection}{Erik}{31}{section*.4}
-\contentsline {subsubsection}{Blake}{32}{section*.5}
-\contentsline {subsubsection}{Christian}{32}{section*.6}
-\contentsline {subsection}{\numberline {5.2.2}Audience Participation}{33}{subsection.5.2.2}
-\contentsline {subsubsection}{Erik}{33}{section*.7}
-\contentsline {subsubsection}{Blake}{33}{section*.8}
-\contentsline {subsubsection}{Christian}{34}{section*.9}
-\contentsline {subsection}{\numberline {5.2.3}Social Media}{34}{subsection.5.2.3}
-\contentsline {subsubsection}{Erik}{34}{section*.10}
-\contentsline {subsubsection}{Blake}{35}{section*.11}
-\contentsline {subsubsection}{Christian}{35}{section*.12}
-\contentsline {subsection}{\numberline {5.2.4}Participatory Technologies}{35}{subsection.5.2.4}
-\contentsline {subsubsection}{Erik}{35}{section*.13}
-\contentsline {subsubsection}{Blake}{36}{section*.14}
-\contentsline {subsubsection}{Christian}{37}{section*.15}
-\contentsline {section}{\numberline {5.3}Analysis}{37}{section.5.3}
-\contentsline {chapter}{\numberline {6}Prototype \#1}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conception}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Prototyping}{40}{section.6.2}
-\contentsline {section}{\numberline {6.3}Testing}{44}{section.6.3}
-\contentsline {section}{\numberline {6.4}Analysis}{45}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype \#2}{46}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conception}{46}{section.7.1}
-\contentsline {section}{\numberline {7.2}Prototyping}{47}{section.7.2}
-\contentsline {section}{\numberline {7.3}Testing}{49}{section.7.3}
-\contentsline {section}{\numberline {7.4}Analysis}{49}{section.7.4}
-\contentsline {chapter}{\numberline {8}Prototype \#3}{50}{chapter.8}
-\contentsline {section}{\numberline {8.1}Conception}{50}{section.8.1}
-\contentsline {section}{\numberline {8.2}Prototyping}{50}{section.8.2}
-\contentsline {section}{\numberline {8.3}Testing}{50}{section.8.3}
-\contentsline {section}{\numberline {8.4}Analysis}{50}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{51}{chapter.9}
-\contentsline {section}{\numberline {9.1}Discussion}{51}{section.9.1}
-\contentsline {section}{\numberline {9.2}Future Directions}{51}{section.9.2}
-\contentsline {section}{\numberline {9.3}Conclusion}{51}{section.9.3}
-\contentsline {chapter}{References}{52}{chapter*.22}
+\contentsline {section}{\numberline {1.2}Research Question}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Research Methods}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Scope}{7}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Overview}{7}{section.1.3}
+\contentsline {chapter}{\numberline {2}Literature Review}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Background}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Music and Performance}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Evolution of the Presentational Performance}{12}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Return of the Participatory Performance}{14}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Related Work}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Designing for Audiences}{18}{subsection.2.2.1}
+\contentsline {subsubsection}{Maynes-Aminzade, Pausch, and Seitz}{18}{section*.4}
+\contentsline {subsubsection}{Aigner et al.}{18}{section*.5}
+\contentsline {subsubsection}{Reeves, Sherwood, and Brown}{19}{section*.6}
+\contentsline {subsection}{\numberline {2.2.2}Creative Collaboration}{19}{subsection.2.2.2}
+\contentsline {subsubsection}{Ulyate and Bianciardi}{19}{section*.7}
+\contentsline {subsubsection}{Feldmeier and Paradiso}{20}{section*.8}
+\contentsline {subsection}{\numberline {2.2.3}Audience-Performer Interaction}{21}{subsection.2.2.3}
+\contentsline {subsubsection}{D'CuCKOO's MidiBall}{21}{section*.9}
+\contentsline {subsubsection}{Plastikman's SYNK}{21}{section*.10}
+\contentsline {subsubsection}{Bongers}{21}{section*.11}
+\contentsline {subsubsection}{Gates, Subramanian, and Gutwin}{22}{section*.12}
+\contentsline {subsubsection}{Barkhuus and Jorgensen}{23}{section*.13}
+\contentsline {subsubsection}{Tseng et al.}{24}{section*.14}
+\contentsline {subsection}{\numberline {2.2.4}Interactive Light Shows}{24}{subsection.2.2.4}
+\contentsline {subsubsection}{Wham City Lights}{24}{section*.15}
+\contentsline {subsubsection}{Xylobands}{25}{section*.16}
+\contentsline {subsubsection}{PixMob}{26}{section*.17}
+\contentsline {subsubsection}{Kasabian's 2011 Tour}{26}{section*.18}
+\contentsline {chapter}{\numberline {3}Ethnography}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Audiences}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Performers}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Subjects}{29}{subsection.3.2.1}
+\contentsline {subsubsection}{Erik}{29}{section*.19}
+\contentsline {subsubsection}{Blake}{30}{section*.20}
+\contentsline {subsubsection}{Christian}{30}{section*.21}
+\contentsline {subsection}{\numberline {3.2.2}Interacting With Audiences}{31}{subsection.3.2.2}
+\contentsline {subsubsection}{Erik}{31}{section*.22}
+\contentsline {subsubsection}{Blake}{31}{section*.23}
+\contentsline {subsubsection}{Christian}{32}{section*.24}
+\contentsline {subsection}{\numberline {3.2.3}Participatory Technologies}{33}{subsection.3.2.3}
+\contentsline {subsubsection}{Erik}{33}{section*.25}
+\contentsline {subsubsection}{Blake}{34}{section*.26}
+\contentsline {subsubsection}{Christian}{34}{section*.27}
+\contentsline {section}{\numberline {3.3}Analysis}{35}{section.3.3}
+\contentsline {chapter}{\numberline {4}Prototyping}{36}{chapter.4}
+\contentsline {section}{\numberline {4.1}Prototype \#1}{36}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Motivation}{36}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Development}{37}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Testing}{41}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Analysis}{42}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Prototype \#2}{42}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Motivation}{42}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Development}{43}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Testing}{45}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Analysis}{48}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Prototype \#3}{48}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Motivation}{48}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Development}{50}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Testing}{52}{subsection.4.3.3}
+\contentsline {subsubsection}{Audience}{52}{section*.45}
+\contentsline {subsubsection}{Performers}{52}{section*.46}
+\contentsline {subsection}{\numberline {4.3.4}Analysis}{52}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{56}{chapter.5}
+\contentsline {section}{\numberline {5.1}Discussion}{56}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Directions}{56}{section.5.2}
+\contentsline {section}{\numberline {5.3}Conclusion}{56}{section.5.3}
+\contentsline {chapter}{References}{57}{chapter*.47}

@@ -5,11 +5,9 @@ A level-1 auxiliary file: CreativeCommons.aux
 A level-1 auxiliary file: AuthorsDeclaration.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Background.aux
-A level-1 auxiliary file: ResearchQuestion.aux
-A level-1 auxiliary file: Prototype1.aux
+A level-1 auxiliary file: LiteratureReview.aux
 A level-1 auxiliary file: Ethnography.aux
-A level-1 auxiliary file: Prototype2.aux
+A level-1 auxiliary file: Prototyping.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -22,44 +20,44 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 28 entries,
+You've used 27 entries,
             6735 wiz_defined-function locations,
-            1401 strings with 14359 characters,
-and the built_in function-call counts, 52241 in all, are:
-= -- 6896
-> -- 413
-< -- 2142
-+ -- 2087
-- -- 56
-* -- 2950
-:= -- 8607
-add.period$ -- 142
-call.type$ -- 28
-change.case$ -- 491
+            1393 strings with 14240 characters,
+and the built_in function-call counts, 50863 in all, are:
+= -- 6724
+> -- 403
+< -- 2091
++ -- 2042
+- -- 54
+* -- 2874
+:= -- 8380
+add.period$ -- 138
+call.type$ -- 27
+change.case$ -- 474
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 1321
-empty$ -- 2251
-format.name$ -- 590
-if$ -- 10509
+cite$ -- 54
+duplicate$ -- 1282
+empty$ -- 2177
+format.name$ -- 576
+if$ -- 10223
 int.to.chr$ -- 0
-int.to.str$ -- 56
+int.to.str$ -- 54
 missing$ -- 0
-newline$ -- 690
-num.names$ -- 238
-pop$ -- 1157
+newline$ -- 668
+num.names$ -- 230
+pop$ -- 1119
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 108
 quote$ -- 0
-skip$ -- 3956
+skip$ -- 3859
 stack$ -- 0
-substring$ -- 2380
-swap$ -- 783
-text.length$ -- 101
+substring$ -- 2329
+swap$ -- 758
+text.length$ -- 99
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3200
+type$ -- 3120
 warning$ -- 0
-while$ -- 220
+while$ -- 215
 width$ -- 0
-write$ -- 807
+write$ -- 783

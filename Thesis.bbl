@@ -733,27 +733,4 @@ Ulyate, R.%
 \APACaddressPublisher{Singapore, Singapore}{National University of Singapore}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Wikstr\"{o}m%
-}{%
-Wikstr\"{o}m%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-wikstrom13}
-\APACinsertmetastar {%
-wikstrom13}%
-\begin{APACrefauthors}%
-Wikstr\"{o}m, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2013}.
-\newblock
-\APACrefbtitle {The music industry: Music in the cloud} {The music industry:
-  Music in the cloud}\ (\PrintOrdinal{2nd}\ \BEd).
-\newblock
-\APACaddressPublisher{}{John Wiley \& Sons}.
-\PrintBackRefs{\CurrentBib}
-
 \end{thebibliography}

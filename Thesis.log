@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 FEB 2014 01:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  26 FEB 2014 00:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,9 +327,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip65
 )
 (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./RelatedWork.aux)
-(./ResearchQuestion.aux) (./Ethnography.aux) (./Prototype1.aux)
-(./Prototype2.aux) (./Prototype3.aux) (./Conclusion.aux))
+(./Abstract.aux) (./Introduction.aux) (./LiteratureReview.aux)
+(./Ethnography.aux) (./Prototyping.aux) (./Conclusion.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -440,7 +439,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 \openout3 = `Thesis.out'.
 
  (./Title.tex
-<./Pictures/ocadu_logo.png, id=245, 506.8536pt x 422.5386pt>
+<./Pictures/ocadu_logo.png, id=180, 506.8536pt x 422.5386pt>
 File: ./Pictures/ocadu_logo.png Graphic file (type png)
 
 <use ./Pictures/ocadu_logo.png>
@@ -448,7 +447,16 @@ Package pdftex.def Info: ./Pictures/ocadu_logo.png used on input line 7.
 (pdftex.def)             Requested size: 151.76964pt x 126.524pt.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 10.0pt on input line 12.
- [1
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictu
 res/ocadu_logo.png>])
@@ -478,35 +486,25 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  (./Abstract.tex) [4
 
 
-] (./Thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+] (./Thesis.toc [5
 
 
-] [6])
+])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
-
-[7] (./Thesis.lof)
+ [6]
+(./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [8
+ [7
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- [9
+ [8
 
 ]
 \openout2 = `Introduction.aux'.
@@ -551,6 +549,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -558,8 +560,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -567,30 +576,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6])
+[7])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
-\openout2 = `Background.aux'.
+[8]
+\openout2 = `LiteratureReview.aux'.
 
- (./Background.tex
+ (./LiteratureReview.tex
 Chapter 2.
-[8
+[9
 
 
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -626,12 +628,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Overfull \hbox (4.34718pt too wide) in paragraph at lines 169--183
-[]\OT1/cmr/m/n/10.95 Communication stud-ies re-searcher Nancy Baym (2012) de-sc
-ribes the tra-di-tional audience-
- []
-
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -639,6 +635,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
+Overfull \hbox (4.34718pt too wide) in paragraph at lines 169--183
+[]\OT1/cmr/m/n/10.95 Communication stud-ies re-searcher Nancy Baym (2012) de-sc
+ribes the tra-di-tional audience-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -646,15 +647,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-\openout2 = `RelatedWork.aux'.
-
- (./RelatedWork.tex
-Chapter 3.
-[17
-
+Overfull \hbox (2.28175pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10.95 Work in human-computer in-ter-ac-tion is ref-er-enced in thi
+s chap-ter, ex-plor-ing group-controlled
+ []
 
 
-]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -704,19 +708,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Overfull \hbox (1.33884pt too wide) in paragraph at lines 124--125
+Overfull \hbox (1.33884pt too wide) in paragraph at lines 316--317
 \OT1/cmr/m/n/10.95 PixMob is a patented wire-less tech-nol-ogy that en-ables th
 e con-trol of mul-ti-ple LED-embedded
  []
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
+[25])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -724,20 +727,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-\openout2 = `ResearchQuestion.aux'.
+\openout2 = `Ethnography.aux'.
 
- (./ResearchQuestion.tex
-Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--19
-
- []
-
+ (./Ethnography.tex
+Chapter 3.
 [27
 
 
 
-])
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -745,15 +743,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
-\openout2 = `Ethnography.aux'.
 
- (./Ethnography.tex
-Chapter 5.
-[29
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-
-]
+[29]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -788,7 +784,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[34])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -796,32 +792,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35]
+\openout2 = `Prototyping.aux'.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38]
-\openout2 = `Prototype1.aux'.
-
- (./Prototype1.tex
-Chapter 6.
-[39
+ (./Prototyping.tex
+Chapter 4.
+[36
 
 
 
@@ -832,28 +807,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40] <./Pictures/Prototype1/osculator_1.png, id=590, 939.51pt x 538.51187pt>
+[37] <./Pictures/Prototype1/osculator_1.png, id=529, 939.51pt x 538.51187pt>
 File: ./Pictures/Prototype1/osculator_1.png Graphic file (type png)
 
 <use ./Pictures/Prototype1/osculator_1.png>
 Package pdftex.def Info: ./Pictures/Prototype1/osculator_1.png used on input li
-ne 77.
+ne 76.
 (pdftex.def)             Requested size: 302.599pt x 173.44534pt.
 
-<./Pictures/Prototype1/wiimotes.jpg, id=593, 3276.24pt x 2457.18pt>
+<./Pictures/Prototype1/wiimotes.jpg, id=532, 3276.24pt x 2457.18pt>
 File: ./Pictures/Prototype1/wiimotes.jpg Graphic file (type jpg)
 
 <use ./Pictures/Prototype1/wiimotes.jpg>
 Package pdftex.def Info: ./Pictures/Prototype1/wiimotes.jpg used on input line 
-88.
+87.
 (pdftex.def)             Requested size: 184.96793pt x 138.76157pt.
 
-<./Pictures/Prototype1/multi_wii.png, id=594, 846.16125pt x 508.90125pt>
+<./Pictures/Prototype1/multi_wii.png, id=533, 846.16125pt x 508.90125pt>
 File: ./Pictures/Prototype1/multi_wii.png Graphic file (type png)
 
 <use ./Pictures/Prototype1/multi_wii.png>
 Package pdftex.def Info: ./Pictures/Prototype1/multi_wii.png used on input line
- 90.
+ 89.
 (pdftex.def)             Requested size: 230.72607pt x 138.76157pt.
 
 
@@ -862,29 +837,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./Pictures/Prototype1/osculator_1.png>]
-<./Pictures/Prototype1/vid_1.png, id=602, 1204.5pt x 803.0pt>
+[38 <./Pictures/Prototype1/osculator_1.png>]
+<./Pictures/Prototype1/vid_1.png, id=541, 1204.5pt x 803.0pt>
 File: ./Pictures/Prototype1/vid_1.png Graphic file (type png)
 
 <use ./Pictures/Prototype1/vid_1.png>
-Package pdftex.def Info: ./Pictures/Prototype1/vid_1.png used on input line 101
+Package pdftex.def Info: ./Pictures/Prototype1/vid_1.png used on input line 100
 .
 (pdftex.def)             Requested size: 208.14406pt x 138.76157pt.
 
-<./Pictures/Prototype1/vid_2.png, id=603, 1204.5pt x 801.99625pt>
+<./Pictures/Prototype1/vid_2.png, id=542, 1204.5pt x 801.99625pt>
 File: ./Pictures/Prototype1/vid_2.png Graphic file (type png)
 
 <use ./Pictures/Prototype1/vid_2.png>
-Package pdftex.def Info: ./Pictures/Prototype1/vid_2.png used on input line 103
+Package pdftex.def Info: ./Pictures/Prototype1/vid_2.png used on input line 102
 .
 (pdftex.def)             Requested size: 208.40137pt x 138.76157pt.
 
-<./Pictures/Prototype1/wii_vj.png, id=604, 1127.21124pt x 716.17563pt>
+<./Pictures/Prototype1/wii_vj.png, id=543, 1127.21124pt x 716.17563pt>
 File: ./Pictures/Prototype1/wii_vj.png Graphic file (type png)
 
 <use ./Pictures/Prototype1/wii_vj.png>
 Package pdftex.def Info: ./Pictures/Prototype1/wii_vj.png used on input line 11
-2.
+1.
 (pdftex.def)             Requested size: 272.9786pt x 173.44534pt.
 
 
@@ -893,20 +868,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./Pictures/Prototype1/wiimotes.jpg> <./Pictures/Prototype1/multi_wii.png>]
+[39 <./Pictures/Prototype1/wiimotes.jpg> <./Pictures/Prototype1/multi_wii.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./Pictures/Prototype1/vid_1.png> <./Pictures/Prototype1/vid_2.png> <./Pict
+[40 <./Pictures/Prototype1/vid_1.png> <./Pictures/Prototype1/vid_2.png> <./Pict
 ures/Prototype1/wii_vj.png>]
-<./Pictures/Prototype1/vj_and_audience.png, id=623, 1236.11812pt x 757.83125pt>
+<./Pictures/Prototype1/vj_and_audience.png, id=562, 1236.11812pt x 757.83125pt>
 File: ./Pictures/Prototype1/vj_and_audience.png Graphic file (type png)
 <use ./Pictures/Prototype1/vj_and_audience.png>
 Package pdftex.def Info: ./Pictures/Prototype1/vj_and_audience.png used on inpu
-t line 128.
+t line 127.
 (pdftex.def)             Requested size: 282.90543pt x 173.44534pt.
 
 
@@ -915,70 +890,237 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./Pictures/Prototype1/vj_and_audience.png>])
+[41 <./Pictures/Prototype1/vj_and_audience.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
-\openout2 = `Prototype2.aux'.
-
- (./Prototype2.tex
-Chapter 7.
-[46
-
-
-
-]
-<./Pictures/Prototype1/wiimote_audience.png, id=639, 833.61438pt x 550.055pt>
+[42]
+<./Pictures/Prototype1/wiimote_audience.png, id=575, 833.61438pt x 550.055pt>
 File: ./Pictures/Prototype1/wiimote_audience.png Graphic file (type png)
 
 <use ./Pictures/Prototype1/wiimote_audience.png>
 Package pdftex.def Info: ./Pictures/Prototype1/wiimote_audience.png used on inp
-ut line 71.
+ut line 219.
 (pdftex.def)             Requested size: 262.85704pt x 173.44534pt.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `prototyping2.2' on page 43 undefined on input line 22
+5.
 
-[47 <./Pictures/Prototype1/wiimote_audience.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
-\openout2 = `Prototype3.aux'.
+[43 <./Pictures/Prototype1/wiimote_audience.png>]
+<./Pictures/Prototype2/presentation.png, id=582, 1118.1775pt x 684.5575pt>
+File: ./Pictures/Prototype2/presentation.png Graphic file (type png)
 
- (./Prototype3.tex
-Chapter 8.
-) [50
+<use ./Pictures/Prototype2/presentation.png>
+Package pdftex.def Info: ./Pictures/Prototype2/presentation.png used on input l
+ine 256.
+(pdftex.def)             Requested size: 283.31439pt x 173.44534pt.
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-]
+[44 <./Pictures/Prototype2/presentation.png>]
+<./Pictures/Prototype2/eleo_1.jpg, id=589, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype2/eleo_1.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype2/eleo_1.jpg>
+Package pdftex.def Info: ./Pictures/Prototype2/eleo_1.jpg used on input line 27
+2.
+(pdftex.def)             Requested size: 231.2599pt x 173.44534pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./Pictures/Prototype2/eleo_1.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46] <./Pictures/Prototype2/testing.png, id=599, 1112.65688pt x 808.01875pt>
+File: ./Pictures/Prototype2/testing.png Graphic file (type png)
+
+<use ./Pictures/Prototype2/testing.png>
+Package pdftex.def Info: ./Pictures/Prototype2/testing.png used on input line 3
+00.
+(pdftex.def)             Requested size: 238.82608pt x 173.44534pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47 <./Pictures/Prototype2/testing.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49] <./Pictures/Prototype3/wii_led.jpg, id=617, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/wii_led.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/wii_led.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/wii_led.jpg used on input line 3
+65.
+(pdftex.def)             Requested size: 231.2599pt x 173.44534pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50 <./Pictures/Prototype3/wii_led.jpg>]
+<./Pictures/Prototype3/light_1.jpg, id=624, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/light_1.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/light_1.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/light_1.jpg used on input line 3
+76.
+(pdftex.def)             Requested size: 231.2599pt x 173.44534pt.
+
+<./Pictures/Prototype3/light_2.jpg, id=626, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/light_2.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/light_2.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/light_2.jpg used on input line 3
+87.
+(pdftex.def)             Requested size: 231.2599pt x 173.44534pt.
+
+<./Pictures/Prototype3/board.jpg, id=628, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/board.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/board.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/board.jpg used on input line 400
+.
+(pdftex.def)             Requested size: 208.11392pt x 156.10345pt.
+
+<./Pictures/Prototype3/electronics.jpg, id=629, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/electronics.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/electronics.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/electronics.jpg used on input li
+ne 402.
+(pdftex.def)             Requested size: 208.11392pt x 156.10345pt.
+
+<./Pictures/Prototype3/rigs_1.jpg, id=631, 2457.18pt x 3276.24pt>
+File: ./Pictures/Prototype3/rigs_1.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/rigs_1.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/rigs_1.jpg used on input line 41
+4.
+(pdftex.def)             Requested size: 130.06494pt x 173.44534pt.
+
+<./Pictures/Prototype3/rigs_2.jpg, id=632, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/rigs_2.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/rigs_2.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/rigs_2.jpg used on input line 41
+6.
+(pdftex.def)             Requested size: 231.2599pt x 173.44534pt.
+
+<./Pictures/Prototype3/control.png, id=634, 1190.4475pt x 822.57312pt>
+File: ./Pictures/Prototype3/control.png Graphic file (type png)
+
+<use ./Pictures/Prototype3/control.png>
+Package pdftex.def Info: ./Pictures/Prototype3/control.png used on input line 4
+28.
+(pdftex.def)             Requested size: 251.00041pt x 173.44534pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51 <./Pictures/Prototype3/light_1.jpg>]
+<./Pictures/Prototype3/wii.jpg, id=640, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/wii.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/wii.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/wii.jpg used on input line 441.
+(pdftex.def)             Requested size: 208.11392pt x 156.10345pt.
+
+<./Pictures/Prototype3/wiis.jpg, id=641, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/wiis.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/wiis.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/wiis.jpg used on input line 443.
+
+(pdftex.def)             Requested size: 208.11392pt x 156.10345pt.
+
+<./Pictures/Prototype3/silver_dollar.jpg, id=643, 3276.24pt x 2457.18pt>
+File: ./Pictures/Prototype3/silver_dollar.jpg Graphic file (type jpg)
+
+<use ./Pictures/Prototype3/silver_dollar.jpg>
+Package pdftex.def Info: ./Pictures/Prototype3/silver_dollar.jpg used on input 
+line 458.
+(pdftex.def)             Requested size: 231.2599pt x 173.44534pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52 <./Pictures/Prototype3/light_2.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53 <./Pictures/Prototype3/board.jpg> <./Pictures/Prototype3/electronics.jpg> <
+./Pictures/Prototype3/rigs_1.jpg> <./Pictures/Prototype3/rigs_2.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54 <./Pictures/Prototype3/control.png> <./Pictures/Prototype3/wii.jpg> <./Pict
+ures/Prototype3/wiis.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55 <./Pictures/Prototype3/silver_dollar.jpg>]
 \openout2 = `Conclusion.aux'.
 
  (./Conclusion.tex
-Chapter 9.
-) [51
+Chapter 5.
+) [56
 
 
 
-] (./Thesis.bbl [52
+] (./Thesis.bbl [57
 
 
 
@@ -989,8 +1131,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+[58])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -998,26 +1140,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+[59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./Thesis.aux (./CreativeCommons.aux) (./AuthorsDeclaration.aux)
-(./Abstract.aux) (./Introduction.aux) (./Background.aux) (./RelatedWork.aux)
-(./ResearchQuestion.aux) (./Ethnography.aux) (./Prototype1.aux)
-(./Prototype2.aux) (./Prototype3.aux) (./Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+(./Abstract.aux) (./Introduction.aux) (./LiteratureReview.aux)
+(./Ethnography.aux) (./Prototyping.aux) (./Conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 099F602CD9F6B3468262986F2802E742;3754.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+(rerunfilecheck)             Checksum: B2B0A0188CC9C3D70F091297535B1DBB;2794.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 9477 strings out of 493315
- 141423 string characters out of 6137904
- 247578 words of memory out of 5000000
- 12509 multiletter control sequences out of 15000+600000
- 14475 words of font info for 56 fonts, out of 8000000 for 9000
+ 9536 strings out of 493315
+ 143666 string characters out of 6137904
+ 246251 words of memory out of 5000000
+ 12560 multiletter control sequences out of 15000+600000
+ 15697 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,11n,87p,2262b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,87p,2268b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
@@ -1029,12 +1174,13 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on Thesis.pdf (63 pages, 13191996 bytes).
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on Thesis.pdf (67 pages, 39642634 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
- 687 compressed objects within 7 object streams
- 188 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 807 PDF objects out of 1000 (max. 8388607)
+ 683 compressed objects within 7 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
