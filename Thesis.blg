@@ -10,6 +10,7 @@ A level-1 auxiliary file: Ethnography.aux
 A level-1 auxiliary file: Prototyping.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: apacite.bst
+A level-1 auxiliary file: AppendixA.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -20,44 +21,44 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Thesis.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 27 entries,
+You've used 28 entries,
             6735 wiz_defined-function locations,
-            1393 strings with 14240 characters,
-and the built_in function-call counts, 50863 in all, are:
-= -- 6724
-> -- 403
-< -- 2091
-+ -- 2042
-- -- 54
-* -- 2874
-:= -- 8380
-add.period$ -- 138
-call.type$ -- 27
-change.case$ -- 474
+            1399 strings with 14359 characters,
+and the built_in function-call counts, 52373 in all, are:
+= -- 6915
+> -- 408
+< -- 2167
++ -- 2109
+- -- 56
+* -- 2965
+:= -- 8676
+add.period$ -- 142
+call.type$ -- 28
+change.case$ -- 491
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 1282
-empty$ -- 2177
-format.name$ -- 576
-if$ -- 10223
+cite$ -- 56
+duplicate$ -- 1312
+empty$ -- 2247
+format.name$ -- 581
+if$ -- 10516
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 56
 missing$ -- 0
-newline$ -- 668
-num.names$ -- 230
-pop$ -- 1119
+newline$ -- 688
+num.names$ -- 238
+pop$ -- 1155
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 112
 quote$ -- 0
-skip$ -- 3859
+skip$ -- 3955
 stack$ -- 0
-substring$ -- 2329
-swap$ -- 758
-text.length$ -- 99
+substring$ -- 2400
+swap$ -- 777
+text.length$ -- 100
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3120
+type$ -- 3200
 warning$ -- 0
-while$ -- 215
+while$ -- 218
 width$ -- 0
-write$ -- 783
+write$ -- 803
