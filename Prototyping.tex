@@ -1,5 +1,8 @@
 \chapter{Prototyping}
-% Background:
+
+% Add introduction
+
+% Literature Review:
 % Auslander, 1999: Communities are formed based on how the audience interacts, with no dependence on the spectacle at hand
 % Turino, 2008:
 % * Artists can shift between participatory and presentational performance
@@ -42,34 +45,30 @@
 % * * Simple, instant gratification is important for feedback
 % Feldmeier, 2007:
 % * Crowd had a tendency to gradually move in sync
-% * 
 % Barkhuus, 2008:
 % * Inputs based on already-present behaviour lead to intuitive systems
 % * Don't focus on employing cutting edge technology
 % * Events should not rely on the success of the technology
 % * Immediate visual or aural feedback is key
 % Tseng, 2012: Being excluded from the interaction did not lessen enjoyment of the show
-% Reeves, 2010:
-% * "Intra-crowd interaction" is a common phenomena to exploit
-% * Many actions "snowball" and overtake crowds; highly visible/audible actions promote this
-% * People on the fringes of the crowd interact, but there is latency
-% * Every crowd is different; designs should reflect the environment
 % Gates, 2006: Technologies should reflect the performer's art and not be a burden on them
 
 \section{Prototype \#1}
 
-\subsection{Motivation}
+% Motivation:
+The first prototype served as an initial experiment for investigating how technology might be used to give an audience new means of participating in a performance. My goal was to develop a simple system that featured a single user `performing' -- creating some sort of stimulating output. Multiple `audience members' would then be given the ability to collectively contribute to this output in some way, illustrating a slight shift from presentational to participatory. The prototype was designed to be presented and demoed at a research colloquium. Thus, in addition to being able to observe users' responses to the system, discussion would be stimulated amongst attendees as well.
 
-The first prototype served as an initial experiment for investigating how technology might be used to give an audience new means of participating in a performance. My goal was to develop a simple system that featured a single user `performing' -- creating some sort of stimulating output. Multiple `audience members' would then be given the ability to collectively contribute to this output in some way, illustrating a slight shift from presentational to participatory. Ultimately, testing the prototype with users would allow me to observe how both the performer and audience members responded to these adjustments to their roles. I also hoped to establish a hardware and software framework upon which future prototypes could be easily built.
-% It was designed for a colloquium -- to stimulate discussion
-
-While the focus of this thesis is on rock performances, it was decided that recruiting a rock band would not be necessary for this early, small-scale experiment. I felt that a VJ performance would be suitable. VJing is the real-time creation or manipulation of visuals, which are typically projected to accompany music. Thus, the performing user would be controlling projected visuals, and the audience members would be able to manipulate some aspect of them. Having this collective output clearly displayed on one screen would provide the performer and audience members with clear feedback from their inputs and allow for straightforward observations of their interactions.
-% Justification for VJ can come from analysis of ethnography; decision that I'll be focusing on visuals and not sound
-
-Some design concepts were inspired by theory introduced in Chapter 2. The system was modelled after the ``core" and ``elaboration" roles outlined by Turino (2008). The performer -- the core role -- would be responsible for keeping the performance on track and have the most influence on the visuals. On the other hand, audience members -- elaboration roles -- would have less responsibility along with a lesser influence. In explaining presentational and participatory performances, Turino also states that it is not uncommon for a performer to shift between the two forms throughout one performance. To reflect this, I chose to include a feature allowing the performer to effectively `mute' input from the audience and take full control of the output.
-% Incorporate this into the next section
+% Prototype #1 Goals:
+% * 
 
 \subsection{Development}
+
+In order to simulate this scenario and avoid having to recruit a rock band for this small experiment, I developed a basic VJ system. VJing is the real-time creation or manipulation of visuals, which are typically projected to accompany music. Thus, the performing user would be controlling projected visuals, and the audience members would be able to manipulate some aspect of them. Having the collective output clearly displayed on one screen would provide the performer and audience members with clear feedback from their inputs and allow for straightforward observations of their interactions.
+
+The first step in realizing this initial prototype was deciding on the hardware and software that would be used. Wii video game controllers have an abundance of sensors: they contain eleven digital buttons, an infrared sensor, an accelerometer, and a gyroscope (in the newer Wii Remote Plus models), and all of this data can be sent wirelessly to a receiver via Bluetooth. In addition to these affordances, due to the console's popularity, the Wii controller is also something that many people have already used before. With these considerations, I decided that the Wii controller was a suitable input device for my experiment. 
+% Argue against smartphones
+
+For my purposes, the easiest way to process the Wii controllers' data was using a combination of two software packages -- OSCulator\footnote{\url{http://www.osculator.net}} and Max\footnote{\url{http://cycling74.com}}. OSCulator allows for communication between devices and audio or video software using the Open Sound Control (OSC) protocol\footnote{\url{http://opensoundcontrol.org}}. Fortunately, this software is also specifically designed to communicate with the Wii controller. It can display live data from each sensor as well as activate the controller's LEDs and rumble motor. The data can then be sent to Max, a visual programming environment that is especially useful for handling multimedia. Countless objects can be incorporated into a Max program (called a `patcher') to manipulate numbers, audio signals, and video clips. Max is commonly used by musicians and video artists to create highly customized and interactive programs.
 
 \begin{figure}
 	\centering
@@ -79,8 +78,6 @@ Some design concepts were inspired by theory introduced in Chapter 2. The system
 
 	\label{prototyping1.1}
 \end{figure}
-
-The first step in realizing this initial prototype was deciding on the hardware and software that would be used. Wii video game controllers have an abundance of sensors: they contain eleven digital buttons, an infrared sensor, an accelerometer, and a gyroscope (in the newer Wii Remote Plus models), and all of this data can be sent wirelessly to a receiver via Bluetooth. In addition to these affordances, due to the console's popularity, the Wii controller is also something that many people have already used before. With these considerations, I decided that the Wii controller was a suitable input device for my experiment. For my purposes, the easiest way to process the controllers' data was using a combination of two software packages -- OSCulator\footnote{\url{http://www.osculator.net}} and Max\footnote{\url{http://cycling74.com}}. OSCulator allows for communication between devices and audio or video software using the Open Sound Control (OSC) protocol\footnote{\url{http://opensoundcontrol.org}}. Fortunately, this software is also specifically designed to communicate with the Wii controller. It can display live data from each sensor as well as activate the controller's LEDs and rumble motor. The data can then be sent to Max, a visual programming environment that is especially useful for handling multimedia. Countless objects can be incorporated into a Max program (called a `patcher') to manipulate numbers, audio signals, and video clips. Max is commonly used by musicians and video artists to create highly customized and interactive programs.
 
 \begin{figure}
 	\centering
@@ -93,7 +90,7 @@ The first step in realizing this initial prototype was deciding on the hardware 
 	\label{prototyping1.2}
 \end{figure}
 
-Syncing the Wii controller with OSCulator was simple, and I was immediately able to view movement and push-button data from my controller (see Figure \ref{prototyping1.1}). Next, I tested the limit of how many Wii controllers would be able to connect to my computer using the current setup. Since my thesis aims to give every member of an audience a new way to participate, this number would ideally be limitless. With Bluetooth technology, unfortunately, one master device (my computer) can only connect to a maximum of seven slave devices (Wii controllers). However, for the purposes of this prototype, I felt that seven controllers would be acceptable. A Max patcher was created to display push-button data from multiple Wii controllers. All seven were synced with no issues, and the program worked as expected (see Figure \ref{prototyping1.2}).
+Syncing the Wii controller with OSCulator was simple, and I was immediately able to view movement and push-button data from my controller (see Figure \ref{prototyping1.1}). Next, I tested the limit of how many Wii controllers would be able to connect to my computer using the current setup. Since my thesis aims to give every member of an audience a new way to participate, this number would ideally be limitless. With Bluetooth technology, unfortunately, one master device (my computer) can only connect to a maximum of seven slave devices (Wii controllers). While a larger network could be established with some work, for the purposes of this prototype, I felt that seven controllers would be acceptable. A Max patcher was created to display push-button data from multiple Wii controllers. All seven were synced with no issues, and the program worked as expected (see Figure \ref{prototyping1.2}).
 
 \begin{figure}
 	\centering
@@ -115,11 +112,11 @@ Syncing the Wii controller with OSCulator was simple, and I was immediately able
 	\label{prototyping1.4}
 \end{figure}
 
-My next task was to create the VJ system. After experimenting with a multitude of video effects objects in Max, I created a basic program. The system is built around two short video loops that can be mixed together and modified. Users can crossfade between the two videos using the controller's Left and Right buttons. The resulting image can be rotated by rotating the controller sideways. Pixelation can be increased or decreased by increasing or decreasing the controller's incline. Finally, holding and releasing the A button enables and disables a motion blur effect. An important part of programming this patcher was mapping controller input to the effects controls. Values had to be carefully scaled and clipped in order for users' movements to translate naturally to the effect they control. I also carefully selected the source video such that the effects of users' actions would be clear; a black and white clip of one person dancing and a colour clip of multiple people dancing seemed to offer sufficient contrast (see Figure \ref{prototyping1.3}). The resultant patcher is pictured in Figure \ref{prototyping1.4}.
+My next task was to create the VJ system. After experimenting with a multitude of video effects objects in Max, I created a basic interface. The system is built around two short video loops that can be mixed together and modified. The user can crossfade between the two videos using the controller's Left and Right buttons. The resulting image can be rotated by rotating the controller sideways. A pixelation effect can be increased or decreased by increasing or decreasing the controller's incline. Finally, holding and releasing the A button enables and disables a motion blur effect. An important part of programming this patcher was mapping controller input to the effects controls. Values had to be carefully scaled and clipped in order for the user's movements to translate naturally to the effect they control. I also carefully selected the source video such that the effects of users' actions would be clear; a black and white clip of one person dancing and a colour clip of multiple people dancing seemed to offer sufficient contrast (see Figure \ref{prototyping1.3}). The resultant patcher is pictured in Figure \ref{prototyping1.4}.
 
-With the details of the performance in place, the next step was selecting which aspect would be controlled by the audience. It seemed most straightforward to give them control over the crossfader effect. This presents audience members with a simple binary decision -- do you want to see more of the black and white video or the colour video? By pressing and holding the Left or Right buttons on their controllers, users can effectively vote on which dominates the screen. In this case, if more people are holding the Left button than the Right, the black and white video will gradually become more prominent than the coloured video. Thus, while the performer retains precise control over multiple combinable effects (rotation, pixelation, motion blur), the collective audience can progressively alter the tone of the visuals. This reflects Turino's (2008) core and elaboration roles, respectively.
+With the details of the performance in place, the next step was selecting which aspect would be controlled by the audience. This was informed by Turino's (2008) concept of ``core" and ``elaboration" roles. In purely participatory performances, he explains, core participants are typically less skilled but work together to keep the performance going; elaboration roles, on the other hand, are reserved for experienced participants adding flourish to the performance. The audience, being the less-skilled party, would assume the core role. It was decided to give them control over the crossfader object -- a simple mechanism that can easily be controlled collectively. By pressing and holding the Left or Right buttons on their controllers, users can effectively vote on which video loop dominates the screen. In this case, for instance, if more people are holding the Left button than the Right, the black and white video will gradually become more prominent than the coloured video. Thus, while the audience collectively adjusts the tone of the visuals, the performer retains precise control over the other effects -- rotation, pixelation, and motion blur.
 
-The last feature of this VJ system reflects another of Turino's (2008) assertions -- that performers often shift between presentational and participatory performance. In response to this, I provided the performing user with a mute function. By pressing the controller's B button, the performer can disable the audience members' controllers, moving control of the crossfader from the audience to the performer. The B button is essentially an on/off switch for audience participation.
+The last feature of this VJ system addresses a concern expressed by musicians in the ethnographic study -- giving the audience too much control.  In response to this, I provided the performing user with a `mute' function. By pressing their controller's B button, the performer can disable the audience members' controllers, moving control of the crossfader from the audience to the performer. This button is essentially an on/off switch for audience participation.
 
 \begin{figure}
 	\centering
@@ -130,35 +127,50 @@ The last feature of this VJ system reflects another of Turino's (2008) assertion
 	\label{prototyping1.5}
 \end{figure}
 
-The completed first prototype is illustrated in Figure \ref{prototyping1.5}, in the form of both a diagram and the final Max patcher.
+The completed first prototype is shown in Figure \ref{prototyping1.5}.
+%The completed first prototype is illustrated in Figure \ref{prototyping1.5}, in the form of both a diagram and the final Max patcher.
 % Make a diagram to illustrate the final product
 
 \subsection{Testing}
-% Explain the details of how participants were recruited, how data was collected, recorded, and processed/analyzed, and the timeline over which this process unfolded
 
-Testing was conducted one time with a small group at a research colloquium. I observed user behaviour and received feedback from attendees. The participants were seven OCADU students. The experiment only lasted a few minutes. I explained the concept and controls. The performer had no problem using his controls to make interesting visual output. One participant led the group in first fading all the way to one video then all the way to the other. Nothing broke, and the group successfully made decisions and carried them collaboratively. The performer's mute button worked.
+The prototype's concept was presented at a research colloquium, and a group of attendees (students at OCAD University) participated in a brief demonstration. After illustrating the performer's controls, I invited participants to play with the collaborative crossfader mechanism. `Audience' users had no problems understanding the concept. As soon as users were given their controllers, one participant led the rest in first fading all the way to into one video clip and then all the way into the other. The system functioned as expected, and the group successfully made decisions and carried them out together. Finally, the performer's mute button was introduced, deactivating the participants' controllers to their amusement.
 
-Context is important; experiments should be run at rock shows or in similar environments. Observers commented on the importance of feedback. They asked if this sort of system should be goal oriented; if not, would the users somehow turn it into a game anyways? They considered the task of representing every individual. Will every single audience member be able to interact? What happens to those who are not included? They referenced `the wave' -- there's a flow, a rhythm; the outcome is greater than the sum of its parts; participants know when it's their turn to input...
+Some initial reactions were collected from colloquium attendees. First, it was suggested that there should be a focus on context; questions would best be answered in a real live music setting. It was asked if this sort of system should be goal oriented; if not, would the users somehow turn it into a game anyways? Several people agreed that some form of direct feedback should be provided to users. One attendee wondered if every audience member could be individually represented, rather than treating the group as a single unit. Discussion led to talking about `the wave' -- where individual participants perform a simple action to create an impressive visual effect. It was also asked how my system would react if some audience members did not wish to participate.
 
 \subsection{Analysis}
 
-% Thoughts:
-% * Two buttons: Improving on binary input (cheering, the lighter). Taking audience input from digital towards analog.
+The willingness of users to participate and the amount of discussion that was sparked confirmed that this research is of interest to the public. This prototype raised many points to be considered for future iterations. For example, it was encouraging to see the users immediately begin collaborating. Facilitating this tendency could make future iterations more intuitive for users. The voting system implemented in this prototype, however, is likely not the best way to promote collaboration. This left-versus-right model could easily create a competitive, goal-oriented environment instead of a performative one. The voting system also presents problems with feedback; the results of each user's actions are combined and thereby obscured. How can future prototypes provide clear, individual feedback while still effectively contributing to the overall performance? Furthermore, how can a system react if only a portion of an audience chooses to participate? One feature that raised no issues was the mute button; it seems sensible that future work should continue allowing performers to regulate audience control.
+% Use the phrase "many-to-one mapping" to discuss feedback
+
+Further reflection led me to contemplate the nature of the participation. This prototype involved the audience directly influencing a performer's creative output -- similar to D'CuCKOO's MidiBall or Tseng et al.'s (2012) interactive theatre piece. Projects like PixMob or Xylobands, however, are different: while the performance's primary output is live music, the audience is only participating in the light show -- what I would call the secondary output. As emphasized by the ethnographic study, and as is reasonable to assume, the average performer is hesitant about allowing others to influence their primary output. Thus, a participatory technology would likely be more desirable to performers if it was limited to secondary output.
+% Audience survey indicated an equally low interest in influencing both the music and the lights
+% If 
+
+% Prototype #1 Outcomes:
 % * If we ask the audience to make a decision, will it change throughout the show? (Later: Yes/No vs How; i.e. Prototype 1 vs 3)
 % * Mute: When should the audience have control?
 % * Goal oriented? Should the users be trying to achieve something? Will they find a way to turn it into a game regardless?
 % * What about spectators who are not participants? Tseng et al. indicate those left out can still get enjoyment. Heck, even watching videos of the precedent projects can be exhilarating.
+% * Audience survey indicated an equally low interest in influencing both the music and the lights
+
+% Prototype #1 Questions:
+% *
 
 
 \section{Prototype \#2}
 
-This chapter covers the development of the second prototype. I explain the design goals, the creation process, and the user testing that was carried out. The chapter closes with a discussion on the significance of the prototype.
+% Motivation:
+This prototype's purpose was to explore possible input mechanisms for audience members. Through user testing, I hoped to identify which were intuitive, which were most natural and meaningful to perform as a group, and which afforded accurate collaborative control.   This prototype also allowed for exploration of different feedback methods. Lastly, by basing it around the voting-based VJ system from Prototype \#1, I hoped to make conclusions about goal-oriented systems and the crowd behaviours that result from them. After receiving the opportunity to participate in an exhibition at OCAD University, it was decided to design this prototype as an interactive installation. By inviting the exhibition attendees to test the various methods of input, I could observe their behaviours and collect reactions from a wide variety of users.
 
-\subsection{Motivation}
-
-This prototype's purpose was to explore possible input mechanisms for audience members. Through user testing, I hoped to identify which were intuitive, which were most natural and meaningful to perform as a group, and which afforded accurate collaborative control. From the start, it was clear that body movement would be more a fitting input than something like button pressing. Users find movement-based interactions more satisfying (Ulyate \& Biancardi, 2001); furthermore, there are apparent subconscious ties that link music and movement (Jourdain, 1997; Levitin, 2006), making this a natural form of input for a live music environment. In designing their audience-interaction system, Barkhuus and Jorgensen (2008) found that movements based on already-present behaviour were especially effective input methods. Inspired by this recommendation, I created a list of common crowd behaviours to be incorporated in the system -- giving a thumbs up or thumbs down, swaying one's arms back and forth, clapping, doing `the wave' (also known as 'the Mexican wave'), holding a lighter in the air, and dancing. Researchers emphasize the importance of meaningful feedback in crowd-controlled systems (Ulyate \& Biancardi, 2001; Barkhuus \& Jorgensen, 2008), and this was also a recurring concern in the response to Prototype \#1. Thus, this prototype also allowed for exploration of different feedback methods. After receiving the opportunity to participate in an exhibition at OCAD University, I decided to design this prototype as an interactive installation. By inviting the exhibition attendees to test the various methods of input, I could observe the behaviours of a wide variety of users.
+% Prototype #2 Goals:
+% * Find what types of audience actions are effective input mechanisms
+% * 
 
 \subsection{Development}
+
+From the start, it was clear that body movement would be a more fitting input than something like button pressing. Most users find movement-based interactions satisfying (Ulyate \& Biancardi, 2001); plus, there are apparent subconscious ties that link music and movement (Jourdain, 1997; Levitin, 2006), making this a natural form of input for a live music environment. In designing their audience-interaction system, Barkhuus and J{\o}rgensen (2008) found that motions based on already-present behaviour were especially effective input methods. I created a list of common crowd behaviours to be incorporated in the prototype -- giving a thumbs up or thumbs down, swaying one's arms back and forth, clapping, and doing `the wave' (also known as `the Mexican wave').
+% Survey participants indicated that they regularly move in various ways at shows
+% Researchers emphasize the importance of meaningful feedback in crowd-controlled systems (Ulyate \& Biancardi, 2001; Barkhuus \& J{\o}rgensen, 2008), and this was also a recurring concern in the response to Prototype \#1.
 
 \begin{figure}
 	\centering
@@ -169,7 +181,7 @@ This prototype's purpose was to explore possible input mechanisms for audience m
 	\label{prototyping2.1}
 \end{figure}
 
-The first prototype provided a suitable framework for this experiment: I continued using multiple Wii controllers as input devices, and OSCulator was used to route the data to Max where it processed and represented visually. From here, I needed to be able to recognize when a user was performing one of the selected crowd behaviours. By pulling data from the controller's motion sensors, I was able to identify when the user was giving a thumbs up or down, swaying their arms left or right, clapping, or doing the wave. I incorporated simple visual feedback -- LED objects that light up when the user holds their thumb up or down or claps, sliders that follow arm movement when the user is swaying or doing the wave. Calibrating these required trial and error tests using different thresholds -- determining what amount of acceleration qualified as a clap, for instance. Figure \ref{prototyping2.1} shows the first iteration of this prototype.
+The first prototype provided a suitable framework for this experiment: I continued using multiple Wii controllers as input devices, and OSCulator was used to route the data to Max where it processed and represented visually. From here, I needed to be able to recognize when a user was performing one of the selected crowd behaviours. By pulling data from the controller's motion sensors, I was able to identify when the user was giving a thumbs up or down, swaying their arms left or right, clapping, or doing the wave. I incorporated simple visual feedback -- LED objects that light up when the user points their thumb up or down or claps, and sliders that follow arm movement when the user is swaying or doing the wave. Calibrating these required trial and error tests using different thresholds -- determining what amount of acceleration qualified as a clap, for instance. Figure \ref{prototyping2.1} shows the first iteration of this prototype.
 
 \begin{figure}[p]		% On its own page
 	\centering
@@ -188,10 +200,11 @@ The first prototype provided a suitable framework for this experiment: I continu
 
 	\label{prototyping2.2}
 \end{figure}
+% Update with final versions
 
-Next, I modularized the previous patcher and multiplied it sevenfold. The actions of seven users could now be monitored simultaneously. I developed new visualizations to reflect these multiple inputs, shown in Figure \ref{prototyping2.2}. Thumbs up/down mode simply displays how many users are holding their thumbs up and down. The wave mode shows the vertical position of each user's arms. I created two modes to detect clapping. The first displays seven LED objects that illuminate when each user claps, encouraging users to clap in sync. The second serves as a `clap-o-meter,' visualizing the collective clapping activity. Lastly, the swaying mode includes a slider to display the left-right movement of each user.
+Next, I modularized the patcher and multiplied it sevenfold. The actions of seven users could now be monitored simultaneously. I developed new visualizations to reflect these multiple inputs, shown in Figure \ref{prototyping2.2}. Thumbs up/down mode simply displays how many users are holding their thumbs up and down. The wave mode shows the vertical position of each user's arms. I created two modes to detect clapping. The first displays seven LED objects that illuminate when each user claps, encouraging users to clap in sync. The second mode -- a `clap-o-meter' --  was included to compare how users react to collective representation compared to the other modes' individual representation.  Lastly, the swaying mode includes a slider to display the left-right movement of each user.
 
-Two additional modes were added at this point to act as controls. The first invites users to imitate holding a lighter in the air. This is done by holding the Wii controller upright and pressing the A button, causing LED objects on the screen to illuminate. I included this button-based input to observed how user response compared to that of a motion-based input. In the final mode, users are simply told to dance. The visuals displayed on screen are generated randomly; the users are not actually controlling anything. This was included to see how users responded when the effect of their actions was not clear.
+Two additional modes were added at this point to act as controls. The first invites users to imitate holding a lighter in the air. This is done by holding the Wii controller upright and pressing the A button, causing LED objects on the screen to illuminate. I included this button-based input to observed how user response compared to that of a motion-based input. In the final mode, users are simply invited to dance. The visuals displayed on screen are generated randomly; the users are not actually controlling anything. This was included to see how users responded when the effect of their actions was completely unclear.
 
 \begin{figure}
 	\centering
@@ -202,12 +215,11 @@ Two additional modes were added at this point to act as controls. The first invi
 	\label{prototyping2.3}
 \end{figure}
 
-In preparation for the exhibition, I modified the patcher to function as an installation. An auto-play function was implemented; the input methods are looped through automatically, each activated for ten seconds at a time. A short text prompt is displayed to give users a hint at what action they should be performing (``Thumbs up or thumbs down?" ``Sway in sync!" ``Clap-o-meter!" ``Clap in sync!" ``Do the wave!" ``Lighters in the air!" ``Dance!") as shown in Figure \ref{prototyping2.3}. Thus, the system would not require an operator, and users could approach it at any time during the exhibition and test each mechanic.
+In preparation for the exhibition, I modified the patcher to function as an installation. An auto-play function was implemented; the input methods are looped through automatically, each activated for ten seconds at a time. A short text prompt is displayed to give users a hint at what action they should be performing (``Thumbs up or thumbs down?" ``Sway in sync!" ``Clap-o-meter!" ``Clap in sync!" ``Do the wave!" ``Lighters in the air!" ``Dance!") as shown in Figure \ref{prototyping2.3}. Thus, the system would not require an operator, and users could approach it at any time during the exhibition and test each mechanism.
 
-Lastly, in an effort to make the installation more compelling, part of the VJ system from Prototype \#1 was added to the patcher. Namely, the crossfade system was implemented and connected to each input mechanism. For instance, in swaying mode, if all users swayed their arms to the right, the slider would move to the right and the colour video loop would overtake the black and white loop. In addition to the representative visual feedback already established, then, users could also see how their collective inputs could be used to control a separate system.
+Lastly, part of the VJ system from Prototype \#1 was added to the patcher. Namely, the crossfade system was implemented and connected to each input mechanism. For instance, in swaying mode, if all users swayed their arms to the left, the slider would move to the left and the black and white video loop would overtake the colour loop. In clap-in-sync mode, the colour video would play only if users manage to consistently clap together.
 
 \subsection{Testing}
-% Explain the details of how participants were recruited, how data was collected, recorded, and processed/analyzed, and the timeline over which this process unfolded
 
 \begin{figure}
 	\centering
@@ -219,22 +231,24 @@ Lastly, in an effort to make the installation more compelling, part of the VJ sy
 \end{figure}
 
 Testing took place during the opening night of the exhibition. The final patcher was projected on a large wall in a darkened room using a short-throw projector. The seven Wii controllers were laid on a table in the middle of the room, their LEDs illuminated, inviting users to pick them up. Figure \ref{prototyping2.4} shows the prototype set up in the exhibition.
+% Be more specific about the timeframe
+% Estimate how many people were involved in testing Prototype #2
 
-Given the casual nature of the event, attendees were relaxed and generally openminded. Groups that entered the room were asked if they were interested in participating in an experiment. Those that accepted were briefed in one of two ways. Half of the groups were told the experiment's motivation -- that I was investigating how audience behaviours could be turned into inputs at live music events. The other half were given no information. I did this to see how users would approach the system if they were given no context. Indeed, some of those who received no information were unsure what was expected of them. Some began pressing buttons on their Wii controller, sometimes holding it up and pointing it at the screen. One user wondered aloud what their goal was.
+Given the casual nature of the event, attendees were relaxed and generally openminded. Groups that entered the room were asked if they were interested in participating in an experiment. Those that accepted were briefed in one of two ways. Half of the groups were told the experiment's motivation -- that I was investigating how audience behaviours could be turned into inputs at live music events. The other half were given no information. I did this to see how users would approach the system with minimum instruction. Indeed, some of those who received no information were unsure what was expected of them. Some only pressed buttons on their Wii controller, sometimes holding in front of them and pointing it at the screen. One user wondered aloud what their goal was.
 
-Those who were given context understood the system much more easily, quickly figuring out that they were to perform physical motions as a group to manipulate the video. Some users invited bystanders to grab a controller and join them, eager to test the system's capabilities. Each input mechanism received different reactions. As I observed and spoke with participants, some general opinions of each method began to surface.
+Those who were given context understood the system much more easily, quickly figuring out that they could perform physical motions as a group and manipulate the video. Some users invited bystanders to grab a controller and join them, eager to test the system's capabilities. Each input mechanism received different reactions. As I observed and spoke with participants, some general opinions of each method began to surface.
 
-% Thumbs up/down:
-Most understood the action quickly, experimenting with combinations. Some tilted the controller left to right, not fully inverting it for thumbs down. The up-versus-down counter seemed random to them at first. Some started shaking the controller. Eventually users coordinated all thumbs up or all thumbs down. Users commented that the thumbs down motion was difficult to perform. Users commented that the up/down action seemed strange to link to the left/right movement of the crossfader slider.
+\subsubsection{Thumbs Up or Down}
+Most users understood the action quickly, experimenting with combinations. Some tilted the controller left and right, not fully inverting it for thumbs down. Others simply started shaking the controller. The up-versus-down counter seemed random to many users at first. As groups started to understand the system, they coordinated inputs -- all thumbs up or all thumbs down. Users commented that the thumbs down motion was difficult to perform. Some commented that the up-down action seemed strange to link to the left-right movement of the crossfader slider.
 
-% Sway:
-Users had trouble identifying which slider was theirs. Some solved this by shaking the controller violently and observing which slider was moving accordingly. Some users were holding the controller backwards, causing their input to be reversed and adding confusion. Groups eventually coordinated themselves and began swaying in sync. Most users did not raise their arms in the air, instead casually hold the controller in front of them. In conversation, they indicated that they did not feel compelled to since the visuals were already responding. 
+\subsubsection{Sway in Sync}
+Users had trouble identifying which slider was connected to their controller. Some solved this by shaking the controller violently and observing which slider was moving accordingly. Some users were holding the controller backwards, causing their input to be reversed and adding confusion. All groups eventually organized themselves and began swaying in sync. Most users did not raise their arms in the air, instead casually hold the controller in front of them; in conversation, they indicated that they did not feel compelled to since the visuals were already responding.
 
-% Clap-o-meter:
-Since the visualization reacted gradually, users were initially confused. They commented on the slow response. While some said that the visualization was appealing, many agreed that they would preferring seeing individual  Groups eventually worked together to fill up the clap-o-meter. Users were unsure how to clap with the controller in their hand; some complained that it was painful to hit it against their palm. Users tired of this mode quickly.
+\subsubsection{Clap-O-Meter}
+Since this visualization reacted gradually, users were initially confused, and several commented on the slow response. While some said that the visualization was appealing, many agreed that they would preferring seeing individual outputs. Some groups worked together and tried to fill up the clap-o-meter. Some users expressed uncertainty about clapping with the controller in their hand; some complained that it was painful to hit it against their palm. Overall, users seemed to tire of this mode quickly.
 
-% Clap in sync:
-In most groups, one user would lead the others by counting out a time. Users commented that it was a fun challenge to try to clap in sync. However, once syncopation was achieved, most groups felt they had achieved what was expected and stopped. Some commented that the minor lag in the visualization was distracting.
+\subsubsection{Clap in Sync}
+All users quickly caught on to this mode. In most groups, one participant would lead the others by counting out a time. Users commented that it was a fun challenge to try to clap in sync. However, once synchronization was achieved, most groups felt they had completed what was expected and stopped. Some users also commented that the minor lag in the visualization was distracting.
 
 \begin{figure}
 	\centering
@@ -245,59 +259,57 @@ In most groups, one user would lead the others by counting out a time. Users com
 	\label{prototyping2.5}
 \end{figure}
 
-% The wave:
-Nearly all users instantly understood the prompt and were eager to raise their arms in the air. Figure \ref{prototyping2.5} shows three participants performing the wave input. One group did not communicate and instead just watched their own slider, but most cooperated to raise their arms simultaneously. One group organized themselves in a row such that they were in the same order as their sliders on screen. Users enjoyed the appearance of this visualization. Although, a particularly thought-provoking comment was made by one user: this visual representation of the wave was less appealing than the wave itself. 
+\subsubsection{The Wave}
+Nearly all users instantly understood this prompt and were eager to raise their arms in the air. Figure \ref{prototyping2.5} shows three participants performing the wave input. While one group did not communicate and focused on their own slider, most cooperated to raise their arms simultaneously. One group even organized themselves in a row such that they were in the same order as their sliders on screen. Users enjoyed the appearance of this visualization. Although, a particularly thought-provoking comment was made by one user: this electronic representation of the wave was less satisfying than watching the real-world wave.
 
-% Lighters:
-Most users instantly understood this as well. Some tried to see if pushing the button rapidly would create a different response. Some groups worked together to light up all the LED objects together. This seemed unexciting to users; one vocalized her boredom.
+\subsubsection{Lighters}
+Most users instantly understood this as well. Some tried to see if pushing the button rapidly would create a different response. Some groups worked together to light up all the LED objects together. This mode seemed unexciting to most users; one vocalized her boredom.
 
-% Dance:
-Most users responded to the prompt without hesitation and began moving. Others were clearly not comfortable doing so. Many stared at the random visualizations and tried to make sense of their role. Some were annoyed when told their input had no effect.
+\subsubsection{Dance}
+Many users responded to this prompt without hesitation and began moving. Others were clearly not comfortable doing so. Groups expressed confusion over the random visualizations and tried to make sense of their role. When told their input had no effect, some users were slightly annoyed.\\
 
-In multiple modes, users noted that they were not paying attention to the video and were rather focusing their attention on the sliders or LED objects. One user suggested that if the system were incorporated into a live performance, the video clips could be two different live feeds of the performance itself.
+In multiple modes, users noted that they were not paying attention to the video loops and were rather focusing their attention on the sliders or LED objects. One user suggested that if the system were incorporated into a live performance, the video clips could be two different live feeds of the performance itself.
 
 \subsection{Analysis}
 
-% The buttons were misleading
+Several revelations came out of this prototype regarding input mechanisms. The Wii controllers raised some issues; buttons distracted some users, and inputs could not be successfully performed when the device was held in unexpected orientations. Measures should be taken for future prototypes to avoid or adapt to such incorrect use. As the first prototype began to show, modes that rewarded collaboration here received the most immediate responses. However, when users felt there was a goal, they stopped participating once it was achieved. The text prompts that were used in this system seemed to place limits on the users and should be excluded in future versions. Testing also provided insight on feedback methods. Individual visualizations for each user, such as the clap-in-sync LEDs or the wave sliders, were most effective. This is reinforced by the fact that most participants did not pay attention to the video output; users wanted to look at their individual influence on the system and not just the collective results. Immediate feedback is also important; unlike the clap-o-meter, a system should allow users to quickly discover how they can influence it. Lastly, it is important that watching the overall output is more captivating than watching others perform the input itself.
 
-% Individual visualizations for each user (i.e. not Thumbs up/down or Clap-o-meter)
+% Prototype #2 Outcomes:
+% * The buttons were misleading
+% * Individual visualizations for each user (i.e. not Thumbs up/down or Clap-o-meter)
+% * On/off is most appealing. Choosing between two options caused confusion (i.e. no more left/right voting). This is just like regular audience behavior I guess?
+% * Collaboration came naturally and was enjoyable. Many users counted time.
+% * Direct control of visual elements trumps indirect control (i.e. ditch the video crossfading)
+% * Users should be able to opt out without affecting others' experiences (i.e. not Thumbs up/down or Clap-o-meter)
+% * No forced goals (i.e. no prompts to perform in sync). Allow for creativity.
+% * Be clear about the rules of the system or users will begin experimenting and become distracted
+% * The output must be more captivating than the input (i.e. no digital wave)
 
-% On/off is most appealing. Choosing between two options caused confusion (i.e. no more left/right voting). This is just like regular audience behavior I guess?
-
-% Collaboration came naturally and was enjoyable
-
-% Direct control of visual elements trumps indirect control (i.e. ditch the video crossfading)
-
-% Users should be able to opt out without affecting others' experiences (i.e. not Thumbs up/down or Clap-o-meter)
-
-% No forced goals (i.e. no prompts to perform in sync). Allow for creativity.
-
-% Be clear about the rules of the system or users will begin experimenting and become distracted
-
-% The output must be more captivating than the input (i.e. no digital wave)
+% Prototype #2 Questions:
+% *
 
 
 \section{Prototype \#3}
 
-This chapter covers the development of the third and final prototype. I explain the design goals, the creation process, and the user testing that was carried out. The chapter closes with a discussion on the significance of the prototype.
-
-\subsection{Motivation}
-
-The final prototype took the form of a collaboration with one of the ethnography subjects, local musician Christian Hansen. After our interview, he expressed interest in incorporating one of my prototypes into a performance. My ethnographic study made it clear that each performer has a unique opinion on what makes a great performance; thus, I knew that it would be important to develop a new prototype with Christian and ensure that the system reflected his performance style.
+The final prototype took the form of a collaboration with one of the ethnography subjects, Toronto musician Christian Hansen. After our interview, he expressed interest in incorporating one of my prototypes into a performance. My ethnographic study made it clear that each performer has a unique opinion on what makes a great performance; thus, I knew that it would be important to develop a new prototype with Christian and ensure that the system reflected his performance style.
 
 % Description of the band:
-The current incarnation of the Christian Hansen band features Christian providing lead vocals and Molly playing keyboard, performing backup vocals, and controlling backing tracks. Both bring high energies to their performances; Christian frequently moves around the stage, dances, and sings very expressively, and Molly, despite being stationed behind a keyboard stand, continuously moves to the music as well. The band does not typically use any more equipment than is needed. They aim to make a big impact through simplicity and rawness. As explained in Chapter 5, Christian will often involve the audience, encouraging singalongs and moving between the stage and the crowd. He feels that it is his job to maximize the audience's energy level.
+The current incarnation of the Christian Hansen band features Christian providing lead vocals and Molly playing keyboard, performing backup vocals, and controlling backing tracks. Both bring high energies to their performances; Christian frequently moves around the stage, dances, and sings very expressively, and Molly, despite being stationed behind a keyboard stand, continuously moves to the music as well. The band does not typically use any more equipment than is needed. They aim to make a big impact through simplicity and rawness. As explained in Chapter 3, Christian will often involve the audience, encouraging singalongs and moving between the stage and the crowd. He feels that it is his job to maximize the audience's energy level.
 
 % The band's desires:
 The band expressed interest in allowing the audience to control their light show in some way. Christian wanted a system that could unite audience members without turning into a distraction from the music. He also expressed concern about giving the audience too much control; only the band should be able to dictate the flow of the performance. Christian hoped that the technology would create a controlled environment that left some room for some spontaneity and uncertainty.
 
 % The goals of the experiment:
-My goal, then, was to develop a system that satisfied these wishes...
+My goal, then, was to develop a system that satisfied these wishes while allowing me to make conclusions by observing its impact in a real live music environment.
+
+% Prototype #3 Goals:
+% * How does audience control over secondary output affect the performer?
+% * 
 
 \subsection{Development}
+% Add stuff about the Wii LEDs flashing when the user activates a light
 
-% The prototype's overall concept:
-I decided to give each audience member control over one light in an array of lights to be located on stage. An audience members would receive a simple wireless device to control their light, which would provide obvious and consistent visual feedback. Users would only be faced with two options -- turn the light on momentarily or leave it off. As the last prototype revealed, limiting the audience's options in this way would reduce the opportunities for confusion; this feature also reflects the artist's desire for simplicity. This one-light/one-person mechanic had additional benefits. If a user decided not to participate, for instance, it would not have a direct effect on the other users' experiences. The system is not inherently goal oriented, so a user is free to experiment without concern for what the others are doing. That being said, there could be benefits to collaboration; for example, if the crowd worked together to turn on all of the lights in sync, the outcome would likely be more rewarding than if everyone acted independently. Organizing synchronized inputs proved to be enjoyable for participants in the previous experiment.
+I decided to give each audience member control over one light in an array of lights to be located on stage. An audience members would receive a simple wireless device to control their light, which would provide obvious and consistent visual feedback. Users would only be faced with two options -- turn the light on momentarily or leave it off. As the last prototype revealed, limiting the audience's options in this way would reduce the opportunities for confusion; this feature also reflects the artist's desire for simplicity. This one-light/one-person mechanism had additional benefits. If a user decided not to participate, for instance, it would not have a direct effect on the other users' experiences. The system is not inherently goal oriented, so a user is free to experiment without concern for what the others are doing. That being said, there could be benefits to collaboration; for example, if the crowd worked together to turn on all of the lights in sync, the outcome would likely be more rewarding than if everyone acted independently. Organizing synchronized inputs proved to be enjoyable for participants in the previous experiment.
 
 \begin{figure}
 	\centering
@@ -336,7 +348,7 @@ While previous prototypes were limited to seven users, I felt that, to have a pr
 
 % Figure X
 
-Now that the primary hardware and its limitations had been established, the system could be designed with greater detail. I wanted the lights to be spread across the stage, but it was important that users could quickly identify which bulb was in their control. The Wii controller provided a solution -- namely, its four LEDs. If the lights were divided into four sections installed uniformly across the stage, a controller could indicate which section contained its paired light by illuminating the corresponding LED. A controller with the third LED illuminated, for instance, tells the user that they control a light in the third section of the stage. Thus, to evenly distribute the lights, it was decided to place three bulbs in each section, fixing the number of users at twelve. Figure X illustrates this concept.
+Now that the primary hardware and its limitations had been established, the system could be designed with greater detail. I wanted the lights to be spread across the stage, but it was important that users could quickly identify which bulb was in their control. The Wii controller provided a solution -- namely, its four LEDs. If the lights were divided into four sections installed uniformly across the stage, a controller could indicate which section contained its paired light by illuminating the corresponding LED. A controller with the third LED illuminated, for instance, tells the user that they control a light in the third section of the stage. Thus, to evenly distribute the lights, it was decided to place three bulbs in each section, fixing the number of users at twelve. %Figure X illustrates this concept.
 
 \begin{figure}
 	\centering
@@ -378,7 +390,7 @@ Simple lamps were designed to house the bulbs; four would hold three bulbs each.
 	\label{prototyping3.6}
 \end{figure}
 
-Next, a Max patcher was created to pull data from all twelve Wii controllers and control all twelve lights. But how exactly would a user turn on their light? It was decided that the bulbs would be activated by performing a clapping motion with the controller. Out of the methods tested with the last prototype, I felt that this made the most sense with the system: simply clap your controller against your palm to momentarily illuminate your light. This input method was generally well received by users of the previous prototype, but it received some criticisms. For instance, users felt the visuals did not respond quickly enough to their claps; a quick test with the LED bulbs indicated that such latency would not be an issue here. Some Prototype \#2 users also noted discomfort when performing the clapping motion. To address this, a foam cover was added to the Wii controllers, and they were wrapped in tape (see Figure \ref{prototyping3.6}). This also solved another problem that emerged in the previous experiment. Some users were distracted by the controller's buttons; by covering the buttons, users would not presume that they served a function.
+Next, a Max patcher was created to pull data from all twelve Wii controllers and control all twelve lights. But how exactly would a user turn on their light? It was decided that the bulbs would be activated by performing a clapping motion with the controller. Out of the methods tested with the last prototype, I felt that this made the most sense with the system: simply clap your controller against your palm to momentarily illuminate your light. This input method was generally well received by users of the previous prototype, but it received some criticisms. For instance, users felt the visuals did not respond quickly enough to their claps; a quick test with the LED bulbs indicated that such latency would not be an issue here. Some Prototype \#2 users also noted discomfort when performing the clapping motion. To address this, a foam cover was added to the Wii controllers, and they were wrapped in tape (see Figure \ref{prototyping3.6}). This also solved another problem that emerged in the previous experiment: some users were distracted by the controller's buttons. By covering the buttons, users would not presume that they served a function.
 
 \begin{figure}
 	\centering
@@ -389,12 +401,11 @@ Next, a Max patcher was created to pull data from all twelve Wii controllers and
 	\label{prototyping3.7}
 \end{figure}
 
-At this point, discussion with Christian and Molly led to an important question -- how long will audience members be controlling these lights? The band and I both felt that the system should not be active for the whole performance; if it caused any unexpected problems, it would be best to not have this affect the entire show. We agreed to introduce the controllers before the band's last two songs. This would give the crowd sufficient time to warm up to the band and serve as a surprising finale. Rather than leaving the lights inactive before this, however, I offered to program a light show to accompany the first part of the performance. Figure \ref{prototyping3.7} shows the Max interface that was designed to control and monitor the lights' activity. For the first part of the show I could activate preprogrammed lighting patterns, and for the second part I could activate the controllers and observe audience inputs.
+At this point, discussion with Christian and Molly led to an important question: how long will audience members be controlling these lights? The band and I both felt that the system should not be active for the whole performance; if it caused any unexpected problems, it would be best to not have this affect the entire show. We agreed to introduce the controllers before the band's last two songs. This would give the crowd sufficient time to warm up to the band and serve as a surprising finale. Rather than leaving the lights inactive before this, however, I offered to program a light show to accompany the first part of the performance. Figure \ref{prototyping3.7} shows the Max interface that was designed to control and monitor the lights' activity. For the first part of the show I could activate preprogrammed lighting patterns, and for the second part I could activate the controllers and observe audience inputs.
 
 Final adjustments were required to make the system as responsive as possible. This included selecting the threshold for which input values qualified as claps, determining how long a light would remain on for one flash, and fine-tuning a delay to avoid one clap resulting in two consecutive light flashes. As a guide, I tested the values by clapping to the beat of one of Christian Hansen's high-tempo recordings; the values were set when I could do this without the lights flashing too quickly or too slowly.
 
 \subsection{Testing}
-% Explain the details of how participants were recruited, how data was collected, recorded, and processed/analyzed, and the timeline over which this process unfolded
 
 \begin{figure}
 	\centering
@@ -405,7 +416,7 @@ Final adjustments were required to make the system as responsive as possible. Th
 	\label{prototyping3.8}
 \end{figure}
 
-The prototype was tested at The Silver Dollar Room, a two-hundred-capacity bar located in downtown Toronto (see Figure \ref{prototyping3.8}). The event took place on a Saturday evening, with Christian Hansen as the headlining act and four other bands on the bill. Christian was scheduled to play for twenty minutes. By the time the band started, the crowd was between twenty and thirty people; Christian guessed that only a fraction of the audience was familiar with his band. The atmosphere was relaxed, most people standing and watching the performers, some with a drink in hand.
+The prototype was tested at The Silver Dollar Room, a two-hundred-capacity bar located in downtown Toronto (see Figure \ref{prototyping3.8}). The event took place on a Saturday evening, with Christian Hansen as the headlining act and four other bands on the bill. Christian was scheduled to play for twenty minutes. By the time the band started, the crowd was approximately forty people; Christian guessed that only a fraction of the audience was familiar with his band. The atmosphere was relaxed, most people standing and watching the performers, some with a drink in hand.
 
 \begin{figure}
 	\centering
@@ -447,7 +458,7 @@ With two songs remaining on the set list, Christian announced to the crowd that 
 	\label{prototyping3.11}
 \end{figure}
 
-As has been the case with the previous prototypes, the manners in which users handled the devices were surprising. Most held the device as a Wii controller is typically held, the thicker weighted end in their palm; a few others had it flipped upside down. To turn on their light, these users tended to perform a flicking motion -- as if using a whip or drum stick. One person, in fact, appeared to be `air drumming' to the beat with both hands. Some other users were dancing carelessly, moving their device in all sorts of directions at varying speeds. It was unclear how these motions were influencing the lights, but the users did not seem to be paying much attention to the lights. Most surprisingly, there were two participants that held the device from its center, grasping it with the tips of their fingers. One of these people was shaking the device like a shaker instrument for the majority of the performance, and the other was flicking the controller and sometimes twisting it about its center. Notably, there were no users consistently performing a clapping motion with their device. While the energy of the crowd was high overall, there were a couple of participants who remained quite still and activated their lights sparingly. Figure \ref{prototyping3.11} shows four audience members using the controllers.
+As has been the case with the previous prototypes, the manners in which users handled the devices were surprising. Most held the device as a Wii controller is typically held, the thicker weighted end in their palm; a few others had it flipped upside down. To turn on their light, these users tended to perform a flicking motion -- as if using a whip or drum stick. One person, in fact, appeared to be `air drumming' to the beat with both hands. Some other users were dancing carelessly, moving their device in all sorts of directions at varying speeds. It was unclear how these motions were influencing the lights, but the users did not seem to be paying much attention to the lights. Most surprisingly, there were two participants that held the device from its center, grasping it with the tips of their fingers. One of these people was shaking the device like a shaker instrument for the majority of the performance, and the other was flicking the controller and sometimes twisting it about its center. Notably, there were no users consistently performing a clapping motion with their device. While the energy of the crowd was high overall, there were a couple of participants who remained quite still and activated their lights sparingly. Additionally, there were no users who were noticeably influenced by alcohol. Figure \ref{prototyping3.11} shows four audience members using the controllers.
 
 Audience members also varied in how closely they watched the lights reacting. Initially, of course, users looked closely at the lamps to identify their light. Once this was sorted out, approximately half the users could be observed staring at the lights for portions of the performance; the rest resumed watching the band.
 
@@ -475,32 +486,48 @@ After the performance ended, users returned their device to the table from which
 
 \subsubsection{Performer Feedback}
 
-I met with Christian one week after the performance, giving him and Molly time to reflect on and discuss the experiment. First, I asked for his overall impressions on the event.
+I met with Christian one week after the performance, giving him and Molly time to reflect on and discuss the experiment. First, I asked for his overall impressions on the event. ``It was a pretty easy setup. It worked on stage," he said. He indicated that he would like if the lamps had their own stands and could be set up on either side of the stage. He also expressed interest in having some of the lights attached to his microphone. The lights were most effective, he felt, when the venue's house lights were kept low. In general, Christian and Molly had begun thinking about how, logistically, they could tour with this technology and adapt it to different venues.
+% They are used to traveling lightly
+% Interested in being able to swing the lights around his head
+% He saw the technology as an opportunity for something new and exciting to happen. It was ``an added bonus" to their performance.
+% He felt that the lamps were most effective when the house lights were kept low.
 
-He saw the technology as an opportunity for something new and exciting to happen. It was ``an added bonus" to their performance.
+Once the audience received their controllers, Christian felt that it did not take long for users to understand the technology: ``A minute into the song it was apparent that they knew what they were doing." However, he wondered if the connection could be made more clear -- perhaps making the output more ``visually significant" or using less lights. Christian believed that the audience was enjoying the interaction. ``They were engaged with it, but it would be cool to see... how can the payoff be even bigger for them?" He suggested that the colour of the lights could change in some meaningful way.
+% He noted that just being at a concert is satisfying enough for some people.
 
-``It was a pretty easy setup. It worked on stage," he said. He said that he would like if the lamps had their own stands and could be set up on either side of the stage. He expressed interest in having some of the lights able to attach to his microphone and being able to swing the lights around his head. He and Molly had begun thinking about how, logistically, they could tour with it and adapt it to different venues. They are used to traveling lightly.
+Christian noted that the show had a ``medium" turnout, and the crowd was a mix of people both familiar and unfamiliar with the band. He explained how different types of shows are handled differently: ``I feel the difference." There are times when it feels right to ask the crowd to participate and times when it does not. If the crowd is onboard, ``you can ask a lot of them and they'll go with you to wherever you want to go."
+% He noted that people like options.
 
-He felt that the lamps were most effective when the house lights were kept low.
+There was a particularly memorable moment for Christian when both band members were holding the lamps in their hands: ``It just facilitated something totally new that we've never done before and changed the vibe of the show for sure." He said that using the lights mostly felt natural but for a moment that the band was giving them too much attention. ``You don't want it to become about the light," he warned. He indicated that the potential randomness of the flashing lights was not a distraction, stating that he ``was ready for that." The only thing that would have been distracted him, he said, was if something malfunctioned.
+% ``You don't want it to become about the light. You want it to be a marriage between this awesome light and your face and the music and the whole vibe and story and feeling that it creates."
 
-He felt that it did not take long for users to understand the technology: ``A minute into the song it was apparent that they knew what they were doing." However, he wondered if the connection could be made more clear -- perhaps making the output more ``visually significant" or using less lights.
-
-He felt that the audience was clearly enjoying the interaction. ``They were engaged with it, but it would be cool to see? how can the payoff be even bigger for them?" He suggested that the colour of the lights could change in some meaningful way. He noted that just being at a concert is satisfying enough for some people.
-
-He noted that the show had a ``medium" turnout, and the crowd was a mix of people both familiar and unfamiliar with the band. Different types of shows are handled differently: ``I feel the difference." There are times when it feels right to ask the crowd to participate and times when it does not. If the crowd is onboard, ``you can ask a lot of them and they?ll go with you to wherever you want to go." He noted that people like options.
-
-He was particularly fond of the moments when the band members were holding the lamps in their hands: ``It just facilitated something totally new that we've never done before and changed the vibe of the show for sure." He said that using the lights mostly felt natural but for a moment that the band was giving them too much attention: ``You don?t want it to become about the light. You want it to be a marriage between this awesome light and your face and the music and the whole vibe and story and feeling that it creates." He indicated that the potential randomness of the flashing lights was not a distraction: ``I was ready for that." He said that he only would have been distracted if something malfunctioned.
-
-He thought that introducing the devices for the last two songs was a good choice. He noted that it makes sense that this was our instinct. Giving people control for an entire performance would probably not work out: ``I don?t know if you can expect that much of people." He felt some users were ignoring the lights by the end of the show. He suggested that the rules of the interaction could change periodically throughout the show -- in the same way the mood of the lighting changes in the preprogrammed light shows of major productions. ``For maximum impact? everything should support the story of the show." The lights could be in the band's control for some parts, in the audience's control for others, or sometimes off altogether; some signal could indicate when things change. The lights could also be moved to different parts of the stage throughout the performance. The band could effectively ``write the script" for how the lights behave.
+Christian thought that introducing the devices for the last two songs was a good choice. He felt that giving people control for an entire performance would probably not work out, admitting, ``I don't know if you can expect that much of people." He felt some users were ignoring the lights by the end of the show. He suggested that the rules of the interaction could change periodically throughout the show -- in the same way the mood of the lighting changes in the preprogrammed light shows of major productions. ``For maximum impact... everything should support the story of the show." The lights could be in the band's control for some parts, in the audience's control for others, or sometimes off altogether; he suggested that some signal could indicate when things change. Christian also proposed that the lights could be moved to different parts of the stage throughout the performance. The band could effectively ``write the script" for where and how the lights illuminate.
+% He noted that it makes sense that this [two song interaction] was our instinct
 
 \subsection{Analysis}
 
-% The obscure form of the device gave people options on how they'd like to use it
+% Paragraph about the success of the tech
 
-% Direction-dependent LEDs were rendered meaningless when users flipped the devices upside down or sideways
+Prototype \#3 resulted in several surprising observations of the audience and an insightful discussion with the performer. Firstly, the input method was interpreted by users in many different ways. Contrary to expectations, the motions most users were performing were not based on typical audience actions, but at times closely resembled the playing of a percussion instrument. It seems as though the obscure form of the device gave people options on how they would like to hold and use it. Designing with ambiguity in this way could promote creativity and give users more freedom; however, one should be sure that unexpected usage does not have adverse effects. The lamps fortunately still responded regardless of the controllers' orientations, but the direction-dependent LEDs, for instance, were rendered meaningless when a user flipped their device upside down or sideways, no longer serving to help them identify their light.
+% Possibly reference Turino's ``wide tuning" concept
 
-% Audience members did not make an attempt to work together. Was this due to attitude or size of the crowd? Or was this a limitation of the technology? People tend to become synchronized when clapping; perhaps this didn't happen here because they were not clapping/making a sound.
+The concept of audience-controlled lighting was compelling to users overall, but some questions remain unaddressed. For example, this system relies on the participation of each person holding a controller; if most of the users stopped moving, most of the lights would stop flashing, and the effect would diminish. A future iteration could remedy this by adapting to a changing number of participants. It could also reward highly involved users with more control, similar to Feldmeier and Paradiso's (2007) interactive dance club.
 
-% The lamps were a communal instrument, `played,' albeit in different ways, by both the audience and the performer
+Previous prototypes were inherently collaborative, implementing collective outputs and goal-oriented prompts. This iteration, however, did not influence users to collaborate in any way. While the one-to-one mapping seemed to connect each audience member with the performance individually, it did not incite communication amongst the crowd. Is this an issue? Is it beneficial for audience members to participate collaboratively, or is it enough that they are contributing to the performance at all?
 
-% How could different types of interactions be incorporated into the length of a performance? The performer could provide instructions, but is it prohibitive to apply rules to the users? Turino suggests that constancy is a main feature of participatory performance.
+Indeed, the most appealing aspect of this prototype may have been that it gave the audience some influence over what happened on stage. Rather than creating a network connecting all users together, this system instead created more of a bridge between those off stage and those on stage. This bridge took the form of the four lamps, which turned into rather compelling artifacts once. When the audience had control of the lights and the performers held the lamps in their hands, a new kind of interaction formed. Christian and Molly could direct the lamps and aim them towards the crowd or hold them under their faces, but it was the audience members that chose if and how the lamps were illuminated. The lamps were communal `instruments' that could be `played' by both parties simultaneously. Perhaps this dynamic is the key to an effective participatory technology.
+
+Looking to the future, Christian had expressed interest in making the system more dynamic and able to function for an entire performance. It will be a challenge to create an experience that remains exciting for this amount of time. Implementing different types of inputs or outputs could accomplish this, but is this feasible? Turino (2008) suggests that a main feature of the participatory performance is constancy; would continually changing the system's rules cause too much confusion?
+% Story-telling function
+
+% Prototype #3 Outcomes:
+% * The lamps were a communal instrument, `played,' albeit in different ways, by both the audience and the performer. Performers are controlling secondary output (lighting). See what Gates (2006) said about burdensome tech; does lighting become more meaningful when the performer is influencing it?
+% * The obscure form of the device gave people options on how they'd like to use it
+% * Direction-dependent LEDs were rendered meaningless when users flipped the devices upside down or sideways
+% * Audience members did not make an attempt to work together. Was this due to attitude or size of the crowd? The fact that a performer was present? A limitation of the technology? Does the one-to-one mapping isolate each user despite the lights being grouped together?
+% * This did not really allow for opting out. If half of the participants stood still, for example, would this lessen the effect too much? How can this be remedied?
+% * How could different types of interactions be incorporated into the length of a performance? The performer could provide instructions, but is it prohibitive to apply rules to the users? Turino suggests that constancy is a main feature of participatory performance.
+% * Alcohol didn't have any noticeable negative effects here 
+
+% Prototype #3 Questions:
+% *

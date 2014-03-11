@@ -3,70 +3,77 @@
 \contentsline {section}{\numberline {1.2}Research Question}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Research Methods}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Scope}{5}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Overview}{5}{section.1.3}
-\contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Background}{6}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Music and Community}{6}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Participatory and Presentational Performance}{8}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Presentational Performance: A Lucrative Spectacle}{9}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Rock Shows and Participatory Culture}{11}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Related Work}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Crowd-Based Interfaces}{14}{subsection.2.2.1}
-\contentsline {subsubsection}{Ulyate and Bianciardi}{15}{section*.3}
-\contentsline {subsubsection}{Maynes-Aminzade, Pausch, and Seitz}{16}{section*.4}
-\contentsline {subsubsection}{Feldmeier and Paradiso}{16}{section*.5}
-\contentsline {subsubsection}{Tomitsch, Aigner, and Grechenig}{17}{section*.6}
-\contentsline {subsection}{\numberline {2.2.2}Audience-Performer Interaction}{17}{subsection.2.2.2}
-\contentsline {subsubsection}{Bongers}{18}{section*.7}
-\contentsline {subsubsection}{Gates, Subramanian, and Gutwin}{18}{section*.8}
-\contentsline {subsubsection}{Barkhuus and J{\o }rgensen}{19}{section*.9}
-\contentsline {subsubsection}{Tseng et al.}{20}{section*.10}
-\contentsline {subsection}{\numberline {2.2.3}Case Studies}{21}{subsection.2.2.3}
-\contentsline {subsubsection}{D'CuCKOO's MidiBall}{21}{section*.11}
-\contentsline {subsubsection}{Plastikman's SYNK}{21}{section*.12}
-\contentsline {subsubsection}{Kasabian's Interactive Stage Show}{22}{section*.13}
-\contentsline {subsubsection}{Amex Unstaged: Usher}{22}{section*.14}
-\contentsline {subsubsection}{PixMob}{22}{section*.15}
-\contentsline {subsubsection}{Wham City Lights}{23}{section*.16}
-\contentsline {subsubsection}{Xylobands}{23}{section*.17}
-\contentsline {chapter}{\numberline {3}Ethnography}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Audiences}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Performers}{27}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The Subjects}{27}{subsection.3.2.1}
-\contentsline {subsubsection}{Erik}{27}{section*.18}
-\contentsline {subsubsection}{Blake}{28}{section*.19}
-\contentsline {subsubsection}{Christian}{28}{section*.20}
-\contentsline {subsection}{\numberline {3.2.2}Interacting With Audiences}{29}{subsection.3.2.2}
-\contentsline {subsubsection}{Erik}{29}{section*.21}
-\contentsline {subsubsection}{Blake}{29}{section*.22}
-\contentsline {subsubsection}{Christian}{30}{section*.23}
-\contentsline {subsection}{\numberline {3.2.3}Participatory Technologies}{31}{subsection.3.2.3}
-\contentsline {subsubsection}{Erik}{31}{section*.24}
-\contentsline {subsubsection}{Blake}{32}{section*.25}
-\contentsline {subsubsection}{Christian}{32}{section*.26}
-\contentsline {section}{\numberline {3.3}Analysis}{33}{section.3.3}
-\contentsline {chapter}{\numberline {4}Prototyping}{34}{chapter.4}
-\contentsline {section}{\numberline {4.1}Prototype \#1}{34}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Motivation}{34}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Development}{35}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Testing}{39}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Analysis}{40}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Prototype \#2}{40}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Motivation}{40}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Development}{41}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Testing}{44}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Analysis}{47}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Prototype \#3}{47}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Motivation}{47}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Development}{48}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Testing}{54}{subsection.4.3.3}
-\contentsline {subsubsection}{The Performance}{55}{section*.46}
-\contentsline {subsubsection}{Audience Feedback}{60}{section*.50}
-\contentsline {subsubsection}{Performer Feedback}{60}{section*.51}
-\contentsline {subsection}{\numberline {4.3.4}Analysis}{62}{subsection.4.3.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{63}{chapter.5}
-\contentsline {section}{\numberline {5.1}Discussion}{63}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Directions}{63}{section.5.2}
-\contentsline {section}{\numberline {5.3}Conclusion}{63}{section.5.3}
-\contentsline {chapter}{References}{64}{chapter*.52}
-\contentsline {chapter}{\numberline {A}Research Ethics Board Materials}{67}{appendix.A}
+\contentsline {section}{\numberline {1.3}Overview}{6}{section.1.3}
+\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Background}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Music and Community}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Participatory and Presentational Performance}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Presentational Performance: A Lucrative Spectacle}{10}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Rock Shows and Participatory Culture}{12}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Related Work}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Crowd-Based Interfaces}{16}{subsection.2.2.1}
+\contentsline {subsubsection}{Ulyate and Bianciardi}{16}{section*.3}
+\contentsline {subsubsection}{Maynes-Aminzade, Pausch, and Seitz}{17}{section*.4}
+\contentsline {subsubsection}{Feldmeier and Paradiso}{17}{section*.5}
+\contentsline {subsubsection}{Tomitsch, Aigner, and Grechenig}{18}{section*.6}
+\contentsline {subsection}{\numberline {2.2.2}Audience-Performer Interaction}{19}{subsection.2.2.2}
+\contentsline {subsubsection}{Bongers}{19}{section*.7}
+\contentsline {subsubsection}{Gates, Subramanian, and Gutwin}{19}{section*.8}
+\contentsline {subsubsection}{Barkhuus and J{\o }rgensen}{20}{section*.9}
+\contentsline {subsubsection}{Tseng et al.}{21}{section*.10}
+\contentsline {subsection}{\numberline {2.2.3}Case Studies}{22}{subsection.2.2.3}
+\contentsline {subsubsection}{D'CuCKOO's MidiBall}{22}{section*.11}
+\contentsline {subsubsection}{Plastikman's SYNK}{22}{section*.12}
+\contentsline {subsubsection}{Kasabian's Interactive Stage Show}{23}{section*.13}
+\contentsline {subsubsection}{Amex Unstaged: Usher}{23}{section*.14}
+\contentsline {subsubsection}{PixMob}{23}{section*.15}
+\contentsline {subsubsection}{Wham City Lights}{24}{section*.16}
+\contentsline {subsubsection}{Xylobands}{25}{section*.17}
+\contentsline {chapter}{\numberline {3}Ethnography}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Audiences}{26}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Analysis}{28}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Performers}{28}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Subjects}{29}{subsection.3.2.1}
+\contentsline {subsubsection}{Erik}{29}{section*.18}
+\contentsline {subsubsection}{Blake}{29}{section*.19}
+\contentsline {subsubsection}{Christian}{30}{section*.20}
+\contentsline {subsection}{\numberline {3.2.2}Interacting With Audiences}{30}{subsection.3.2.2}
+\contentsline {subsubsection}{Erik}{30}{section*.21}
+\contentsline {subsubsection}{Blake}{31}{section*.22}
+\contentsline {subsubsection}{Christian}{32}{section*.23}
+\contentsline {subsection}{\numberline {3.2.3}Participatory Technologies}{32}{subsection.3.2.3}
+\contentsline {subsubsection}{Erik}{33}{section*.24}
+\contentsline {subsubsection}{Blake}{33}{section*.25}
+\contentsline {subsubsection}{Christian}{34}{section*.26}
+\contentsline {subsection}{\numberline {3.2.4}Analysis}{35}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Prototyping}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Prototype \#1}{37}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Development}{37}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Testing}{42}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Analysis}{43}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Prototype \#2}{43}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Development}{44}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Testing}{47}{subsection.4.2.2}
+\contentsline {subsubsection}{Thumbs Up or Down}{48}{section*.36}
+\contentsline {subsubsection}{Sway in Sync}{49}{section*.37}
+\contentsline {subsubsection}{Clap-O-Meter}{49}{section*.38}
+\contentsline {subsubsection}{Clap in Sync}{49}{section*.39}
+\contentsline {subsubsection}{The Wave}{50}{section*.41}
+\contentsline {subsubsection}{Lighters}{50}{section*.42}
+\contentsline {subsubsection}{Dance}{51}{section*.43}
+\contentsline {subsection}{\numberline {4.2.3}Analysis}{51}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Prototype \#3}{52}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Development}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Testing}{59}{subsection.4.3.2}
+\contentsline {subsubsection}{The Performance}{60}{section*.53}
+\contentsline {subsubsection}{Audience Feedback}{65}{section*.57}
+\contentsline {subsubsection}{Performer Feedback}{65}{section*.58}
+\contentsline {subsection}{\numberline {4.3.3}Analysis}{66}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{69}{chapter.5}
+\contentsline {section}{\numberline {5.1}Discussion}{69}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Directions}{71}{section.5.2}
+\contentsline {section}{\numberline {5.3}Conclusion}{72}{section.5.3}
+\contentsline {chapter}{References}{73}{chapter*.59}
+\contentsline {chapter}{\numberline {A}Research Ethics Board Materials}{76}{appendix.A}
+\contentsline {chapter}{\numberline {B}Audience Survey Results}{80}{appendix.B}
+\contentsline {chapter}{\numberline {C}Prototype \#3 Circuit Diagram}{81}{appendix.C}
