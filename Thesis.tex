@@ -1,6 +1,6 @@
-\documentclass[11pt]{report}
+\documentclass[10pt]{report}
 
-\usepackage[top=1.5in, bottom=1in, left=1.5in, right=1in]{geometry}		% Set margins
+\usepackage[top=1.5in, bottom=1.5in, left=1.5in, right=1.5in]{geometry}	% Set margins
 \usepackage{graphicx}										% Graphics
 \usepackage{subfig}											% Sub-figures
 \usepackage{amssymb}										% Math formulae
@@ -12,10 +12,12 @@
 \usepackage{url}											% URL hyperlinks
 \usepackage{pdfpages}										% Insert external PDF documents
 \usepackage{hyperref}										% Table of contents links
+\usepackage[titletoc]{appendix}									% Appendices with proper ToC titles
+\usepackage{setspace}										% Spacing control
 
-\graphicspath{{./Pictures/}{./Pictures/Prototype1/}{./Pictures/Prototype2/}{./Pictures/Prototype3/}}	% All pictures are accessed from here
+\graphicspath{{./Pictures/}{./Pictures/Prototype1/}{./Pictures/Prototype2/}{./Pictures/Prototype3/}{./Pictures/Appendices/}}		% All pictures are accessed from here
 
-\renewcommand{\bibname}{References}  							% Change "Bibliography" into "References"
+\renewcommand{\bibname}{References}  							% Change "Bibliography" to "References"
 
 \linespread{1.6}												% Double spacing
 
@@ -55,11 +57,6 @@
 %\include{Acknowledgements}
 
 
-% ==== Dedication ==== %
-
-%\include{Dedication}
-
-
 % ==== Table of contents, list of figures, list of tables ==== %
 
 \tableofcontents
@@ -71,7 +68,8 @@
 \fancyhead{}					% Clear default header
 \fancyhead[C]{\leftmark}			% Add center-justified chapter names
 
-%\pagenumbering{gobble}		% This ensures page 1 is not numbered
+% Toggle the following to add/remove page 1 pagination; be aware of changes in ToC
+%\pagenumbering{gobble}
 \pagenumbering{arabic}
 
 
@@ -80,6 +78,8 @@
 \include{Introduction}
 
 \include{LiteratureReview}
+
+\include{ResearchApproach}
 
 \include{Ethnography}
 
@@ -98,11 +98,13 @@
 
 % ==== Appendices ==== %
 
-\appendix
+%\appendix
+\begin{appendices}
 \include{AppendixA}
-\includepdf[pages=-]{reb.pdf}	% Include REB PDF
+\includepdf[pages=-, pagecommand={}, noautoscale=false, scale=0.8]{reb.pdf}		% Include REB PDF
 \include{AppendixB}
 \include{AppendixC}
+\end{appendices}
 
 
 \end{document}

@@ -84,27 +84,25 @@ Bongers%
 }{%
 Bongers%
 }{%
-{\protect \APACyear {1999}}%
+{\protect \APACyear {2000}}%
 }]{%
-bongers99}
+bongers00}
 \APACinsertmetastar {%
-bongers99}%
+bongers00}%
 \begin{APACrefauthors}%
 Bongers, B.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1999}{}{}.
+\APACrefYearMonthDay{2000}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Exploring novel ways of interaction in musical
-  performance} {Exploring novel ways of interaction in musical
-  performance}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Physical interfaces in the electronic arts: Interaction
+  theory and interfacing techniques for real-time performance} {Physical
+  interfaces in the electronic arts: Interaction theory and interfacing
+  techniques for real-time performance}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {{Proceedings of the 3rd Conference on Creativity \&
-  Cognition}} {{Proceedings of the 3rd Conference on Creativity \& Cognition}}\
-  (\BPGS\ 76--81).
-\newblock
-\APACaddressPublisher{New York, NY, USA}{ACM}.
+\BIn{} \APACrefbtitle {{Trends in Gestural Control of Music}} {{Trends in
+  Gestural Control of Music}}\ (\BPGS\ 41--70).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -187,6 +185,32 @@ Feldmeier, M.%
   groups with giveaway wireless motion sensors}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Computer Music Journal}{31}{1}{50--67}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Freeman%
+}{%
+Freeman%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+freeman05}
+\APACinsertmetastar {%
+freeman05}%
+\begin{APACrefauthors}%
+Freeman, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Large audience participation, technology, and orchestral
+  performance} {Large audience participation, technology, and orchestral
+  performance}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 2005 International Computer Music
+  Conference}} {{Proceedings of the 2005 International Computer Music
+  Conference}}\ (\BPGS\ 757--760).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -478,68 +502,6 @@ Maynes-Aminzade, D.%
   Conference on Multimodal Interfaces}}\ (\BPGS\ 15--20).
 \newblock
 \APACaddressPublisher{Washington, DC, USA}{IEEE Computer Society}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-N\'eda%
-, Ravasz%
-, Brechet%
-, Vicsek%
-\BCBL {}\ \BBA {} Barab\'asi%
-}{%
-N\'eda%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2000}}%
-}]{%
-neda00}
-\APACinsertmetastar {%
-neda00}%
-\begin{APACrefauthors}%
-N\'eda, Z.%
-, Ravasz, E.%
-, Brechet, Y.%
-, Vicsek, T.%
-\BCBL {}\ \BBA {} Barab\'asi, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The sound of many hands clapping} {The sound of many
-  hands clapping}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Nature}{403}{6772}{849--850}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Reeves%
-, Sherwood%
-\BCBL {}\ \BBA {} Brown%
-}{%
-Reeves%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-reeves10}
-\APACinsertmetastar {%
-reeves10}%
-\begin{APACrefauthors}%
-Reeves, S.%
-, Sherwood, S.%
-\BCBL {}\ \BBA {} Brown, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Designing for crowds} {Designing for crowds}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {{Proceedings of the 6th Nordic Conference on
-  Human-Computer Interaction: Extending Boundaries}} {{Proceedings of the 6th
-  Nordic Conference on Human-Computer Interaction: Extending Boundaries}}\
-  (\BPGS\ 393--402).
-\newblock
-\APACaddressPublisher{New York, NY, USA}{ACM}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

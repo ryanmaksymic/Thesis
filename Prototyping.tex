@@ -65,8 +65,17 @@ The first prototype served as an initial experiment for investigating how techno
 
 In order to simulate this scenario and avoid having to recruit a rock band for this small experiment, I developed a basic VJ system. VJing is the real-time creation or manipulation of visuals, which are typically projected to accompany music. Thus, the performing user would be controlling projected visuals, and the audience members would be able to manipulate some aspect of them. Having the collective output clearly displayed on one screen would provide the performer and audience members with clear feedback from their inputs and allow for straightforward observations of their interactions.
 
-The first step in realizing this initial prototype was deciding on the hardware and software that would be used. Wii video game controllers have an abundance of sensors: they contain eleven digital buttons, an infrared sensor, an accelerometer, and a gyroscope (in the newer Wii Remote Plus models), and all of this data can be sent wirelessly to a receiver via Bluetooth. In addition to these affordances, due to the console's popularity, the Wii controller is also something that many people have already used before. With these considerations, I decided that the Wii controller was a suitable input device for my experiment. 
-% Argue against smartphones
+The first step in realizing this initial prototype was deciding on the hardware and software that would be used. Wii video game controllers have an abundance of sensors: they contain eleven digital buttons, an infrared sensor, an accelerometer, and a gyroscope (in the newer Wii Remote Plus models), and all of this data can be sent wirelessly to a receiver via Bluetooth. In addition to these affordances, due to the console's popularity, the Wii controller is also something that many people have already used before. With these considerations, I decided that the Wii controller was a suitable input device for my experiment. Figure \ref{prototyping1.6} pictures one of these controllers.
+% Argue against smartphones? Ethnography: They could get damaged; they could be distracting. Tomitsch et al.: A diverse audience means diverse technical skills.
+
+\begin{figure}
+	\centering
+
+	\includegraphics[height=0.4\textwidth]{wii_labelled.png}
+	\caption{Wii controller}
+
+	\label{prototyping1.6}
+\end{figure}
 
 For my purposes, the easiest way to process the Wii controllers' data was using a combination of two software packages -- OSCulator\footnote{\url{http://www.osculator.net}} and Max\footnote{\url{http://cycling74.com}}. OSCulator allows for communication between devices and audio or video software using the Open Sound Control (OSC) protocol\footnote{\url{http://opensoundcontrol.org}}. Fortunately, this software is also specifically designed to communicate with the Wii controller. It can display live data from each sensor as well as activate the controller's LEDs and rumble motor. The data can then be sent to Max, a visual programming environment that is especially useful for handling multimedia. Countless objects can be incorporated into a Max program (called a `patcher') to manipulate numbers, audio signals, and video clips. Max is commonly used by musicians and video artists to create highly customized and interactive programs.
 
@@ -84,13 +93,14 @@ For my purposes, the easiest way to process the Wii controllers' data was using 
 
 	\subfloat[Wii controllers]{\includegraphics[height=0.32\textwidth]{wiimotes.jpg}}
 	\hspace{0.1cm}
-	\subfloat[Max patcher: The LED objects turn yellow when the A button is pressed on their assigned controller]{\includegraphics[height=0.32\textwidth]{multi_wii.png}}
+	\subfloat[Data successfully received from all controllers]{\includegraphics[height=0.32\textwidth]{multi_wii.png}}
 	\caption{Testing simultaneous input from seven Wii controllers}
 
 	\label{prototyping1.2}
 \end{figure}
 
 Syncing the Wii controller with OSCulator was simple, and I was immediately able to view movement and push-button data from my controller (see Figure \ref{prototyping1.1}). Next, I tested the limit of how many Wii controllers would be able to connect to my computer using the current setup. Since my thesis aims to give every member of an audience a new way to participate, this number would ideally be limitless. With Bluetooth technology, unfortunately, one master device (my computer) can only connect to a maximum of seven slave devices (Wii controllers). While a larger network could be established with some work, for the purposes of this prototype, I felt that seven controllers would be acceptable. A Max patcher was created to display push-button data from multiple Wii controllers. All seven were synced with no issues, and the program worked as expected (see Figure \ref{prototyping1.2}).
+% Rewrite the first two sentences to make them more useful
 
 \begin{figure}
 	\centering
@@ -143,8 +153,8 @@ The willingness of users to participate and the amount of discussion that was sp
 % Use the phrase "many-to-one mapping" to discuss feedback
 
 Further reflection led me to contemplate the nature of the participation. This prototype involved the audience directly influencing a performer's creative output -- similar to D'CuCKOO's MidiBall or Tseng et al.'s (2012) interactive theatre piece. Projects like PixMob or Xylobands, however, are different: while the performance's primary output is live music, the audience is only participating in the light show -- what I would call the secondary output. As emphasized by the ethnographic study, and as is reasonable to assume, the average performer is hesitant about allowing others to influence their primary output. Thus, a participatory technology would likely be more desirable to performers if it was limited to secondary output.
+% Move this to Prototype #3 Analysis?
 % Audience survey indicated an equally low interest in influencing both the music and the lights
-% If 
 
 % Prototype #1 Outcomes:
 % * If we ask the audience to make a decision, will it change throughout the show? (Later: Yes/No vs How; i.e. Prototype 1 vs 3)
@@ -231,7 +241,7 @@ Lastly, part of the VJ system from Prototype \#1 was added to the patcher. Namel
 \end{figure}
 
 Testing took place during the opening night of the exhibition. The final patcher was projected on a large wall in a darkened room using a short-throw projector. The seven Wii controllers were laid on a table in the middle of the room, their LEDs illuminated, inviting users to pick them up. Figure \ref{prototyping2.4} shows the prototype set up in the exhibition.
-% Be more specific about the timeframe
+% State location, name, data, timeframe of exhibition
 % Estimate how many people were involved in testing Prototype #2
 
 Given the casual nature of the event, attendees were relaxed and generally openminded. Groups that entered the room were asked if they were interested in participating in an experiment. Those that accepted were briefed in one of two ways. Half of the groups were told the experiment's motivation -- that I was investigating how audience behaviours could be turned into inputs at live music events. The other half were given no information. I did this to see how users would approach the system with minimum instruction. Indeed, some of those who received no information were unsure what was expected of them. Some only pressed buttons on their Wii controller, sometimes holding in front of them and pointing it at the screen. One user wondered aloud what their goal was.
@@ -309,7 +319,8 @@ My goal, then, was to develop a system that satisfied these wishes while allowin
 \subsection{Development}
 % Add stuff about the Wii LEDs flashing when the user activates a light
 
-I decided to give each audience member control over one light in an array of lights to be located on stage. An audience members would receive a simple wireless device to control their light, which would provide obvious and consistent visual feedback. Users would only be faced with two options -- turn the light on momentarily or leave it off. As the last prototype revealed, limiting the audience's options in this way would reduce the opportunities for confusion; this feature also reflects the artist's desire for simplicity. This one-light/one-person mechanism had additional benefits. If a user decided not to participate, for instance, it would not have a direct effect on the other users' experiences. The system is not inherently goal oriented, so a user is free to experiment without concern for what the others are doing. That being said, there could be benefits to collaboration; for example, if the crowd worked together to turn on all of the lights in sync, the outcome would likely be more rewarding than if everyone acted independently. Organizing synchronized inputs proved to be enjoyable for participants in the previous experiment.
+I decided to give each audience member control over one light in an array of lights to be located on stage. An audience member would receive a simple wireless device to control their light, which would provide obvious and consistent visual feedback. Users would only be faced with two options -- turn the light on momentarily or leave it off. As the last prototype revealed, limiting the audience's options in this way would reduce the opportunities for confusion; this feature also reflects the artist's desire for simplicity. This one-light/one-person mechanism had additional benefits. If a user decided not to participate, for instance, it would not have a direct effect on the other users' experiences. The system is not inherently goal oriented, so a user is free to experiment without concern for what the others are doing. That being said, there could be benefits to collaboration; for example, if the crowd worked together to turn on all of the lights in sync, the outcome would likely be more rewarding than if everyone acted independently. Organizing synchronized inputs proved to be enjoyable for participants in the previous experiment.
+% Tseng et al. allowed each user to control one ``light dot" on stage and they found it effective
 
 \begin{figure}
 	\centering
@@ -508,21 +519,28 @@ Christian thought that introducing the devices for the last two songs was a good
 
 % Paragraph about the success of the tech
 
-Prototype \#3 resulted in several surprising observations of the audience and an insightful discussion with the performer. Firstly, the input method was interpreted by users in many different ways. Contrary to expectations, the motions most users were performing were not based on typical audience actions, but at times closely resembled the playing of a percussion instrument. It seems as though the obscure form of the device gave people options on how they would like to hold and use it. Designing with ambiguity in this way could promote creativity and give users more freedom; however, one should be sure that unexpected usage does not have adverse effects. The lamps fortunately still responded regardless of the controllers' orientations, but the direction-dependent LEDs, for instance, were rendered meaningless when a user flipped their device upside down or sideways, no longer serving to help them identify their light.
+Prototype \#3 resulted in several surprising observations of the audience and an insightful discussion with the performer. Firstly, the input method was interpreted by users in many different ways. Contrary to expectations, the motions most users were performing were not based on typical audience actions, but at times closely resembled the playing of a percussion instrument. It seems as though the ambiguous form of the device gave people options on how they would like to hold and use it. Designing with ambiguity in this way could promote creativity and give users more freedom; however, one should be sure that unexpected usage does not have adverse effects. The lamps fortunately still responded regardless of the controllers' orientations, but the direction-dependent LEDs, for instance, were rendered meaningless when a user flipped their device upside down or sideways, no longer serving to help them identify their light.
 % Possibly reference Turino's ``wide tuning" concept
 
 The concept of audience-controlled lighting was compelling to users overall, but some questions remain unaddressed. For example, this system relies on the participation of each person holding a controller; if most of the users stopped moving, most of the lights would stop flashing, and the effect would diminish. A future iteration could remedy this by adapting to a changing number of participants. It could also reward highly involved users with more control, similar to Feldmeier and Paradiso's (2007) interactive dance club.
 
 Previous prototypes were inherently collaborative, implementing collective outputs and goal-oriented prompts. This iteration, however, did not influence users to collaborate in any way. While the one-to-one mapping seemed to connect each audience member with the performance individually, it did not incite communication amongst the crowd. Is this an issue? Is it beneficial for audience members to participate collaboratively, or is it enough that they are contributing to the performance at all?
 
+% Instant gratification vs Satisfactory roles
+% Freeman, 2005: ``Could the work ever make all 600 audience members feel truly indispensable to its performance? Large-audience participatory works cannot promise instant gratification: giving each person a critical role; requiring no degree of experience, skill, or talent; and creating a unified result which satisfies everyone. Works such as Glimmer reveal the impossibility of this goal even as they strive towards it. They invite participants to explore an environment, discover its limits, and find imaginative ways to express their creativity by pushing against those limits." (4)
+% Here is the struggle -- giving users enough control for the interaction to be rewarding but obvious enough feedback that they are confident they are contributing at all
+
 Indeed, the most appealing aspect of this prototype may have been that it gave the audience some influence over what happened on stage. Rather than creating a network connecting all users together, this system instead created more of a bridge between those off stage and those on stage. This bridge took the form of the four lamps, which turned into rather compelling artifacts once. When the audience had control of the lights and the performers held the lamps in their hands, a new kind of interaction formed. Christian and Molly could direct the lamps and aim them towards the crowd or hold them under their faces, but it was the audience members that chose if and how the lamps were illuminated. The lamps were communal `instruments' that could be `played' by both parties simultaneously. Perhaps this dynamic is the key to an effective participatory technology.
+% Reference Bongers here for sure. The magic happens when `reaction' turns into `interaction.'
 
 Looking to the future, Christian had expressed interest in making the system more dynamic and able to function for an entire performance. It will be a challenge to create an experience that remains exciting for this amount of time. Implementing different types of inputs or outputs could accomplish this, but is this feasible? Turino (2008) suggests that a main feature of the participatory performance is constancy; would continually changing the system's rules cause too much confusion?
 % Story-telling function
+% Freeman, 2005: ``Early in the development of Glimmer, a colleague asked me how I would evaluate the piece?s success. I responded that if every audience member believed that the performance would have been different without him or her, then I would be satisfied" (3)
+% How can I create the secondary-output version of this? How can the audience feel they are able to influence the performance while keeping the 
 
 % Prototype #3 Outcomes:
-% * The lamps were a communal instrument, `played,' albeit in different ways, by both the audience and the performer. Performers are controlling secondary output (lighting). See what Gates (2006) said about burdensome tech; does lighting become more meaningful when the performer is influencing it?
-% * The obscure form of the device gave people options on how they'd like to use it
+% * The lamps were a communal instrument, `played,' albeit in different ways, by both the audience and the performer. Performers are controlling secondary output (lighting). See what Gates (2006) said about burdensome tech; does lighting become more meaningful when the performer is influencing it? Reference Bongers here for sure.
+% * The ambiguous form of the device gave people options on how they'd like to use it
 % * Direction-dependent LEDs were rendered meaningless when users flipped the devices upside down or sideways
 % * Audience members did not make an attempt to work together. Was this due to attitude or size of the crowd? The fact that a performer was present? A limitation of the technology? Does the one-to-one mapping isolate each user despite the lights being grouped together?
 % * This did not really allow for opting out. If half of the participants stood still, for example, would this lessen the effect too much? How can this be remedied?

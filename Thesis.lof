@@ -2,43 +2,45 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OSCulator software receiving data from one Wii controller\relax }}{39}{figure.caption.27}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Testing simultaneous input from seven Wii controllers\relax }}{39}{figure.caption.28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wii controllers}}}{39}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Max patcher: The LED objects turn yellow when the A button is pressed on their assigned controller}}}{39}{subfigure.2.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Stills from the two clips used in the prototype\relax }}{40}{figure.caption.29}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Black and white}}}{40}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Colour}}}{40}{subfigure.3.2}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Wii controller VJ system\relax }}{40}{figure.caption.30}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Prototype \#1 Max patcher\relax }}{42}{figure.caption.31}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Monitoring thumbs up/down, arm swaying, clapping, and the wave\relax }}{45}{figure.caption.32}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Input methods\relax }}{46}{figure.caption.33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thumbs up/down}}}{46}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The wave}}}{46}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Clapping}}}{46}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Clap-o-meter}}}{46}{subfigure.7.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Arm swaying}}}{46}{subfigure.7.5}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Input prompts\relax }}{47}{figure.caption.34}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Prototype \# 2 installed at the exhibition\relax }}{48}{figure.caption.35}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Three users experiment with the prototype\relax }}{50}{figure.caption.40}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Turning on an LED with a Wii controller using Maxuino\relax }}{53}{figure.caption.44}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Testing different types of lights\relax }}{54}{figure.caption.45}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Operating two lamps using transistors and Arduino\relax }}{55}{figure.caption.46}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Electronics\relax }}{56}{figure.caption.47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LED control board}}}{56}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Project box}}}{56}{subfigure.14.2}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Acrylic lamps\relax }}{57}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Laser-cut design}}}{57}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Light bulbs and wire installed}}}{57}{subfigure.15.2}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Preparing the Wii controllers\relax }}{57}{figure.caption.49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Controller with foam cover}}}{57}{subfigure.16.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Taped controllers}}}{57}{subfigure.16.2}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Control and monitoring in Max\relax }}{58}{figure.caption.50}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces The Silver Dollar Room\relax }}{59}{figure.caption.51}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Hanging lamps\relax }}{60}{figure.caption.52}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces The lights flash as Christian Hansen performs\relax }}{61}{figure.caption.54}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Audience members move with the controllers\relax }}{62}{figure.caption.55}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Christian and Molly interact with the crowd-controlled lamps\relax }}{64}{figure.caption.56}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Wii controller\relax }}{39}{figure.caption.35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces OSCulator software receiving data from one Wii controller\relax }}{40}{figure.caption.36}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Testing simultaneous input from seven Wii controllers\relax }}{40}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wii controllers}}}{40}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data successfully received from all controllers}}}{40}{subfigure.3.2}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Stills from the two clips used in the prototype\relax }}{41}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Black and white}}}{41}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Colour}}}{41}{subfigure.4.2}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Wii controller VJ system\relax }}{41}{figure.caption.39}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Prototype \#1 Max patcher\relax }}{43}{figure.caption.40}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Monitoring thumbs up/down, arm swaying, clapping, and the wave\relax }}{46}{figure.caption.41}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Input methods\relax }}{47}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thumbs up/down}}}{47}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The wave}}}{47}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Clapping}}}{47}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Clap-o-meter}}}{47}{subfigure.8.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Arm swaying}}}{47}{subfigure.8.5}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Input prompts\relax }}{48}{figure.caption.43}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Prototype \# 2 installed at the exhibition\relax }}{49}{figure.caption.44}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Three users experiment with the prototype\relax }}{51}{figure.caption.49}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Turning on an LED with a Wii controller using Maxuino\relax }}{54}{figure.caption.53}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Testing different types of lights\relax }}{54}{figure.caption.54}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Operating two lamps using transistors and Arduino\relax }}{55}{figure.caption.55}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Electronics\relax }}{56}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LED control board}}}{56}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Project box}}}{56}{subfigure.15.2}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Acrylic lamps\relax }}{57}{figure.caption.57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Laser-cut design}}}{57}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Light bulbs and wire installed}}}{57}{subfigure.16.2}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Preparing the Wii controllers\relax }}{58}{figure.caption.58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Controller with foam cover}}}{58}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Taped controllers}}}{58}{subfigure.17.2}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Control and monitoring in Max\relax }}{58}{figure.caption.59}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces The Silver Dollar Room\relax }}{59}{figure.caption.60}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Hanging lamps\relax }}{60}{figure.caption.61}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces The lights flash as Christian Hansen performs\relax }}{61}{figure.caption.63}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Audience members move with the controllers\relax }}{62}{figure.caption.64}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Christian and Molly interact with the crowd-controlled lamps\relax }}{64}{figure.caption.65}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
