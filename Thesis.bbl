@@ -106,58 +106,36 @@ Bongers, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Burns%
+Brown%
+, O'Hara%
+, Kindberg%
+\BCBL {}\ \BBA {} Williams%
 }{%
-Burns%
-}{%
-{\protect \APACyear {2006}}%
+Brown%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
 }]{%
-burns06}
+brown09}
 \APACinsertmetastar {%
-burns06}%
+brown09}%
 \begin{APACrefauthors}%
-Burns, G.%
+Brown, B.%
+, O'Hara, K.%
+, Kindberg, T.%
+\BCBL {}\ \BBA {} Williams, A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2006}{}{}.
+\APACrefYearMonthDay{2009}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Live on tape. Madonna: MTV Video Music Awards, Radio
-  City Music Hall, New York, September 14, 1984}} {{Live on tape. Madonna: MTV
-  Video Music Awards, Radio City Music Hall, New York, September 14,
-  1984}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Crowd computer interaction} {Crowd computer
+  interaction}.{\BBCQ}
 \newblock
-\BIn{} I.~Inglis\ (\BED), \APACrefbtitle {Performance and Popular Music:
-  History Place and Time.} {Performance and popular music: History place and
-  time.}
+\BIn{} \APACrefbtitle {{CHI'09 Extended Abstracts on Human Factors in Computing
+  Systems}} {{CHI'09 Extended Abstracts on Human Factors in Computing
+  Systems}}\ (\BPGS\ 4755--4758).
 \newblock
-\APACaddressPublisher{}{Ashgate Publishing, Limited}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Davidson%
-}{%
-Davidson%
-}{%
-{\protect \APACyear {1997}}%
-}]{%
-davidson97}
-\APACinsertmetastar {%
-davidson97}%
-\begin{APACrefauthors}%
-Davidson, J\BPBI W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The social in music performance} {The social in music
-  performance}.{\BBCQ}
-\newblock
-\BIn{} D.~Hargreaves\ \BBA {} A.~North\ (\BEDS), \APACrefbtitle {The social
-  psychology of music.} {The social psychology of music.}
-\newblock
-\APACaddressPublisher{}{Oxford University Press, Incorporated}.
+\APACaddressPublisher{New York, NY, USA}{ACM}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -272,26 +250,28 @@ Horn, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Inglis%
+ISO/IEC%
 }{%
-Inglis%
+ISO/IEC%
 }{%
-{\protect \APACyear {2006}}%
+{\protect \APACyear {2010}}%
 }]{%
-inglis06}
+iso10}
 \APACinsertmetastar {%
-inglis06}%
+iso10}%
 \begin{APACrefauthors}%
-Inglis, I.%
+ISO/IEC.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2006}.
+\APACrefYearMonthDay{2010}{}{}.
 \newblock
-\APACrefbtitle {Performance and Popular Music: History Place and Time}
-  {Performance and popular music: History place and time}.
+{\BBOQ}\APACrefatitle {{ISO 9241-210:2010 Ergonomics of human-system
+  interaction --- Part 210: Human-centred design for interactive systems}}
+  {{ISO 9241-210:2010 Ergonomics of human-system interaction --- Part 210:
+  Human-centred design for interactive systems}}.{\BBCQ}
 \newblock
-\APACaddressPublisher{}{Ashgate Publishing, Limited}.
+
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -316,32 +296,6 @@ Jourdain, R.%
   imagination}}.
 \newblock
 \APACaddressPublisher{}{William Morrow and Company}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Karpovich%
-}{%
-Karpovich%
-}{%
-{\protect \APACyear {2007}}%
-}]{%
-karpovich07}
-\APACinsertmetastar {%
-karpovich07}%
-\begin{APACrefauthors}%
-Karpovich, A\BPBI I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Reframing fan videos} {Reframing fan videos}.{\BBCQ}
-\newblock
-\BIn{} J.~Sexton\ (\BED), \APACrefbtitle {Music, sound and multimedia: From the
-  live to the virtual.} {Music, sound and multimedia: From the live to the
-  virtual.}
-\newblock
-\APACaddressPublisher{}{Edinburgh University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -447,30 +401,31 @@ Levitin, D\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Marshall%
+Martin%
+\ \BBA {} Hanington%
 }{%
-Marshall%
+Martin%
+\ \BBA {} Hanington%
 }{%
-{\protect \APACyear {2006}}%
+{\protect \APACyear {2012}}%
 }]{%
-marshall06}
+martin12}
 \APACinsertmetastar {%
-marshall06}%
+martin12}%
 \begin{APACrefauthors}%
-Marshall, L.%
+Martin, B.%
+\BCBT {}\ \BBA {} Hanington, B.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2006}{}{}.
+\APACrefYear{2012}.
 \newblock
-{\BBOQ}\APACrefatitle {{Bob Dylan: Newport Folk Festival, July 25, 1965}} {{Bob
-  Dylan: Newport Folk Festival, July 25, 1965}}.{\BBCQ}
+\APACrefbtitle {Universal methods of design: 100 ways to research complex
+  problems, develop innovative ideas, and design effective solutions}
+  {Universal methods of design: 100 ways to research complex problems, develop
+  innovative ideas, and design effective solutions}.
 \newblock
-\BIn{} I.~Inglis\ (\BED), \APACrefbtitle {Performance and Popular Music:
-  History Place and Time.} {Performance and popular music: History place and
-  time.}
-\newblock
-\APACaddressPublisher{}{Ashgate Publishing, Limited}.
+\APACaddressPublisher{}{Rockport Publishers}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -502,6 +457,63 @@ Maynes-Aminzade, D.%
   Conference on Multimodal Interfaces}}\ (\BPGS\ 15--20).
 \newblock
 \APACaddressPublisher{Washington, DC, USA}{IEEE Computer Society}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+O'Hara%
+, Glancy%
+\BCBL {}\ \BBA {} Robertshaw%
+}{%
+O'Hara%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+ohara08}
+\APACinsertmetastar {%
+ohara08}%
+\begin{APACrefauthors}%
+O'Hara, K.%
+, Glancy, M.%
+\BCBL {}\ \BBA {} Robertshaw, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Understanding Collective Play in an Urban Screen Game}
+  {Understanding collective play in an urban screen game}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 2008 ACM Conference on Computer
+  Supported Cooperative Work}} {{Proceedings of the 2008 ACM Conference on
+  Computer Supported Cooperative Work}}\ (\BPGS\ 67--76).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Plowman%
+}{%
+Plowman%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+plowman03}
+\APACinsertmetastar {%
+plowman03}%
+\begin{APACrefauthors}%
+Plowman, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Ethnography and Critical Design Practice}}
+  {{Ethnography and Critical Design Practice}}.{\BBCQ}
+\newblock
+\BIn{} B.~Laurel\ (\BED), \APACrefbtitle {Design research: Methods and
+  perspectives.} {Design research: Methods and perspectives.}
+\newblock
+\APACaddressPublisher{}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
