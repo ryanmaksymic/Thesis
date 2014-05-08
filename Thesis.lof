@@ -21,7 +21,7 @@
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Three users experiment with Prototype \#2\relax }}{51}{figure.caption.47}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Turning on an LED with a Wii controller using Maxuino\relax }}{54}{figure.caption.51}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Testing different types of lights\relax }}{55}{figure.caption.52}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Operating two lamps using transistors and Arduino\relax }}{55}{figure.caption.53}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Operating two light bulbs using transistors and Arduino\relax }}{55}{figure.caption.53}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Wii controller LEDs indicate each user's corresponding lamp\relax }}{56}{figure.caption.54}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Electronics\relax }}{57}{figure.caption.55}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LED control board}}}{57}{subfigure.14.1}
@@ -38,6 +38,7 @@
 \contentsline {figure}{\numberline {5.20}{\ignorespaces The lights flash as Christian Hansen performs\relax }}{62}{figure.caption.62}
 \contentsline {figure}{\numberline {5.21}{\ignorespaces Audience members move with the controllers\relax }}{63}{figure.caption.63}
 \contentsline {figure}{\numberline {5.22}{\ignorespaces Christian and Molly interact with the crowd-controlled lamps\relax }}{65}{figure.caption.64}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

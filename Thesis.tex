@@ -1,4 +1,4 @@
-\documentclass[10pt]{report}
+\documentclass[10pt, twoside]{report}
 
 \usepackage[top=1.5in, bottom=1.5in, left=1.5in, right=1.5in]{geometry}	% Set margins
 \usepackage{graphicx}										% Graphics
@@ -54,7 +54,7 @@
 
 % ==== Acknowledgements ==== %
 
-%\include{Acknowledgements}
+\include{Acknowledgements}
 
 
 % ==== Table of contents, list of figures, list of tables ==== %
@@ -66,11 +66,12 @@
 \cleardoublepage
 \pagestyle{fancy}				% Add headers with chapter titles
 \fancyhead{}					% Clear default header
-\fancyhead[C]{\leftmark}			% Add center-justified chapter names
+\fancyhead[CE]{\leftmark}			% Add center-justified chapter names
+\fancyhead[CO]{\rightmark}		% Add center-justified chapter names
 
 % Toggle the following to add/remove page 1 pagination; be aware of changes in ToC
-%\pagenumbering{gobble}
-\pagenumbering{arabic}
+\pagenumbering{gobble}
+%\pagenumbering{arabic}
 
 
 % ==== Chapters ==== %
@@ -104,6 +105,7 @@
 \includepdf[pages=-, pagecommand={}, noautoscale=false, scale=0.8]{reb.pdf}		% Include REB PDF
 \include{AppendixB}
 \include{AppendixC}
+\include{AppendixD}
 \end{appendices}
 
 
